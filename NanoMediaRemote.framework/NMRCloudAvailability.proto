@@ -1,0 +1,8 @@
+// Copyright 2015 Apple Inc. All rights reserved.
+
+option objc_package = "_NMR";
+
+message CloudAvailabilityProtobuf {
+  optional bool hasProperNetworkConditionsToPlayMedia = 1;
+  optional bool canShowCloudMusic = 2;
+}

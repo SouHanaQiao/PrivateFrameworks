@@ -1,0 +1,4019 @@
+//===-- metal_packed_vector -----------------------------------------------===//
+// Copyright (c) 2014-2016 Apple Inc. All rights reserved
+//===----------------------------------------------------------------------===//
+
+#ifndef __METAL_PACKED_VECTOR_H
+#define __METAL_PACKED_VECTOR_H
+
+namespace metal {
+
+  template <typename T, int numElts> struct packed_vec {
+    T data[numElts];
+  public:
+
+    // Default constructors.
+    METAL_FUNC packed_vec() { }
+    METAL_FUNC packed_vec() device { } 
+    METAL_FUNC packed_vec() threadgroup { } 
+    METAL_FUNC packed_vec() constant { } 
+
+    // Constructor (packed_vec <- vec).
+
+    METAL_FUNC packed_vec(const device vec<T, numElts> &v) { 
+      for (int i = 0; i < numElts; ++i)
+        data[i] = v[i];
+    }
+
+    // Constructor (packed_vec <- packed_vec)
+    METAL_FUNC packed_vec(const device packed_vec<T, numElts> &pv) { 
+      for (int i = 0; i < numElts; ++i)
+        data[i] = pv[i];
+    }
+    
+    // Constructor (packed_vec <- T)
+    METAL_FUNC packed_vec(const device T &pv) { 
+      for (int i = 0; i < numElts; ++i)
+        data[i] = pv;
+    }
+
+
+    METAL_FUNC packed_vec(const threadgroup vec<T, numElts> &v) { 
+      for (int i = 0; i < numElts; ++i)
+        data[i] = v[i];
+    }
+
+    // Constructor (packed_vec <- packed_vec)
+    METAL_FUNC packed_vec(const threadgroup packed_vec<T, numElts> &pv) { 
+      for (int i = 0; i < numElts; ++i)
+        data[i] = pv[i];
+    }
+    
+    // Constructor (packed_vec <- T)
+    METAL_FUNC packed_vec(const threadgroup T &pv) { 
+      for (int i = 0; i < numElts; ++i)
+        data[i] = pv;
+    }
+
+
+    METAL_FUNC packed_vec(const constant vec<T, numElts> &v) { 
+      for (int i = 0; i < numElts; ++i)
+        data[i] = v[i];
+    }
+
+    // Constructor (packed_vec <- packed_vec)
+    METAL_FUNC packed_vec(const constant packed_vec<T, numElts> &pv) { 
+      for (int i = 0; i < numElts; ++i)
+        data[i] = pv[i];
+    }
+    
+    // Constructor (packed_vec <- T)
+    METAL_FUNC packed_vec(const constant T &pv) { 
+      for (int i = 0; i < numElts; ++i)
+        data[i] = pv;
+    }
+
+
+    METAL_FUNC packed_vec(const thread vec<T, numElts> &v) { 
+      for (int i = 0; i < numElts; ++i)
+        data[i] = v[i];
+    }
+
+    // Constructor (packed_vec <- packed_vec)
+    METAL_FUNC packed_vec(const thread packed_vec<T, numElts> &pv) { 
+      for (int i = 0; i < numElts; ++i)
+        data[i] = pv[i];
+    }
+    
+    // Constructor (packed_vec <- T)
+    METAL_FUNC packed_vec(const thread T &pv) { 
+      for (int i = 0; i < numElts; ++i)
+        data[i] = pv;
+    }
+
+
+
+    // Assignment operators: (packed_vec <- packed_vec)
+    METAL_FUNC device packed_vec<T, numElts>& operator = (const device packed_vec<T, numElts> &pv) device
+    {
+      for (int i = 0 ; i < numElts ; ++i)
+        data[i] = pv.data[i];
+      return *this;
+    }
+
+    // Assignment operator for implicit conversion: (packed_vec <- vec)
+    METAL_FUNC device packed_vec<T, numElts>& operator = (const device vec<T, numElts> &pv) device
+    {
+      for (int i = 0 ; i < numElts ; ++i)
+        data[i] = pv[i];
+      return *this;
+    }
+    
+    // Assignment operator for implicit conversion: (packed_vec <- T)
+    METAL_FUNC device packed_vec<T, numElts>& operator = (const device T &pv) device
+    {
+      for (int i = 0 ; i < numElts ; ++i)
+        data[i] = pv;
+      return *this;
+    }
+
+
+    // Assignment operators: (packed_vec <- packed_vec)
+    METAL_FUNC device packed_vec<T, numElts>& operator = (const threadgroup packed_vec<T, numElts> &pv) device
+    {
+      for (int i = 0 ; i < numElts ; ++i)
+        data[i] = pv.data[i];
+      return *this;
+    }
+
+    // Assignment operator for implicit conversion: (packed_vec <- vec)
+    METAL_FUNC device packed_vec<T, numElts>& operator = (const threadgroup vec<T, numElts> &pv) device
+    {
+      for (int i = 0 ; i < numElts ; ++i)
+        data[i] = pv[i];
+      return *this;
+    }
+    
+    // Assignment operator for implicit conversion: (packed_vec <- T)
+    METAL_FUNC device packed_vec<T, numElts>& operator = (const threadgroup T &pv) device
+    {
+      for (int i = 0 ; i < numElts ; ++i)
+        data[i] = pv;
+      return *this;
+    }
+
+
+    // Assignment operators: (packed_vec <- packed_vec)
+    METAL_FUNC device packed_vec<T, numElts>& operator = (const constant packed_vec<T, numElts> &pv) device
+    {
+      for (int i = 0 ; i < numElts ; ++i)
+        data[i] = pv.data[i];
+      return *this;
+    }
+
+    // Assignment operator for implicit conversion: (packed_vec <- vec)
+    METAL_FUNC device packed_vec<T, numElts>& operator = (const constant vec<T, numElts> &pv) device
+    {
+      for (int i = 0 ; i < numElts ; ++i)
+        data[i] = pv[i];
+      return *this;
+    }
+    
+    // Assignment operator for implicit conversion: (packed_vec <- T)
+    METAL_FUNC device packed_vec<T, numElts>& operator = (const constant T &pv) device
+    {
+      for (int i = 0 ; i < numElts ; ++i)
+        data[i] = pv;
+      return *this;
+    }
+
+
+    // Assignment operators: (packed_vec <- packed_vec)
+    METAL_FUNC device packed_vec<T, numElts>& operator = (const thread packed_vec<T, numElts> &pv) device
+    {
+      for (int i = 0 ; i < numElts ; ++i)
+        data[i] = pv.data[i];
+      return *this;
+    }
+
+    // Assignment operator for implicit conversion: (packed_vec <- vec)
+    METAL_FUNC device packed_vec<T, numElts>& operator = (const thread vec<T, numElts> &pv) device
+    {
+      for (int i = 0 ; i < numElts ; ++i)
+        data[i] = pv[i];
+      return *this;
+    }
+    
+    // Assignment operator for implicit conversion: (packed_vec <- T)
+    METAL_FUNC device packed_vec<T, numElts>& operator = (const thread T &pv) device
+    {
+      for (int i = 0 ; i < numElts ; ++i)
+        data[i] = pv;
+      return *this;
+    }
+
+
+    // Assignment operators: (packed_vec <- packed_vec)
+    METAL_FUNC threadgroup packed_vec<T, numElts>& operator = (const device packed_vec<T, numElts> &pv) threadgroup
+    {
+      for (int i = 0 ; i < numElts ; ++i)
+        data[i] = pv.data[i];
+      return *this;
+    }
+
+    // Assignment operator for implicit conversion: (packed_vec <- vec)
+    METAL_FUNC threadgroup packed_vec<T, numElts>& operator = (const device vec<T, numElts> &pv) threadgroup
+    {
+      for (int i = 0 ; i < numElts ; ++i)
+        data[i] = pv[i];
+      return *this;
+    }
+    
+    // Assignment operator for implicit conversion: (packed_vec <- T)
+    METAL_FUNC threadgroup packed_vec<T, numElts>& operator = (const device T &pv) threadgroup
+    {
+      for (int i = 0 ; i < numElts ; ++i)
+        data[i] = pv;
+      return *this;
+    }
+
+
+    // Assignment operators: (packed_vec <- packed_vec)
+    METAL_FUNC threadgroup packed_vec<T, numElts>& operator = (const threadgroup packed_vec<T, numElts> &pv) threadgroup
+    {
+      for (int i = 0 ; i < numElts ; ++i)
+        data[i] = pv.data[i];
+      return *this;
+    }
+
+    // Assignment operator for implicit conversion: (packed_vec <- vec)
+    METAL_FUNC threadgroup packed_vec<T, numElts>& operator = (const threadgroup vec<T, numElts> &pv) threadgroup
+    {
+      for (int i = 0 ; i < numElts ; ++i)
+        data[i] = pv[i];
+      return *this;
+    }
+    
+    // Assignment operator for implicit conversion: (packed_vec <- T)
+    METAL_FUNC threadgroup packed_vec<T, numElts>& operator = (const threadgroup T &pv) threadgroup
+    {
+      for (int i = 0 ; i < numElts ; ++i)
+        data[i] = pv;
+      return *this;
+    }
+
+
+    // Assignment operators: (packed_vec <- packed_vec)
+    METAL_FUNC threadgroup packed_vec<T, numElts>& operator = (const constant packed_vec<T, numElts> &pv) threadgroup
+    {
+      for (int i = 0 ; i < numElts ; ++i)
+        data[i] = pv.data[i];
+      return *this;
+    }
+
+    // Assignment operator for implicit conversion: (packed_vec <- vec)
+    METAL_FUNC threadgroup packed_vec<T, numElts>& operator = (const constant vec<T, numElts> &pv) threadgroup
+    {
+      for (int i = 0 ; i < numElts ; ++i)
+        data[i] = pv[i];
+      return *this;
+    }
+    
+    // Assignment operator for implicit conversion: (packed_vec <- T)
+    METAL_FUNC threadgroup packed_vec<T, numElts>& operator = (const constant T &pv) threadgroup
+    {
+      for (int i = 0 ; i < numElts ; ++i)
+        data[i] = pv;
+      return *this;
+    }
+
+
+    // Assignment operators: (packed_vec <- packed_vec)
+    METAL_FUNC threadgroup packed_vec<T, numElts>& operator = (const thread packed_vec<T, numElts> &pv) threadgroup
+    {
+      for (int i = 0 ; i < numElts ; ++i)
+        data[i] = pv.data[i];
+      return *this;
+    }
+
+    // Assignment operator for implicit conversion: (packed_vec <- vec)
+    METAL_FUNC threadgroup packed_vec<T, numElts>& operator = (const thread vec<T, numElts> &pv) threadgroup
+    {
+      for (int i = 0 ; i < numElts ; ++i)
+        data[i] = pv[i];
+      return *this;
+    }
+    
+    // Assignment operator for implicit conversion: (packed_vec <- T)
+    METAL_FUNC threadgroup packed_vec<T, numElts>& operator = (const thread T &pv) threadgroup
+    {
+      for (int i = 0 ; i < numElts ; ++i)
+        data[i] = pv;
+      return *this;
+    }
+
+
+    // Assignment operators: (packed_vec <- packed_vec)
+    METAL_FUNC thread packed_vec<T, numElts>& operator = (const device packed_vec<T, numElts> &pv) thread
+    {
+      for (int i = 0 ; i < numElts ; ++i)
+        data[i] = pv.data[i];
+      return *this;
+    }
+
+    // Assignment operator for implicit conversion: (packed_vec <- vec)
+    METAL_FUNC thread packed_vec<T, numElts>& operator = (const device vec<T, numElts> &pv) thread
+    {
+      for (int i = 0 ; i < numElts ; ++i)
+        data[i] = pv[i];
+      return *this;
+    }
+    
+    // Assignment operator for implicit conversion: (packed_vec <- T)
+    METAL_FUNC thread packed_vec<T, numElts>& operator = (const device T &pv) thread
+    {
+      for (int i = 0 ; i < numElts ; ++i)
+        data[i] = pv;
+      return *this;
+    }
+
+
+    // Assignment operators: (packed_vec <- packed_vec)
+    METAL_FUNC thread packed_vec<T, numElts>& operator = (const threadgroup packed_vec<T, numElts> &pv) thread
+    {
+      for (int i = 0 ; i < numElts ; ++i)
+        data[i] = pv.data[i];
+      return *this;
+    }
+
+    // Assignment operator for implicit conversion: (packed_vec <- vec)
+    METAL_FUNC thread packed_vec<T, numElts>& operator = (const threadgroup vec<T, numElts> &pv) thread
+    {
+      for (int i = 0 ; i < numElts ; ++i)
+        data[i] = pv[i];
+      return *this;
+    }
+    
+    // Assignment operator for implicit conversion: (packed_vec <- T)
+    METAL_FUNC thread packed_vec<T, numElts>& operator = (const threadgroup T &pv) thread
+    {
+      for (int i = 0 ; i < numElts ; ++i)
+        data[i] = pv;
+      return *this;
+    }
+
+
+    // Assignment operators: (packed_vec <- packed_vec)
+    METAL_FUNC thread packed_vec<T, numElts>& operator = (const constant packed_vec<T, numElts> &pv) thread
+    {
+      for (int i = 0 ; i < numElts ; ++i)
+        data[i] = pv.data[i];
+      return *this;
+    }
+
+    // Assignment operator for implicit conversion: (packed_vec <- vec)
+    METAL_FUNC thread packed_vec<T, numElts>& operator = (const constant vec<T, numElts> &pv) thread
+    {
+      for (int i = 0 ; i < numElts ; ++i)
+        data[i] = pv[i];
+      return *this;
+    }
+    
+    // Assignment operator for implicit conversion: (packed_vec <- T)
+    METAL_FUNC thread packed_vec<T, numElts>& operator = (const constant T &pv) thread
+    {
+      for (int i = 0 ; i < numElts ; ++i)
+        data[i] = pv;
+      return *this;
+    }
+
+
+    // Assignment operators: (packed_vec <- packed_vec)
+    METAL_FUNC thread packed_vec<T, numElts>& operator = (const thread packed_vec<T, numElts> &pv) thread
+    {
+      for (int i = 0 ; i < numElts ; ++i)
+        data[i] = pv.data[i];
+      return *this;
+    }
+
+    // Assignment operator for implicit conversion: (packed_vec <- vec)
+    METAL_FUNC thread packed_vec<T, numElts>& operator = (const thread vec<T, numElts> &pv) thread
+    {
+      for (int i = 0 ; i < numElts ; ++i)
+        data[i] = pv[i];
+      return *this;
+    }
+    
+    // Assignment operator for implicit conversion: (packed_vec <- T)
+    METAL_FUNC thread packed_vec<T, numElts>& operator = (const thread T &pv) thread
+    {
+      for (int i = 0 ; i < numElts ; ++i)
+        data[i] = pv;
+      return *this;
+    }
+
+
+
+    // Cast operator (vec <- packed_vec).
+    METAL_FUNC operator vec<T, numElts> () const device {
+      vec<T, numElts> tVec;
+      for (int i = 0; i < numElts; ++i)
+        tVec[i] = data[i];
+      return tVec;
+    }
+
+    // Cast operator (vec <- packed_vec).
+    METAL_FUNC operator vec<T, numElts> () const threadgroup {
+      vec<T, numElts> tVec;
+      for (int i = 0; i < numElts; ++i)
+        tVec[i] = data[i];
+      return tVec;
+    }
+
+    // Cast operator (vec <- packed_vec).
+    METAL_FUNC operator vec<T, numElts> () const constant {
+      vec<T, numElts> tVec;
+      for (int i = 0; i < numElts; ++i)
+        tVec[i] = data[i];
+      return tVec;
+    }
+
+    // Cast operator (vec <- packed_vec).
+    METAL_FUNC operator vec<T, numElts> () const thread {
+      vec<T, numElts> tVec;
+      for (int i = 0; i < numElts; ++i)
+        tVec[i] = data[i];
+      return tVec;
+    }
+
+
+    // Access operators.
+    METAL_FUNC const T operator [] (int index) const device { return data[index]; }
+
+    // Access operators.
+    METAL_FUNC const T operator [] (int index) const threadgroup { return data[index]; }
+
+    // Access operators.
+    METAL_FUNC const T operator [] (int index) const constant { return data[index]; }
+
+    // Access operators.
+    METAL_FUNC const T operator [] (int index) const thread { return data[index]; }
+
+
+    // Access operators.
+    METAL_FUNC device T& operator [] (int index) device { return data[index]; }
+
+    // Access operators.
+    METAL_FUNC threadgroup T& operator [] (int index) threadgroup { return data[index]; }
+
+    // Access operators.
+    METAL_FUNC thread T& operator [] (int index) thread { return data[index]; }
+
+		
+	METAL_FUNC thread packed_vec<T, numElts>& operator += (const thread packed_vec<T, numElts> &pv) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator += (const thread vec<T, numElts> &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += v[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator += (const thread T &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += v;
+		return *this;
+	}
+			
+	METAL_FUNC device  packed_vec<T, numElts>& operator += (const thread packed_vec<T, numElts> &pv) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator += (const thread vec<T, numElts> &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += v[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator += (const thread T &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += v;
+		return *this;
+	}
+			
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator += (const thread packed_vec<T, numElts> &pv) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator += (const thread vec<T, numElts> &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += v[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator += (const thread T &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += v;
+		return *this;
+	}
+			
+	METAL_FUNC constant  packed_vec<T, numElts>& operator += (const thread packed_vec<T, numElts> &pv) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator += (const thread vec<T, numElts> &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += v[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator += (const thread T &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += v;
+		return *this;
+	}
+			
+
+		
+	METAL_FUNC thread packed_vec<T, numElts>& operator -= (const thread packed_vec<T, numElts> &pv) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator -= (const thread vec<T, numElts> &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator -= (const thread T &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= v;
+		return *this;
+	}
+			
+	METAL_FUNC device  packed_vec<T, numElts>& operator -= (const thread packed_vec<T, numElts> &pv) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator -= (const thread vec<T, numElts> &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator -= (const thread T &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= v;
+		return *this;
+	}
+			
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator -= (const thread packed_vec<T, numElts> &pv) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator -= (const thread vec<T, numElts> &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator -= (const thread T &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= v;
+		return *this;
+	}
+			
+	METAL_FUNC constant  packed_vec<T, numElts>& operator -= (const thread packed_vec<T, numElts> &pv) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator -= (const thread vec<T, numElts> &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator -= (const thread T &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= v;
+		return *this;
+	}
+			
+
+		
+	METAL_FUNC thread packed_vec<T, numElts>& operator *= (const thread packed_vec<T, numElts> &pv) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator *= (const thread vec<T, numElts> &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator *= (const thread T &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= v;
+		return *this;
+	}
+			
+	METAL_FUNC device  packed_vec<T, numElts>& operator *= (const thread packed_vec<T, numElts> &pv) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator *= (const thread vec<T, numElts> &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator *= (const thread T &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= v;
+		return *this;
+	}
+			
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator *= (const thread packed_vec<T, numElts> &pv) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator *= (const thread vec<T, numElts> &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator *= (const thread T &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= v;
+		return *this;
+	}
+			
+	METAL_FUNC constant  packed_vec<T, numElts>& operator *= (const thread packed_vec<T, numElts> &pv) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator *= (const thread vec<T, numElts> &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator *= (const thread T &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= v;
+		return *this;
+	}
+			
+
+		
+	METAL_FUNC thread packed_vec<T, numElts>& operator /= (const thread packed_vec<T, numElts> &pv) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator /= (const thread vec<T, numElts> &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator /= (const thread T &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= v;
+		return *this;
+	}
+			
+	METAL_FUNC device  packed_vec<T, numElts>& operator /= (const thread packed_vec<T, numElts> &pv) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator /= (const thread vec<T, numElts> &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator /= (const thread T &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= v;
+		return *this;
+	}
+			
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator /= (const thread packed_vec<T, numElts> &pv) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator /= (const thread vec<T, numElts> &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator /= (const thread T &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= v;
+		return *this;
+	}
+			
+	METAL_FUNC constant  packed_vec<T, numElts>& operator /= (const thread packed_vec<T, numElts> &pv) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator /= (const thread vec<T, numElts> &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator /= (const thread T &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= v;
+		return *this;
+	}
+			
+
+		
+	METAL_FUNC thread packed_vec<T, numElts>& operator %= (const thread packed_vec<T, numElts> &pv) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator %= (const thread vec<T, numElts> &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator %= (const thread T &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= v;
+		return *this;
+	}
+			
+	METAL_FUNC device  packed_vec<T, numElts>& operator %= (const thread packed_vec<T, numElts> &pv) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator %= (const thread vec<T, numElts> &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator %= (const thread T &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= v;
+		return *this;
+	}
+			
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator %= (const thread packed_vec<T, numElts> &pv) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator %= (const thread vec<T, numElts> &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator %= (const thread T &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= v;
+		return *this;
+	}
+			
+	METAL_FUNC constant  packed_vec<T, numElts>& operator %= (const thread packed_vec<T, numElts> &pv) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator %= (const thread vec<T, numElts> &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator %= (const thread T &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= v;
+		return *this;
+	}
+			
+
+		
+	METAL_FUNC thread packed_vec<T, numElts>& operator >>= (const thread packed_vec<T, numElts> &pv) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator >>= (const thread vec<T, numElts> &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator >>= (const thread T &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= v;
+		return *this;
+	}
+			
+	METAL_FUNC device  packed_vec<T, numElts>& operator >>= (const thread packed_vec<T, numElts> &pv) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator >>= (const thread vec<T, numElts> &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator >>= (const thread T &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= v;
+		return *this;
+	}
+			
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator >>= (const thread packed_vec<T, numElts> &pv) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator >>= (const thread vec<T, numElts> &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator >>= (const thread T &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= v;
+		return *this;
+	}
+			
+	METAL_FUNC constant  packed_vec<T, numElts>& operator >>= (const thread packed_vec<T, numElts> &pv) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator >>= (const thread vec<T, numElts> &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator >>= (const thread T &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= v;
+		return *this;
+	}
+			
+
+		
+	METAL_FUNC thread packed_vec<T, numElts>& operator <<= (const thread packed_vec<T, numElts> &pv) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator <<= (const thread vec<T, numElts> &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator <<= (const thread T &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= v;
+		return *this;
+	}
+			
+	METAL_FUNC device  packed_vec<T, numElts>& operator <<= (const thread packed_vec<T, numElts> &pv) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator <<= (const thread vec<T, numElts> &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator <<= (const thread T &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= v;
+		return *this;
+	}
+			
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator <<= (const thread packed_vec<T, numElts> &pv) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator <<= (const thread vec<T, numElts> &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator <<= (const thread T &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= v;
+		return *this;
+	}
+			
+	METAL_FUNC constant  packed_vec<T, numElts>& operator <<= (const thread packed_vec<T, numElts> &pv) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator <<= (const thread vec<T, numElts> &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator <<= (const thread T &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= v;
+		return *this;
+	}
+			
+
+		
+	METAL_FUNC thread packed_vec<T, numElts>& operator &= (const thread packed_vec<T, numElts> &pv) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator &= (const thread vec<T, numElts> &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator &= (const thread T &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= v;
+		return *this;
+	}
+			
+	METAL_FUNC device  packed_vec<T, numElts>& operator &= (const thread packed_vec<T, numElts> &pv) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator &= (const thread vec<T, numElts> &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator &= (const thread T &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= v;
+		return *this;
+	}
+			
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator &= (const thread packed_vec<T, numElts> &pv) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator &= (const thread vec<T, numElts> &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator &= (const thread T &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= v;
+		return *this;
+	}
+			
+	METAL_FUNC constant  packed_vec<T, numElts>& operator &= (const thread packed_vec<T, numElts> &pv) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator &= (const thread vec<T, numElts> &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator &= (const thread T &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= v;
+		return *this;
+	}
+			
+
+		
+	METAL_FUNC thread packed_vec<T, numElts>& operator |= (const thread packed_vec<T, numElts> &pv) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator |= (const thread vec<T, numElts> &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator |= (const thread T &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= v;
+		return *this;
+	}
+			
+	METAL_FUNC device  packed_vec<T, numElts>& operator |= (const thread packed_vec<T, numElts> &pv) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator |= (const thread vec<T, numElts> &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator |= (const thread T &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= v;
+		return *this;
+	}
+			
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator |= (const thread packed_vec<T, numElts> &pv) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator |= (const thread vec<T, numElts> &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator |= (const thread T &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= v;
+		return *this;
+	}
+			
+	METAL_FUNC constant  packed_vec<T, numElts>& operator |= (const thread packed_vec<T, numElts> &pv) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator |= (const thread vec<T, numElts> &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator |= (const thread T &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= v;
+		return *this;
+	}
+			
+
+		
+	METAL_FUNC thread packed_vec<T, numElts>& operator ^= (const thread packed_vec<T, numElts> &pv) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator ^= (const thread vec<T, numElts> &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator ^= (const thread T &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= v;
+		return *this;
+	}
+			
+	METAL_FUNC device  packed_vec<T, numElts>& operator ^= (const thread packed_vec<T, numElts> &pv) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator ^= (const thread vec<T, numElts> &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator ^= (const thread T &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= v;
+		return *this;
+	}
+			
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator ^= (const thread packed_vec<T, numElts> &pv) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator ^= (const thread vec<T, numElts> &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator ^= (const thread T &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= v;
+		return *this;
+	}
+			
+	METAL_FUNC constant  packed_vec<T, numElts>& operator ^= (const thread packed_vec<T, numElts> &pv) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator ^= (const thread vec<T, numElts> &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator ^= (const thread T &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= v;
+		return *this;
+	}
+			
+
+
+    thread packed_vec<T, numElts>& operator ++ () thread
+    {
+    	for (int i = 0; i < numElts; i++)
+    		data[i]++;
+    	return *this;
+    } 
+
+    thread packed_vec<T, numElts>& operator -- () thread
+    {
+    	for (int i = 0; i < numElts; i++)
+    		data[i]--;
+    	return *this;
+    } 
+
+	packed_vec<T, numElts> operator ++ (int) thread
+    {
+    	packed_vec<T, numElts> result = *this;
+    	for (int i = 0; i < numElts; i++)
+    		data[i]++;
+    	return result;
+    } 
+
+    packed_vec<T, numElts> operator -- (int) thread
+    {
+    	packed_vec<T, numElts> result = *this;
+    	for (int i = 0; i < numElts; i++)
+    		data[i]--;
+    	return result;
+    } 
+
+		
+	METAL_FUNC thread packed_vec<T, numElts>& operator += (const device  packed_vec<T, numElts> &pv) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator += (const device  vec<T, numElts> &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += v[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator += (const device  T &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += v;
+		return *this;
+	}
+			
+	METAL_FUNC device  packed_vec<T, numElts>& operator += (const device  packed_vec<T, numElts> &pv) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator += (const device  vec<T, numElts> &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += v[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator += (const device  T &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += v;
+		return *this;
+	}
+			
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator += (const device  packed_vec<T, numElts> &pv) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator += (const device  vec<T, numElts> &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += v[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator += (const device  T &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += v;
+		return *this;
+	}
+			
+	METAL_FUNC constant  packed_vec<T, numElts>& operator += (const device  packed_vec<T, numElts> &pv) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator += (const device  vec<T, numElts> &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += v[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator += (const device  T &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += v;
+		return *this;
+	}
+			
+
+		
+	METAL_FUNC thread packed_vec<T, numElts>& operator -= (const device  packed_vec<T, numElts> &pv) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator -= (const device  vec<T, numElts> &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator -= (const device  T &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= v;
+		return *this;
+	}
+			
+	METAL_FUNC device  packed_vec<T, numElts>& operator -= (const device  packed_vec<T, numElts> &pv) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator -= (const device  vec<T, numElts> &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator -= (const device  T &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= v;
+		return *this;
+	}
+			
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator -= (const device  packed_vec<T, numElts> &pv) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator -= (const device  vec<T, numElts> &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator -= (const device  T &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= v;
+		return *this;
+	}
+			
+	METAL_FUNC constant  packed_vec<T, numElts>& operator -= (const device  packed_vec<T, numElts> &pv) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator -= (const device  vec<T, numElts> &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator -= (const device  T &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= v;
+		return *this;
+	}
+			
+
+		
+	METAL_FUNC thread packed_vec<T, numElts>& operator *= (const device  packed_vec<T, numElts> &pv) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator *= (const device  vec<T, numElts> &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator *= (const device  T &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= v;
+		return *this;
+	}
+			
+	METAL_FUNC device  packed_vec<T, numElts>& operator *= (const device  packed_vec<T, numElts> &pv) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator *= (const device  vec<T, numElts> &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator *= (const device  T &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= v;
+		return *this;
+	}
+			
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator *= (const device  packed_vec<T, numElts> &pv) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator *= (const device  vec<T, numElts> &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator *= (const device  T &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= v;
+		return *this;
+	}
+			
+	METAL_FUNC constant  packed_vec<T, numElts>& operator *= (const device  packed_vec<T, numElts> &pv) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator *= (const device  vec<T, numElts> &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator *= (const device  T &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= v;
+		return *this;
+	}
+			
+
+		
+	METAL_FUNC thread packed_vec<T, numElts>& operator /= (const device  packed_vec<T, numElts> &pv) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator /= (const device  vec<T, numElts> &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator /= (const device  T &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= v;
+		return *this;
+	}
+			
+	METAL_FUNC device  packed_vec<T, numElts>& operator /= (const device  packed_vec<T, numElts> &pv) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator /= (const device  vec<T, numElts> &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator /= (const device  T &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= v;
+		return *this;
+	}
+			
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator /= (const device  packed_vec<T, numElts> &pv) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator /= (const device  vec<T, numElts> &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator /= (const device  T &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= v;
+		return *this;
+	}
+			
+	METAL_FUNC constant  packed_vec<T, numElts>& operator /= (const device  packed_vec<T, numElts> &pv) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator /= (const device  vec<T, numElts> &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator /= (const device  T &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= v;
+		return *this;
+	}
+			
+
+		
+	METAL_FUNC thread packed_vec<T, numElts>& operator %= (const device  packed_vec<T, numElts> &pv) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator %= (const device  vec<T, numElts> &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator %= (const device  T &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= v;
+		return *this;
+	}
+			
+	METAL_FUNC device  packed_vec<T, numElts>& operator %= (const device  packed_vec<T, numElts> &pv) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator %= (const device  vec<T, numElts> &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator %= (const device  T &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= v;
+		return *this;
+	}
+			
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator %= (const device  packed_vec<T, numElts> &pv) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator %= (const device  vec<T, numElts> &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator %= (const device  T &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= v;
+		return *this;
+	}
+			
+	METAL_FUNC constant  packed_vec<T, numElts>& operator %= (const device  packed_vec<T, numElts> &pv) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator %= (const device  vec<T, numElts> &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator %= (const device  T &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= v;
+		return *this;
+	}
+			
+
+		
+	METAL_FUNC thread packed_vec<T, numElts>& operator >>= (const device  packed_vec<T, numElts> &pv) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator >>= (const device  vec<T, numElts> &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator >>= (const device  T &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= v;
+		return *this;
+	}
+			
+	METAL_FUNC device  packed_vec<T, numElts>& operator >>= (const device  packed_vec<T, numElts> &pv) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator >>= (const device  vec<T, numElts> &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator >>= (const device  T &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= v;
+		return *this;
+	}
+			
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator >>= (const device  packed_vec<T, numElts> &pv) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator >>= (const device  vec<T, numElts> &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator >>= (const device  T &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= v;
+		return *this;
+	}
+			
+	METAL_FUNC constant  packed_vec<T, numElts>& operator >>= (const device  packed_vec<T, numElts> &pv) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator >>= (const device  vec<T, numElts> &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator >>= (const device  T &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= v;
+		return *this;
+	}
+			
+
+		
+	METAL_FUNC thread packed_vec<T, numElts>& operator <<= (const device  packed_vec<T, numElts> &pv) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator <<= (const device  vec<T, numElts> &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator <<= (const device  T &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= v;
+		return *this;
+	}
+			
+	METAL_FUNC device  packed_vec<T, numElts>& operator <<= (const device  packed_vec<T, numElts> &pv) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator <<= (const device  vec<T, numElts> &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator <<= (const device  T &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= v;
+		return *this;
+	}
+			
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator <<= (const device  packed_vec<T, numElts> &pv) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator <<= (const device  vec<T, numElts> &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator <<= (const device  T &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= v;
+		return *this;
+	}
+			
+	METAL_FUNC constant  packed_vec<T, numElts>& operator <<= (const device  packed_vec<T, numElts> &pv) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator <<= (const device  vec<T, numElts> &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator <<= (const device  T &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= v;
+		return *this;
+	}
+			
+
+		
+	METAL_FUNC thread packed_vec<T, numElts>& operator &= (const device  packed_vec<T, numElts> &pv) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator &= (const device  vec<T, numElts> &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator &= (const device  T &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= v;
+		return *this;
+	}
+			
+	METAL_FUNC device  packed_vec<T, numElts>& operator &= (const device  packed_vec<T, numElts> &pv) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator &= (const device  vec<T, numElts> &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator &= (const device  T &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= v;
+		return *this;
+	}
+			
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator &= (const device  packed_vec<T, numElts> &pv) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator &= (const device  vec<T, numElts> &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator &= (const device  T &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= v;
+		return *this;
+	}
+			
+	METAL_FUNC constant  packed_vec<T, numElts>& operator &= (const device  packed_vec<T, numElts> &pv) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator &= (const device  vec<T, numElts> &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator &= (const device  T &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= v;
+		return *this;
+	}
+			
+
+		
+	METAL_FUNC thread packed_vec<T, numElts>& operator |= (const device  packed_vec<T, numElts> &pv) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator |= (const device  vec<T, numElts> &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator |= (const device  T &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= v;
+		return *this;
+	}
+			
+	METAL_FUNC device  packed_vec<T, numElts>& operator |= (const device  packed_vec<T, numElts> &pv) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator |= (const device  vec<T, numElts> &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator |= (const device  T &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= v;
+		return *this;
+	}
+			
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator |= (const device  packed_vec<T, numElts> &pv) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator |= (const device  vec<T, numElts> &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator |= (const device  T &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= v;
+		return *this;
+	}
+			
+	METAL_FUNC constant  packed_vec<T, numElts>& operator |= (const device  packed_vec<T, numElts> &pv) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator |= (const device  vec<T, numElts> &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator |= (const device  T &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= v;
+		return *this;
+	}
+			
+
+		
+	METAL_FUNC thread packed_vec<T, numElts>& operator ^= (const device  packed_vec<T, numElts> &pv) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator ^= (const device  vec<T, numElts> &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator ^= (const device  T &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= v;
+		return *this;
+	}
+			
+	METAL_FUNC device  packed_vec<T, numElts>& operator ^= (const device  packed_vec<T, numElts> &pv) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator ^= (const device  vec<T, numElts> &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator ^= (const device  T &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= v;
+		return *this;
+	}
+			
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator ^= (const device  packed_vec<T, numElts> &pv) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator ^= (const device  vec<T, numElts> &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator ^= (const device  T &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= v;
+		return *this;
+	}
+			
+	METAL_FUNC constant  packed_vec<T, numElts>& operator ^= (const device  packed_vec<T, numElts> &pv) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator ^= (const device  vec<T, numElts> &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator ^= (const device  T &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= v;
+		return *this;
+	}
+			
+
+
+    device  packed_vec<T, numElts>& operator ++ () device 
+    {
+    	for (int i = 0; i < numElts; i++)
+    		data[i]++;
+    	return *this;
+    } 
+
+    device  packed_vec<T, numElts>& operator -- () device 
+    {
+    	for (int i = 0; i < numElts; i++)
+    		data[i]--;
+    	return *this;
+    } 
+
+	packed_vec<T, numElts> operator ++ (int) device 
+    {
+    	packed_vec<T, numElts> result = *this;
+    	for (int i = 0; i < numElts; i++)
+    		data[i]++;
+    	return result;
+    } 
+
+    packed_vec<T, numElts> operator -- (int) device 
+    {
+    	packed_vec<T, numElts> result = *this;
+    	for (int i = 0; i < numElts; i++)
+    		data[i]--;
+    	return result;
+    } 
+
+		
+	METAL_FUNC thread packed_vec<T, numElts>& operator += (const threadgroup  packed_vec<T, numElts> &pv) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator += (const threadgroup  vec<T, numElts> &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += v[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator += (const threadgroup  T &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += v;
+		return *this;
+	}
+			
+	METAL_FUNC device  packed_vec<T, numElts>& operator += (const threadgroup  packed_vec<T, numElts> &pv) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator += (const threadgroup  vec<T, numElts> &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += v[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator += (const threadgroup  T &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += v;
+		return *this;
+	}
+			
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator += (const threadgroup  packed_vec<T, numElts> &pv) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator += (const threadgroup  vec<T, numElts> &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += v[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator += (const threadgroup  T &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += v;
+		return *this;
+	}
+			
+	METAL_FUNC constant  packed_vec<T, numElts>& operator += (const threadgroup  packed_vec<T, numElts> &pv) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator += (const threadgroup  vec<T, numElts> &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += v[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator += (const threadgroup  T &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += v;
+		return *this;
+	}
+			
+
+		
+	METAL_FUNC thread packed_vec<T, numElts>& operator -= (const threadgroup  packed_vec<T, numElts> &pv) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator -= (const threadgroup  vec<T, numElts> &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator -= (const threadgroup  T &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= v;
+		return *this;
+	}
+			
+	METAL_FUNC device  packed_vec<T, numElts>& operator -= (const threadgroup  packed_vec<T, numElts> &pv) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator -= (const threadgroup  vec<T, numElts> &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator -= (const threadgroup  T &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= v;
+		return *this;
+	}
+			
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator -= (const threadgroup  packed_vec<T, numElts> &pv) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator -= (const threadgroup  vec<T, numElts> &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator -= (const threadgroup  T &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= v;
+		return *this;
+	}
+			
+	METAL_FUNC constant  packed_vec<T, numElts>& operator -= (const threadgroup  packed_vec<T, numElts> &pv) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator -= (const threadgroup  vec<T, numElts> &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator -= (const threadgroup  T &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= v;
+		return *this;
+	}
+			
+
+		
+	METAL_FUNC thread packed_vec<T, numElts>& operator *= (const threadgroup  packed_vec<T, numElts> &pv) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator *= (const threadgroup  vec<T, numElts> &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator *= (const threadgroup  T &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= v;
+		return *this;
+	}
+			
+	METAL_FUNC device  packed_vec<T, numElts>& operator *= (const threadgroup  packed_vec<T, numElts> &pv) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator *= (const threadgroup  vec<T, numElts> &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator *= (const threadgroup  T &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= v;
+		return *this;
+	}
+			
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator *= (const threadgroup  packed_vec<T, numElts> &pv) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator *= (const threadgroup  vec<T, numElts> &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator *= (const threadgroup  T &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= v;
+		return *this;
+	}
+			
+	METAL_FUNC constant  packed_vec<T, numElts>& operator *= (const threadgroup  packed_vec<T, numElts> &pv) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator *= (const threadgroup  vec<T, numElts> &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator *= (const threadgroup  T &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= v;
+		return *this;
+	}
+			
+
+		
+	METAL_FUNC thread packed_vec<T, numElts>& operator /= (const threadgroup  packed_vec<T, numElts> &pv) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator /= (const threadgroup  vec<T, numElts> &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator /= (const threadgroup  T &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= v;
+		return *this;
+	}
+			
+	METAL_FUNC device  packed_vec<T, numElts>& operator /= (const threadgroup  packed_vec<T, numElts> &pv) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator /= (const threadgroup  vec<T, numElts> &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator /= (const threadgroup  T &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= v;
+		return *this;
+	}
+			
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator /= (const threadgroup  packed_vec<T, numElts> &pv) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator /= (const threadgroup  vec<T, numElts> &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator /= (const threadgroup  T &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= v;
+		return *this;
+	}
+			
+	METAL_FUNC constant  packed_vec<T, numElts>& operator /= (const threadgroup  packed_vec<T, numElts> &pv) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator /= (const threadgroup  vec<T, numElts> &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator /= (const threadgroup  T &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= v;
+		return *this;
+	}
+			
+
+		
+	METAL_FUNC thread packed_vec<T, numElts>& operator %= (const threadgroup  packed_vec<T, numElts> &pv) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator %= (const threadgroup  vec<T, numElts> &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator %= (const threadgroup  T &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= v;
+		return *this;
+	}
+			
+	METAL_FUNC device  packed_vec<T, numElts>& operator %= (const threadgroup  packed_vec<T, numElts> &pv) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator %= (const threadgroup  vec<T, numElts> &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator %= (const threadgroup  T &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= v;
+		return *this;
+	}
+			
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator %= (const threadgroup  packed_vec<T, numElts> &pv) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator %= (const threadgroup  vec<T, numElts> &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator %= (const threadgroup  T &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= v;
+		return *this;
+	}
+			
+	METAL_FUNC constant  packed_vec<T, numElts>& operator %= (const threadgroup  packed_vec<T, numElts> &pv) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator %= (const threadgroup  vec<T, numElts> &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator %= (const threadgroup  T &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= v;
+		return *this;
+	}
+			
+
+		
+	METAL_FUNC thread packed_vec<T, numElts>& operator >>= (const threadgroup  packed_vec<T, numElts> &pv) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator >>= (const threadgroup  vec<T, numElts> &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator >>= (const threadgroup  T &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= v;
+		return *this;
+	}
+			
+	METAL_FUNC device  packed_vec<T, numElts>& operator >>= (const threadgroup  packed_vec<T, numElts> &pv) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator >>= (const threadgroup  vec<T, numElts> &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator >>= (const threadgroup  T &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= v;
+		return *this;
+	}
+			
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator >>= (const threadgroup  packed_vec<T, numElts> &pv) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator >>= (const threadgroup  vec<T, numElts> &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator >>= (const threadgroup  T &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= v;
+		return *this;
+	}
+			
+	METAL_FUNC constant  packed_vec<T, numElts>& operator >>= (const threadgroup  packed_vec<T, numElts> &pv) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator >>= (const threadgroup  vec<T, numElts> &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator >>= (const threadgroup  T &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= v;
+		return *this;
+	}
+			
+
+		
+	METAL_FUNC thread packed_vec<T, numElts>& operator <<= (const threadgroup  packed_vec<T, numElts> &pv) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator <<= (const threadgroup  vec<T, numElts> &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator <<= (const threadgroup  T &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= v;
+		return *this;
+	}
+			
+	METAL_FUNC device  packed_vec<T, numElts>& operator <<= (const threadgroup  packed_vec<T, numElts> &pv) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator <<= (const threadgroup  vec<T, numElts> &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator <<= (const threadgroup  T &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= v;
+		return *this;
+	}
+			
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator <<= (const threadgroup  packed_vec<T, numElts> &pv) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator <<= (const threadgroup  vec<T, numElts> &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator <<= (const threadgroup  T &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= v;
+		return *this;
+	}
+			
+	METAL_FUNC constant  packed_vec<T, numElts>& operator <<= (const threadgroup  packed_vec<T, numElts> &pv) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator <<= (const threadgroup  vec<T, numElts> &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator <<= (const threadgroup  T &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= v;
+		return *this;
+	}
+			
+
+		
+	METAL_FUNC thread packed_vec<T, numElts>& operator &= (const threadgroup  packed_vec<T, numElts> &pv) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator &= (const threadgroup  vec<T, numElts> &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator &= (const threadgroup  T &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= v;
+		return *this;
+	}
+			
+	METAL_FUNC device  packed_vec<T, numElts>& operator &= (const threadgroup  packed_vec<T, numElts> &pv) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator &= (const threadgroup  vec<T, numElts> &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator &= (const threadgroup  T &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= v;
+		return *this;
+	}
+			
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator &= (const threadgroup  packed_vec<T, numElts> &pv) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator &= (const threadgroup  vec<T, numElts> &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator &= (const threadgroup  T &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= v;
+		return *this;
+	}
+			
+	METAL_FUNC constant  packed_vec<T, numElts>& operator &= (const threadgroup  packed_vec<T, numElts> &pv) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator &= (const threadgroup  vec<T, numElts> &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator &= (const threadgroup  T &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= v;
+		return *this;
+	}
+			
+
+		
+	METAL_FUNC thread packed_vec<T, numElts>& operator |= (const threadgroup  packed_vec<T, numElts> &pv) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator |= (const threadgroup  vec<T, numElts> &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator |= (const threadgroup  T &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= v;
+		return *this;
+	}
+			
+	METAL_FUNC device  packed_vec<T, numElts>& operator |= (const threadgroup  packed_vec<T, numElts> &pv) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator |= (const threadgroup  vec<T, numElts> &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator |= (const threadgroup  T &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= v;
+		return *this;
+	}
+			
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator |= (const threadgroup  packed_vec<T, numElts> &pv) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator |= (const threadgroup  vec<T, numElts> &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator |= (const threadgroup  T &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= v;
+		return *this;
+	}
+			
+	METAL_FUNC constant  packed_vec<T, numElts>& operator |= (const threadgroup  packed_vec<T, numElts> &pv) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator |= (const threadgroup  vec<T, numElts> &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator |= (const threadgroup  T &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= v;
+		return *this;
+	}
+			
+
+		
+	METAL_FUNC thread packed_vec<T, numElts>& operator ^= (const threadgroup  packed_vec<T, numElts> &pv) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator ^= (const threadgroup  vec<T, numElts> &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator ^= (const threadgroup  T &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= v;
+		return *this;
+	}
+			
+	METAL_FUNC device  packed_vec<T, numElts>& operator ^= (const threadgroup  packed_vec<T, numElts> &pv) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator ^= (const threadgroup  vec<T, numElts> &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator ^= (const threadgroup  T &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= v;
+		return *this;
+	}
+			
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator ^= (const threadgroup  packed_vec<T, numElts> &pv) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator ^= (const threadgroup  vec<T, numElts> &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator ^= (const threadgroup  T &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= v;
+		return *this;
+	}
+			
+	METAL_FUNC constant  packed_vec<T, numElts>& operator ^= (const threadgroup  packed_vec<T, numElts> &pv) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator ^= (const threadgroup  vec<T, numElts> &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator ^= (const threadgroup  T &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= v;
+		return *this;
+	}
+			
+
+
+    threadgroup  packed_vec<T, numElts>& operator ++ () threadgroup 
+    {
+    	for (int i = 0; i < numElts; i++)
+    		data[i]++;
+    	return *this;
+    } 
+
+    threadgroup  packed_vec<T, numElts>& operator -- () threadgroup 
+    {
+    	for (int i = 0; i < numElts; i++)
+    		data[i]--;
+    	return *this;
+    } 
+
+	packed_vec<T, numElts> operator ++ (int) threadgroup 
+    {
+    	packed_vec<T, numElts> result = *this;
+    	for (int i = 0; i < numElts; i++)
+    		data[i]++;
+    	return result;
+    } 
+
+    packed_vec<T, numElts> operator -- (int) threadgroup 
+    {
+    	packed_vec<T, numElts> result = *this;
+    	for (int i = 0; i < numElts; i++)
+    		data[i]--;
+    	return result;
+    } 
+
+		
+	METAL_FUNC thread packed_vec<T, numElts>& operator += (const constant  packed_vec<T, numElts> &pv) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator += (const constant  vec<T, numElts> &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += v[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator += (const constant  T &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += v;
+		return *this;
+	}
+			
+	METAL_FUNC device  packed_vec<T, numElts>& operator += (const constant  packed_vec<T, numElts> &pv) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator += (const constant  vec<T, numElts> &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += v[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator += (const constant  T &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += v;
+		return *this;
+	}
+			
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator += (const constant  packed_vec<T, numElts> &pv) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator += (const constant  vec<T, numElts> &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += v[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator += (const constant  T &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += v;
+		return *this;
+	}
+			
+	METAL_FUNC constant  packed_vec<T, numElts>& operator += (const constant  packed_vec<T, numElts> &pv) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator += (const constant  vec<T, numElts> &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += v[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator += (const constant  T &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] += v;
+		return *this;
+	}
+			
+
+		
+	METAL_FUNC thread packed_vec<T, numElts>& operator -= (const constant  packed_vec<T, numElts> &pv) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator -= (const constant  vec<T, numElts> &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator -= (const constant  T &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= v;
+		return *this;
+	}
+			
+	METAL_FUNC device  packed_vec<T, numElts>& operator -= (const constant  packed_vec<T, numElts> &pv) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator -= (const constant  vec<T, numElts> &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator -= (const constant  T &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= v;
+		return *this;
+	}
+			
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator -= (const constant  packed_vec<T, numElts> &pv) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator -= (const constant  vec<T, numElts> &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator -= (const constant  T &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= v;
+		return *this;
+	}
+			
+	METAL_FUNC constant  packed_vec<T, numElts>& operator -= (const constant  packed_vec<T, numElts> &pv) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator -= (const constant  vec<T, numElts> &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator -= (const constant  T &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] -= v;
+		return *this;
+	}
+			
+
+		
+	METAL_FUNC thread packed_vec<T, numElts>& operator *= (const constant  packed_vec<T, numElts> &pv) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator *= (const constant  vec<T, numElts> &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator *= (const constant  T &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= v;
+		return *this;
+	}
+			
+	METAL_FUNC device  packed_vec<T, numElts>& operator *= (const constant  packed_vec<T, numElts> &pv) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator *= (const constant  vec<T, numElts> &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator *= (const constant  T &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= v;
+		return *this;
+	}
+			
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator *= (const constant  packed_vec<T, numElts> &pv) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator *= (const constant  vec<T, numElts> &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator *= (const constant  T &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= v;
+		return *this;
+	}
+			
+	METAL_FUNC constant  packed_vec<T, numElts>& operator *= (const constant  packed_vec<T, numElts> &pv) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator *= (const constant  vec<T, numElts> &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator *= (const constant  T &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] *= v;
+		return *this;
+	}
+			
+
+		
+	METAL_FUNC thread packed_vec<T, numElts>& operator /= (const constant  packed_vec<T, numElts> &pv) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator /= (const constant  vec<T, numElts> &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator /= (const constant  T &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= v;
+		return *this;
+	}
+			
+	METAL_FUNC device  packed_vec<T, numElts>& operator /= (const constant  packed_vec<T, numElts> &pv) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator /= (const constant  vec<T, numElts> &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator /= (const constant  T &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= v;
+		return *this;
+	}
+			
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator /= (const constant  packed_vec<T, numElts> &pv) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator /= (const constant  vec<T, numElts> &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator /= (const constant  T &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= v;
+		return *this;
+	}
+			
+	METAL_FUNC constant  packed_vec<T, numElts>& operator /= (const constant  packed_vec<T, numElts> &pv) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator /= (const constant  vec<T, numElts> &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator /= (const constant  T &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] /= v;
+		return *this;
+	}
+			
+
+		
+	METAL_FUNC thread packed_vec<T, numElts>& operator %= (const constant  packed_vec<T, numElts> &pv) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator %= (const constant  vec<T, numElts> &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator %= (const constant  T &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= v;
+		return *this;
+	}
+			
+	METAL_FUNC device  packed_vec<T, numElts>& operator %= (const constant  packed_vec<T, numElts> &pv) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator %= (const constant  vec<T, numElts> &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator %= (const constant  T &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= v;
+		return *this;
+	}
+			
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator %= (const constant  packed_vec<T, numElts> &pv) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator %= (const constant  vec<T, numElts> &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator %= (const constant  T &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= v;
+		return *this;
+	}
+			
+	METAL_FUNC constant  packed_vec<T, numElts>& operator %= (const constant  packed_vec<T, numElts> &pv) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator %= (const constant  vec<T, numElts> &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator %= (const constant  T &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] %= v;
+		return *this;
+	}
+			
+
+		
+	METAL_FUNC thread packed_vec<T, numElts>& operator >>= (const constant  packed_vec<T, numElts> &pv) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator >>= (const constant  vec<T, numElts> &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator >>= (const constant  T &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= v;
+		return *this;
+	}
+			
+	METAL_FUNC device  packed_vec<T, numElts>& operator >>= (const constant  packed_vec<T, numElts> &pv) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator >>= (const constant  vec<T, numElts> &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator >>= (const constant  T &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= v;
+		return *this;
+	}
+			
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator >>= (const constant  packed_vec<T, numElts> &pv) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator >>= (const constant  vec<T, numElts> &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator >>= (const constant  T &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= v;
+		return *this;
+	}
+			
+	METAL_FUNC constant  packed_vec<T, numElts>& operator >>= (const constant  packed_vec<T, numElts> &pv) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator >>= (const constant  vec<T, numElts> &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator >>= (const constant  T &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] >>= v;
+		return *this;
+	}
+			
+
+		
+	METAL_FUNC thread packed_vec<T, numElts>& operator <<= (const constant  packed_vec<T, numElts> &pv) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator <<= (const constant  vec<T, numElts> &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator <<= (const constant  T &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= v;
+		return *this;
+	}
+			
+	METAL_FUNC device  packed_vec<T, numElts>& operator <<= (const constant  packed_vec<T, numElts> &pv) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator <<= (const constant  vec<T, numElts> &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator <<= (const constant  T &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= v;
+		return *this;
+	}
+			
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator <<= (const constant  packed_vec<T, numElts> &pv) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator <<= (const constant  vec<T, numElts> &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator <<= (const constant  T &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= v;
+		return *this;
+	}
+			
+	METAL_FUNC constant  packed_vec<T, numElts>& operator <<= (const constant  packed_vec<T, numElts> &pv) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator <<= (const constant  vec<T, numElts> &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator <<= (const constant  T &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] <<= v;
+		return *this;
+	}
+			
+
+		
+	METAL_FUNC thread packed_vec<T, numElts>& operator &= (const constant  packed_vec<T, numElts> &pv) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator &= (const constant  vec<T, numElts> &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator &= (const constant  T &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= v;
+		return *this;
+	}
+			
+	METAL_FUNC device  packed_vec<T, numElts>& operator &= (const constant  packed_vec<T, numElts> &pv) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator &= (const constant  vec<T, numElts> &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator &= (const constant  T &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= v;
+		return *this;
+	}
+			
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator &= (const constant  packed_vec<T, numElts> &pv) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator &= (const constant  vec<T, numElts> &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator &= (const constant  T &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= v;
+		return *this;
+	}
+			
+	METAL_FUNC constant  packed_vec<T, numElts>& operator &= (const constant  packed_vec<T, numElts> &pv) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator &= (const constant  vec<T, numElts> &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator &= (const constant  T &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] &= v;
+		return *this;
+	}
+			
+
+		
+	METAL_FUNC thread packed_vec<T, numElts>& operator |= (const constant  packed_vec<T, numElts> &pv) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator |= (const constant  vec<T, numElts> &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator |= (const constant  T &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= v;
+		return *this;
+	}
+			
+	METAL_FUNC device  packed_vec<T, numElts>& operator |= (const constant  packed_vec<T, numElts> &pv) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator |= (const constant  vec<T, numElts> &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator |= (const constant  T &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= v;
+		return *this;
+	}
+			
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator |= (const constant  packed_vec<T, numElts> &pv) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator |= (const constant  vec<T, numElts> &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator |= (const constant  T &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= v;
+		return *this;
+	}
+			
+	METAL_FUNC constant  packed_vec<T, numElts>& operator |= (const constant  packed_vec<T, numElts> &pv) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator |= (const constant  vec<T, numElts> &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator |= (const constant  T &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] |= v;
+		return *this;
+	}
+			
+
+		
+	METAL_FUNC thread packed_vec<T, numElts>& operator ^= (const constant  packed_vec<T, numElts> &pv) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator ^= (const constant  vec<T, numElts> &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC thread packed_vec<T, numElts>& operator ^= (const constant  T &v) thread
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= v;
+		return *this;
+	}
+			
+	METAL_FUNC device  packed_vec<T, numElts>& operator ^= (const constant  packed_vec<T, numElts> &pv) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator ^= (const constant  vec<T, numElts> &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC device  packed_vec<T, numElts>& operator ^= (const constant  T &v) device 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= v;
+		return *this;
+	}
+			
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator ^= (const constant  packed_vec<T, numElts> &pv) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator ^= (const constant  vec<T, numElts> &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC threadgroup  packed_vec<T, numElts>& operator ^= (const constant  T &v) threadgroup 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= v;
+		return *this;
+	}
+			
+	METAL_FUNC constant  packed_vec<T, numElts>& operator ^= (const constant  packed_vec<T, numElts> &pv) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= pv[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator ^= (const constant  vec<T, numElts> &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= v[i];
+		return *this;
+	}
+	
+	METAL_FUNC constant  packed_vec<T, numElts>& operator ^= (const constant  T &v) constant 
+	{
+		for (int i = 0; i < numElts; i++)
+			data[i] ^= v;
+		return *this;
+	}
+			
+
+
+    constant  packed_vec<T, numElts>& operator ++ () constant 
+    {
+    	for (int i = 0; i < numElts; i++)
+    		data[i]++;
+    	return *this;
+    } 
+
+    constant  packed_vec<T, numElts>& operator -- () constant 
+    {
+    	for (int i = 0; i < numElts; i++)
+    		data[i]--;
+    	return *this;
+    } 
+
+	packed_vec<T, numElts> operator ++ (int) constant 
+    {
+    	packed_vec<T, numElts> result = *this;
+    	for (int i = 0; i < numElts; i++)
+    		data[i]++;
+    	return result;
+    } 
+
+    packed_vec<T, numElts> operator -- (int) constant 
+    {
+    	packed_vec<T, numElts> result = *this;
+    	for (int i = 0; i < numElts; i++)
+    		data[i]--;
+    	return result;
+    } 
+
+
+  };
+}
+
+#endif // __METAL_PACKED_VECTOR_H

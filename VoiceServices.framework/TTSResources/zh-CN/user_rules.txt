@@ -1,0 +1,45 @@
+[header]
+language = MNC
+
+[data]
+#
+# Siri Additions
+#
+
+# radar 16027660
+/\bOS X\b/ --> " OS ten "
+
+# Re-adding rules which were previously merged here as vendor-provided,
+# but are still not working with the base vendor voice. We should request
+# Nashville to fix these in the custom languages
+# radar 17815229 -- also Changed Wi-Fi (all versions), iPad, iPod, and Safari
+# to be compatible between custom and vocalizer until Nashville provides a fix.
+/\bWI-FI\b/ --> " why figh "
+/\bWi-Fi\b/ --> " why figh "
+/\bwi-fi\b/ --> " why figh "
+/\bWiFi\b/ --> " why figh "
+/\bwifi\b/ --> " why figh "
+/\byoutube\b/ --> " you-tube "
+/\biCloud\b/ --> " i cloud "
+/\bitunes\b/ --> " eye-tunes "
+/\biOS\b/ --> " I O S "
+/\biMessage\b/ --> " i message "
+/\bNike\+iPod\b/ --> " nike 加 ipod "
+/\biBooks\b/ --> " i buks "
+/\biPad\b/ --> " i padd "
+/\biPad Air\b/ --> " i padayr "
+/\biPadAir\b/ --> " i padayr "
+/\biPod\b/ --> " i podd "
+/\bipod\b/ --> " i podd "
+/\bPowerSong\b/ --> " powl song "
+/\bSafari\b/ --> " sah faah rree "
+/\bVoiceOver\b/ --> " vois-over "
+/\bPIN\b/ --> " pean "
+/\bSIM\b/ --> " seam "
+/\bMobileMe\b/ --> " mobile meee "
+/\bGoogle\b/ --> " googlel "
+/\bAudible\b/ --> " Auedeble "
+/\bApp\b/ --> " appp "
+/\bJava\b/ --> " jaar whar "
+/\bApple ID\b/ --> " Apple-ID "
+/\bSiri\b/ --> " see-ree "

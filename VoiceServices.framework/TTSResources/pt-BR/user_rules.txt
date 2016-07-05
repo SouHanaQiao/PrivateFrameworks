@@ -1,0 +1,150 @@
+[header]
+language = PTB
+
+[data]
+/\b(\d+) de jan\b/ --> "jan $1;"
+/\b(\d+) de fev\b/ --> "fev $1;"
+/\b(\d+) de mar(?![\w\x80-\xFF])/ --> "mar $1;"
+/\b(\d+) de março/ --> "mar $1;"
+/\b(\d+) de abr\b/ --> "abr $1;"
+/\b(\d+) de maio\b/ --> "mai $1;"
+/\b(\d+) de jun\b/ --> "jun $1;"
+/\b(\d+) de jul\b/ --> "jul $1;"
+/\b(\d+) de ago\b/ --> "ago $1;"
+/\b(\d+) de set\b/ --> "set $1;"
+/\b(\d+) de out\b/ --> "out $1;"
+/\b(\d+) de nov\b/ --> "nov $1;"
+/\b(\d+) de dez\b/ --> "dez $1;"
+/\b(\d+) de janeiro\b/ --> "janeiro $1;"
+/\b(\d+) de fevereiro\b/ --> "fevereiro $1;"
+/\b(\d+) de março\b/ --> "março $1;"
+/\b(\d+) de abril\b/ --> "abril $1;"
+/\b(\d+) de maio\b/ --> "maio $1;"
+/\b(\d+) de junho\b/ --> "junho $1;"
+/\b(\d+) de julho\b/ --> "julho $1;"
+/\b(\d+) de agosto\b/ --> "agosto $1;"
+/\b(\d+) de setembro\b/ --> "setembro $1;"
+/\b(\d+) de outubro\b/ --> "outubro $1;"
+/\b(\d+) de novembro\b/ --> "novembro $1;"
+/\b(\d+) de dezembro\b/ --> "dezembro $1;"
+
+# Fixing time, seems the last engine busted it all over the place.
+# 0?0:00, 0?0:30, 0?0:0X, 0?0:XX
+/\b0?0[h:]00\b/ --> " \e/+'me.ja0_'noj.t&Si\e/+ "
+/\b0?0[h:]30\b/ --> " \e/+'me.ja0_'noj.t&Si_'i_'me.ja0\e/+ "
+/\b0?0[h:]0(\d)\b/ --> " \e/+'me.ja0_'noj.t&Si_i\e/+$1 "
+/\b0?0[h:](\d\d)\b/ --> " \e/+'me.ja0_'noj.t&Si_i\e/+$1 "
+
+# 0?1:00, 0?1:30, 0?1:0X, 0?1:XX (female)
+/\b0?1[h:]00\b/ --> " \e/+'u.ma0_'O.r6a0\e/+ "
+/\b0?1[h:]30\b/ --> " \e/+'u.ma0_'i_'me.ja0\e/+ "
+/\b0?1[h:]0(\d)\b/ --> " \e/+'u.ma0_'i\e/+$1 "
+/\b0?1[h:](\d\d)\b/ --> " \e/+'u.ma0_'i\e/+$1 "
+
+# 0?2:00, 0?2:30, 0?2:0X, 0?2:XX (female)
+/\b0?2[h:]00\b/ --> " \e/+'du.a0s_'O.r6a0s\e/+ "
+/\b0?2[h:]30\b/ --> " \e/+'du.a0s_'i_'me.ja0\e/+ "
+/\b0?2[h:]0(\d)\b/ --> " \e/+'du.a0s_'i\e/+$1 "
+/\b0?2[h:](\d\d)\b/ --> " \e/+'du.a0s_'i\e/+$1 "
+
+# 21:00, 21:0X, 21:XX (female)
+/\b21[h:]00\b/ --> " \e/+'vi%~.t&Si_'i_'u.ma0_'O.r6a0s\e/+ "
+/\b21[h:]0(\d)\b/ --> " \e/+'vi%~.t&Si_'i_'u.ma0_'i\e/+$1 "
+/\b21[h:](\d\d)\b/ --> " \e/+'vi%~.t&Si_'i_'u.ma0_'i\e/+$1 "
+
+# 22:00, 22:0X, 22:XX (female)
+/\b22[h:]00\b/ --> " \e/+'vi%~.t&Si_'i_'du.a0s_'O.r6a0s\e/+ "
+/\b22[h:]0(\d)\b/ --> " \e/+'vi%~.t&Si_'i_'du.a0s_'i\e/+$1 "
+/\b22[h:](\d\d)\b/ --> " \e/+'vi%~.t&Si_'i_'du.a0s_'i\e/+$1 "
+
+# 0?[3-9]:00, 0?[3-9]:30, 0?[3-9]:0X, 0?[3-9]:XX
+/\b0?([3-9])[h:]00\b/ --> " $1\e/+'O.r6a0s\e/+ "
+/\b0?([3-9])[h:]30\b/ --> " $1\e/+'i_'me.ja0\e/+ "
+/\b0?([3-9])[h:]0(\d)\b/ --> " $1\e/+'i\e/+$2 "
+/\b0?([3-9])[h:](\d\d)\b/ --> " $1\e/+'i\e/+$2 "
+
+# 1[0-1]:00, 1[0-1]:30, 1[0-1]:0X, 1[0-1]:XX
+/\b(1[0-1])[h:]00\b/ --> " $1\e/+'O.r6a0s\e/+ "
+/\b(1[0-1])[h:]30\b/ --> " $1\e/+'i_'me.ja0\e/+ "
+/\b(1[0-1])[h:]0(\d)\b/ --> " $1\e/+'i\e/+$2 "
+/\b(1[0-1])[h:](\d\d)\b/ --> " $1\e/+'i\e/+$2 "
+
+# Catch-all, very broad, just in case.
+# Note that > 12, hours:30 are NOT referred to as 'XX e meia'
+# XX:00, XX:0Y, XX:YY
+/\b(\d?\d)[h:]00\b/ --> " $1\e/+'O.r6a0s\e/+ "
+/\b(\d?\d)[h:]0(\d)\b/ --> " $1\e/+'i\e/+$2 "
+/\b(\d?\d)[h:](\d\d)\b/ --> " $1\e/+'i\e/+$2 "
+
+
+# Numbers
+/\b1(?=\s+1)/ --> "1;"
+/\b12\,/ --> "\e/+'dow.zi\e/+"
+
+# Music
+/\b10,000 Maniacs\b/ --> "\e/+'te%~j%~_'taw.za%~.d&Zi:~_'me%~.njak&s\e/+"
+/\b10,000 Emerald Pools\b/ --> "\e/+'te%~j%~_'taw.za%~.d&Zi:~_'e%~.how.d&Zi:~_'puws\e/+"
+
+# Misc.
+/\bfois gras\b/ --> "\e/+'fwa_'gr6a\e/+"
+/\b[Gg]rand [Pp]rix\b/ --> "\e/+'gr6a%~_'pr6i\e/+"
+/\bpara metrô\b/ --> "\e/+pa.r6.a_me.'tr6o\e/+"
+/\bpara o metrô\b/ --> "\e/+pa.r6.a_'u_me.'tr6o\e/+"
+
+# Apple
+/\bApp Store\b/ --> "\e/+'Ep.i.st.'Or6\e/+"
+/\bBeats 1\b/ --> "\e/+bits_u.'a%~.n\e/+"
+/\bde [cC]ontrole\b/ --> "\e/+d&Zi_ko%~.tr6.o.l.li\e/+"
+/\b[Ee]xercícios em um [Aa]pple [Ww]atch\b/ --> "\e/+e.zeh.'si.sjus_'e%~j%~_'w%~_'E.pou_'wO.t&Si:~\e/+"
+/\biPhone 4s\b/ --> "\e/+aj.'fo%~.ni_'kwa.tr6u_'E.si\e/+"
+/\biPhone 5s\b/ --> "\e/+aj.'fo%~.ni_'si%~.ku_'E.si\e/+"
+/\biPhone 6s\b/ --> "\e/+aj.'fo%~.ni_'sejs_'E.si\e/+"
+/\bNike\+/ --> " nike plus "
+/\bOS X\b/ --> "\e/+'O_'E.si_'dEs\e/+"
+/\bPhoto Booth\b/ -->  "PhotoBooth"
+/\bSteve Jobs\b/ -->  "\e/+is.'t&Si.vi:~_dZO.bs\e/+"
+/\b[Tt]ime [Cc]apsule\b/ --> "\e/+'taj.mi_'ka.pi:~.suw\e/+"
+/\b[Tt]ime [Mm]achine\b/ --> "\e/+'taj.mi_ma.'Si%~n\e/+"
+
+# Geo
+/\bHong Kong\b/ -->  "\e/+ho%~.'ko%~.gi\e/+"
+/\bLos Angeles\b/ -->  "\e/+luz_'a%~.Ze.li:~s\e/+"
+/\bTel Aviv\b/ -->  "\e/+'tEl.a0_'vi.vi:~\e/+"
+
+# Currency
+# R$ 17.000.000,35 - millions of reais + double digit cents
+/R\$\s*0*([2-9]|[1-9][\.\d]+[\.0]{6,}),([1-9]\d)/   -->   "$1\e/+'d&Zi_he.'a.js_i_\e/+$2\e/+se%~.ta.vus\e/+"
+# R$ 4.200.000.000,06 - millions of reais + single digit cents
+/R\$\s*0*([2-9]|[1-9][\.\d]+[\.0]{6,}),0([2-9])/   -->   "$1\e/+'d&Zi_he.'a.js_i_\e/+$2\e/+se%~.ta.vus\e/+"
+# R$ 3.000.000,01 - millions of reais + single cent
+/R\$\s*0*([2-9]|[1-9][\.\d]+[\.0]{6,}),01/   -->   "$1\e/+'d&Zi_he.'a.js_i_wu%~_se%~.ta.vu\e/+"
+# R$ 7.000.000,00 - millions of reais + zero cents or missing cents
+/R\$\s*0*([2-9]|[1-9][\.\d]+[\.0]{6,})(?:,00)?(?=,?\s|$)/   -->   "$1\e/+'d&Zi_he.'a.js\e/+"
+# R$ 40,31 or R$010,77 - multiple reais + double digit cents
+/R\$\s*0*([2-9]|[1-9][\.\d]+),([1-9]\d)/   -->   "$1\e/+he.'a.js_i_\e/+$2\e/+se%~.ta.vus\e/+"
+# R$ 40,04 or R$10,07 - multiple reais + single digit cents
+/R\$\s*([2-9]|\d[\.\d]+),0([2-9])/   -->   "$1\e/+he.'a.js_i_\e/+$2\e/+se%~.ta.vus\e/+"
+# R$ 40,01 or R$010,01 - multiple reais + single cent
+/R\$\s*0*([2-9]|[1-9][\.\d]+),01/   -->   "$1\e/+he.'a.js_i_wu%~_se%~.ta.vu\e/+"
+# R$ 67 or R$ 022,00 - multiple reais + zero cents or missing cents
+/R\$\s*0*([2-9]|[1-9][\.\d]+)(?:,00)?(?=,?\s|$)/   -->   "$1\e/+he.'a.js\e/+"
+# R$1,10 or R$ 1,99 - one real + double digit cents
+/R\$\s*0*1,([1-9]\d)/   -->   "\e/+wu%~_he.'aw_i_\e/+$1\e/+se%~.ta.vus\e/+"
+# R$1,02-R$ 1,09 - one real + single digit cents
+/R\$\s*0*1,0([2-9])/   -->   "\e/+wu%~_he.'aw_i_\e/+$1\e/+se%~.ta.vus\e/+"
+# R$1,01 - one real + single cent
+/R\$\s*0*1,01/   -->   "\e/+'wu%~_he.'aw_'i_'wu%~_se%~.'ta.vu\e/+"
+# R$1 - R$ 1,00 - one real + zero cents or missing cents
+/R\$\s*0*1(?:,00)?(?=,?\s|$)/   -->   "\e/+'wu%~_he.'aw\e/+"
+# R$0,10 - R$ 0,99 -  double digit cents
+/R\$\s*0*,([1-9]\d)/   -->   "$1\e/+se%~.ta.vus\e/+"
+# R$0,02 or R$ 000,07 - single digit cents
+/R\$\s*0*,0([2-9])/   -->   "$1\e/+se%~.ta.vus\e/+"
+# R$0,01 - single cent
+/R\$\s*0*,01/   -->   "\e/+'wu%~_se%~.ta.vu\e/+"
+# R$ 0,00 or 0000000,00 - zero cents: output "not one cent"
+/R\$\s*0*,00/   -->   "\e/+ne%~.'j%~.'wu%~_se%~.'ta.vu\e/+"
+# R$ 0 or 0000000 - zero cents: output "not one cent"
+/R\$\s*0*0/   -->   "\e/+ne%~.'j%~.'wu%~_se%~.'ta.vu\e/+"
+# R$
+/R\$/   -->   "\e/+'he.'aw\e/+"

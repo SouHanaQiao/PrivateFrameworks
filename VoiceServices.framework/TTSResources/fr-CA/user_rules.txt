@@ -1,0 +1,14 @@
+[header]
+language = FRC
+
+[data]
+/\bN°/ --> " numéro "
+/\bn°/ --> " numéro "
+/@me.com/ --> " at me.com "
+/\bts les\b/ --> " tous les "
+
+/\xa0/ --> " "
+/\bBlue Jackets\b/   -->   "\e/+'blu_dZa.'kEts\e/+"
+/\biTunes Store\b/   -->   "\e/+'aj.tjunz_stOR\e/+"
+/\bLas Vegas\b/   -->   "\e/+'las_vegas\e/+"
+/\bMaple Leafs\b/   -->   "\e/+'me.pE+l_'lIfs\e/+"

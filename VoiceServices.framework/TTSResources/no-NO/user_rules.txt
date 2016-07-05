@@ -1,0 +1,27 @@
+[header]
+language = NON
+
+[data]
+/\bGame Center\b/ --> " GameCenter "
+/\bPhoto Booth\b/ --> " PhotoBooth "
+/\bApp Store\b/ --> " AppStore "
+/\bApple Store\b/ --> " AppleStore "
+/\biTunes Store\b/ --> " iTunesStore "
+/\bRio de Janeiro\b/ --> " RiodeJaneiro "
+/\bSan Francisco\b/ --> " SanFrancisco "
+/\bApple Pay\b/ --> " ApplePay "
+
+/([a-zA-Z])\.no\b/ --> "$1 dått N O"
+/([a-zA-Z])\.se\b/ --> "$1 dått S E"
+/([a-zA-Z])\.dk\b/ --> "$1 dått D K"
+/([a-zA-Z])\.com\b/ --> "$1 dått kom"
+/([a-zA-Z])\.co\.uk\b/ --> "$1 dått ko dått ukei"
+/([a-zA-Z])\.mac\b/ --> "$1 dått mækk"
+/([a-zA-Z])\.net\b/ --> "$1 dått nett"
+/([a-zA-Z])\.org\b/ --> "$1 dått org"
+
+/\bwww\./ --> "VVV "
+
+
+# fix_for_times
+/(?<![\d.])([0-1]?\d|2[0-4])\.([0-5]\d)(?!\.?\d)/   -->   "$1 $2"

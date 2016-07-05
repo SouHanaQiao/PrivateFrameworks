@@ -1,0 +1,2887 @@
+{
+  "tagIDs" : [
+    "SongPace_Slow",
+    "Mood_Sentimental"
+  ],
+  "compatibilityVersion" : 1,
+  "mainSegments" : [
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -25.5336604270935,
+      "bars" : 1,
+      "transitions" : {
+        "gentle_Body2b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body3c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body7a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body1b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body2c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out2b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body6a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body1c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body5a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body4a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body5b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body3a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body4b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body2a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body5c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 76902,
+      "peakValue" : 0.1730610877275467,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "gentle_In1"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -24.55464698410034,
+      "bars" : 1,
+      "transitions" : {
+        "gentle_Body2b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body3c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body7a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body1b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body2c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out2b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body6a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body1c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body5a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body4a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body5b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body3a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body4b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body5c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body1a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 80529,
+      "peakValue" : 0.2048992067575455,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "gentle_In2"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -29.58129741287231,
+      "bars" : 1,
+      "transitions" : {
+        "gentle_Body6a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body1c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out2b" : {
+          "fadeOut" : 50,
+          "fadeIn" : 50,
+          "prevented" : true
+        },
+        "gentle_Body2c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body1b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body3c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body2b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body1a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body2a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body5c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body4b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body3a" : {
+          "fadeOut" : 30,
+          "fadeIn" : 0,
+          "prevented" : false
+        },
+        "gentle_Body5b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body4a" : {
+          "fadeOut" : 25,
+          "fadeIn" : 25,
+          "prevented" : true
+        },
+        "gentle_Out5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body5a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 56937,
+      "peakValue" : 0.09178867936134338,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "gentle_In3"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -30.84961749649048,
+      "bars" : 1,
+      "transitions" : {
+        "gentle_Body6a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body1c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body7a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out2b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body2c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body1b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body3c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body2b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body1a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body2a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body5c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body4b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body3a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body5b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body5a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 56937,
+      "peakValue" : 0.08098860085010529,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "gentle_In4"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -30.29772378540039,
+      "bars" : 1,
+      "transitions" : {
+        "gentle_Body6a" : {
+          "fadeOut" : 150,
+          "fadeIn" : 100,
+          "prevented" : true
+        },
+        "gentle_Body1c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body7a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out2b" : {
+          "fadeOut" : 250,
+          "fadeIn" : 0,
+          "prevented" : false
+        },
+        "gentle_Body2c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body1b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body3c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body2b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body1a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body2a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body5c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body4b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body3a" : {
+          "fadeOut" : 250,
+          "fadeIn" : 25,
+          "prevented" : true
+        },
+        "gentle_Body5b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body4a" : {
+          "fadeOut" : 100,
+          "fadeIn" : 25,
+          "prevented" : false
+        },
+        "gentle_Out5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body5a" : {
+          "fadeOut" : 100,
+          "fadeIn" : 30,
+          "prevented" : false
+        },
+        "gentle_Out1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 83584,
+      "peakValue" : 0.105332538485527,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "gentle_In5"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -30.19527770614624,
+      "bars" : 1,
+      "transitions" : {
+        "gentle_Out2b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body4a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 100,
+          "prevented" : false
+        },
+        "gentle_Body1a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body4b" : {
+          "fadeOut" : 50,
+          "fadeIn" : 25,
+          "prevented" : false
+        },
+        "gentle_Body5a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 100,
+          "prevented" : false
+        },
+        "gentle_Out3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body5b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body6a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 100,
+          "prevented" : false
+        },
+        "gentle_Out1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body5c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 224580,
+      "peakValue" : 0.1470408886671066,
+      "priority" : 80,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body1a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -27.90950633621216,
+      "sliceable" : true,
+      "bars" : 2,
+      "transitions" : {
+        "gentle_Body3c" : [
+          {
+            "fadeOut" : 50,
+            "fadeIn" : 0,
+            "prevented" : false
+          },
+          {
+
+          }
+        ],
+        "gentle_Body7a" : [
+          {
+            "fadeOut" : 50,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "gentle_Body1b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body2c" : [
+          {
+            "fadeOut" : 25,
+            "fadeIn" : 0,
+            "prevented" : false
+          },
+          {
+
+          }
+        ],
+        "gentle_Out2b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body6a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 100,
+            "prevented" : false
+          }
+        ],
+        "gentle_Body1c" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "gentle_Body5a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 100,
+            "prevented" : false
+          }
+        ],
+        "gentle_Out1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body4a" : [
+          {
+            "fadeOut" : 150,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "gentle_Out4" : [
+          {
+            "fadeOut" : 25,
+            "fadeIn" : 25,
+            "prevented" : false
+          },
+          {
+
+          }
+        ],
+        "gentle_Body5b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body4b" : [
+          {
+            "fadeOut" : 50,
+            "fadeIn" : 25,
+            "prevented" : false
+          },
+          {
+
+          }
+        ],
+        "gentle_Out3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body5c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body2a" : [
+          {
+            "fadeOut" : 25,
+            "fadeIn" : 0,
+            "prevented" : false
+          },
+          {
+
+          }
+        ],
+        "gentle_Body1a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body3b" : [
+          {
+            "fadeOut" : 25,
+            "fadeIn" : 25,
+            "prevented" : false
+          },
+          {
+
+          }
+        ]
+      },
+      "sampleCount" : 301482,
+      "peakValue" : 0.1730610877275467,
+      "priority" : 91,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body1b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -27.78657056427002,
+      "sliceable" : true,
+      "bars" : 2,
+      "transitions" : {
+        "gentle_Body6a" : [
+          {
+            "fadeOut" : 50,
+            "fadeIn" : 50,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 100,
+            "prevented" : false
+          }
+        ],
+        "gentle_Body1c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body7a" : [
+          {
+            "fadeOut" : 50,
+            "fadeIn" : 0,
+            "prevented" : false
+          },
+          {
+
+          }
+        ],
+        "gentle_Out2b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body2c" : [
+          {
+            "fadeOut" : 25,
+            "fadeIn" : 0,
+            "prevented" : false
+          },
+          {
+
+          }
+        ],
+        "gentle_Body1b" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "gentle_Body3c" : [
+          {
+            "fadeOut" : 100,
+            "fadeIn" : 0,
+            "prevented" : false
+          },
+          {
+
+          }
+        ],
+        "gentle_Out3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body2b" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "gentle_Body1a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "gentle_Body3b" : [
+          {
+            "fadeOut" : 150,
+            "fadeIn" : 25,
+            "prevented" : false
+          },
+          {
+
+          }
+        ],
+        "gentle_Body2a" : [
+          {
+            "fadeOut" : 25,
+            "fadeIn" : 0,
+            "prevented" : false
+          },
+          {
+
+          }
+        ],
+        "gentle_Body5c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body4b" : [
+          {
+            "fadeOut" : 25,
+            "fadeIn" : 0,
+            "prevented" : false
+          },
+          {
+
+          }
+        ],
+        "gentle_Body3a" : [
+          {
+            "fadeOut" : 50,
+            "fadeIn" : 0,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 50,
+            "fadeIn" : 30,
+            "prevented" : false
+          }
+        ],
+        "gentle_Body5b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body4a" : [
+          {
+            "fadeOut" : 50,
+            "fadeIn" : 50,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 100,
+            "prevented" : false
+          }
+        ],
+        "gentle_Out5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out4" : [
+          {
+            "fadeOut" : 50,
+            "fadeIn" : 50,
+            "prevented" : false
+          },
+          {
+
+          }
+        ],
+        "gentle_Body5a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 30,
+            "prevented" : false
+          }
+        ],
+        "gentle_Out1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 305070,
+      "peakValue" : 0.2029456943273544,
+      "priority" : 90,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body1c"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -25.15831090545654,
+      "bars" : 2,
+      "transitions" : {
+        "gentle_Out2b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body4a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 100,
+          "prevented" : false
+        },
+        "gentle_Out5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body7a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 50,
+          "prevented" : false
+        },
+        "gentle_Body5a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 100,
+          "prevented" : false
+        },
+        "gentle_Body2a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body5b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body6a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 50,
+          "prevented" : false
+        },
+        "gentle_Body5c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 529184,
+      "peakValue" : 0.2513553202152252,
+      "priority" : 85,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body2a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -24.78447295761108,
+      "sliceable" : true,
+      "bars" : 4,
+      "transitions" : {
+        "gentle_Body2b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body3c" : [
+          {
+            "fadeOut" : 100,
+            "fadeIn" : 50,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 800,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 100,
+            "fadeIn" : 50,
+            "prevented" : false
+          },
+          {
+
+          }
+        ],
+        "gentle_Body7a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "gentle_Body2c" : [
+          {
+            "fadeOut" : 25,
+            "fadeIn" : 25,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 250,
+            "fadeIn" : 50,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 25,
+            "fadeIn" : 25,
+            "prevented" : false
+          },
+          {
+
+          }
+        ],
+        "gentle_Out2b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body6a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "gentle_Out1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body5a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "gentle_Body4a" : [
+          {
+            "fadeOut" : 250,
+            "fadeIn" : 100,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 25,
+            "fadeIn" : 25,
+            "prevented" : false
+          },
+          {
+
+          }
+        ],
+        "gentle_Body5b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body3a" : [
+          {
+            "fadeOut" : 150,
+            "fadeIn" : 25,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 150,
+            "fadeIn" : 25,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 90,
+            "fadeIn" : 25,
+            "prevented" : false
+          },
+          {
+
+          }
+        ],
+        "gentle_Out5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out4" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 50,
+            "fadeIn" : 0,
+            "prevented" : false
+          },
+          {
+
+          }
+        ],
+        "gentle_Out3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body5c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body4b" : [
+          {
+            "fadeOut" : 250,
+            "fadeIn" : 0,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 500,
+            "fadeIn" : 0,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 25,
+            "fadeIn" : 25,
+            "prevented" : false
+          },
+          {
+
+          }
+        ],
+        "gentle_Body3b" : [
+          {
+            "fadeOut" : 25,
+            "fadeIn" : 25,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 25,
+            "fadeIn" : 25,
+            "prevented" : false
+          },
+          {
+
+          }
+        ],
+        "gentle_Body2a" : [
+          {
+            "fadeOut" : 25,
+            "fadeIn" : 25,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 25,
+            "fadeIn" : 25,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 25,
+            "fadeIn" : 25,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 25,
+            "fadeIn" : 25,
+            "prevented" : false
+          }
+        ]
+      },
+      "sampleCount" : 609713,
+      "peakValue" : 0.2481659352779388,
+      "priority" : 84,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body2b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -23.92295695877075,
+      "sliceable" : true,
+      "bars" : 4,
+      "transitions" : {
+        "gentle_Body2b" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 50,
+            "fadeIn" : 0,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "gentle_Body3c" : [
+          {
+            "fadeOut" : 25,
+            "fadeIn" : 25,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 25,
+            "fadeIn" : 25,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 25,
+            "fadeIn" : 25,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "gentle_Body7a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "gentle_Body2c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out2b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body6a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "gentle_Out1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body5a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 100,
+            "prevented" : false
+          }
+        ],
+        "gentle_Body4a" : [
+          {
+            "fadeOut" : 200,
+            "fadeIn" : 25,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 350,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 150,
+            "fadeIn" : 25,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 100,
+            "prevented" : false
+          }
+        ],
+        "gentle_Out4" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "gentle_Body3a" : [
+          {
+            "fadeOut" : 200,
+            "fadeIn" : 25,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 300,
+            "fadeIn" : 100,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 25,
+            "fadeIn" : 25,
+            "prevented" : false
+          },
+          {
+
+          }
+        ],
+        "gentle_Out5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body4b" : [
+          {
+            "fadeOut" : 25,
+            "fadeIn" : 25,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 25,
+            "fadeIn" : 25,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 25,
+            "fadeIn" : 25,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "gentle_Out3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body2a" : [
+          {
+            "fadeOut" : 25,
+            "fadeIn" : 25,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "gentle_Body3b" : [
+          {
+            "fadeOut" : 175,
+            "fadeIn" : 25,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 175,
+            "fadeIn" : 25,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 100,
+            "fadeIn" : 25,
+            "prevented" : false
+          },
+          {
+
+          }
+        ],
+        "gentle_Body5b" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "gentle_Body5c" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ]
+      },
+      "sampleCount" : 596455,
+      "peakValue" : 0.2884372174739838,
+      "priority" : 83,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body2c"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -23.86826612091064,
+      "bars" : 2,
+      "transitions" : {
+        "gentle_Out2b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body4b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body5a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 50,
+          "prevented" : false
+        },
+        "gentle_Out3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 50,
+          "prevented" : false
+        },
+        "gentle_Body5b" : {
+          "fadeOut" : 25,
+          "fadeIn" : 25,
+          "prevented" : true
+        },
+        "gentle_Out4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body3a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body5c" : {
+          "fadeOut" : 25,
+          "fadeIn" : 25,
+          "prevented" : false
+        },
+        "gentle_Out1" : {
+          "fadeOut" : 50,
+          "fadeIn" : 0,
+          "prevented" : false
+        }
+      },
+      "sampleCount" : 306253,
+      "peakValue" : 0.2351547926664352,
+      "priority" : 79,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body3a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -22.95276023483276,
+      "bars" : 2,
+      "transitions" : {
+        "gentle_Body3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body4b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body5a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 50,
+          "prevented" : false
+        },
+        "gentle_Out4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body5b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 50,
+          "prevented" : false
+        },
+        "gentle_Body5c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 305889,
+      "peakValue" : 0.2859519422054291,
+      "priority" : 93,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body3b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -22.0726499710083,
+      "bars" : 4,
+      "transitions" : {
+        "gentle_Out5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body3c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body4b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body5a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 50,
+          "prevented" : false
+        },
+        "gentle_Out4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body5b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body5c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 609846,
+      "peakValue" : 0.3535008430480957,
+      "priority" : 92,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body3c"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -27.82768823242187,
+      "bars" : 1,
+      "transitions" : {
+        "gentle_Out2b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body4a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 50,
+          "prevented" : false
+        },
+        "gentle_Body5b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body6a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 30,
+          "prevented" : false
+        },
+        "gentle_Out4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body5c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 599311,
+      "peakValue" : 0.2066733092069626,
+      "priority" : 98,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body4a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -22.09632493591308,
+      "bars" : 4,
+      "transitions" : {
+        "gentle_Out2b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body4a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 50,
+          "prevented" : false
+        },
+        "gentle_Out5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body4b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body5b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out3b" : {
+          "fadeOut" : 60,
+          "fadeIn" : 50,
+          "prevented" : false
+        },
+        "gentle_Out1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body6a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 30,
+          "prevented" : false
+        },
+        "gentle_Body5c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 610096,
+      "peakValue" : 0.426461398601532,
+      "priority" : 97,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body4b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -28.5600242767334,
+      "bars" : 1,
+      "transitions" : {
+        "gentle_Out2b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body5a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out3b" : {
+          "fadeOut" : 1000,
+          "fadeIn" : 0,
+          "prevented" : false
+        },
+        "gentle_Out4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body6a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 30,
+          "prevented" : false
+        },
+        "gentle_Out1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 604640,
+      "peakValue" : 0.2086276710033417,
+      "priority" : 96,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body5a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -24.83747340774536,
+      "bars" : 4,
+      "transitions" : {
+        "gentle_Body5b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body5a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 30,
+          "prevented" : false
+        },
+        "gentle_Out4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 609837,
+      "peakValue" : 0.2362474501132965,
+      "priority" : 95,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body5b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -24.93915893173218,
+      "bars" : 2,
+      "transitions" : {
+        "gentle_Out5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body5c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 298924,
+      "peakValue" : 0.2044716775417328,
+      "priority" : 82,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body5c"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -24.84191514587402,
+      "bars" : 4,
+      "transitions" : {
+        "gentle_Out5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out1" : {
+          "fadeOut" : 50,
+          "fadeIn" : 0,
+          "prevented" : false
+        },
+        "gentle_Out4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body6a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out2b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 610364,
+      "peakValue" : 0.2537742853164673,
+      "priority" : 94,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body6a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -20.47727443313599,
+      "bars" : 4,
+      "transitions" : {
+        "gentle_Out2b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Out4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "gentle_Body7a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 603668,
+      "peakValue" : 0.4335438013076782,
+      "priority" : 99,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body7a"
+    },
+    {
+      "markers" : {
+        "OUTRO_STINGER" : 77155
+      },
+      "beatsPerBar" : 4,
+      "loudness" : -25.81545211410522,
+      "bars" : 1,
+      "sampleCount" : 203562,
+      "peakValue" : 0.2186291217803955,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "gentle_Out1"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -32.0947561416626,
+      "bars" : 1,
+      "peakValue" : 0.1251438558101654,
+      "sampleCount" : 203520,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "gentle_Out2b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -32.49684907531739,
+      "bars" : 1,
+      "peakValue" : 0.07717245817184448,
+      "sampleCount" : 203520,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "gentle_Out3b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -31.47991515731811,
+      "bars" : 1,
+      "peakValue" : 0.1540072709321976,
+      "sampleCount" : 203532,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "gentle_Out4"
+    },
+    {
+      "markers" : {
+        "OUTRO_STINGER" : 20987
+      },
+      "beatsPerBar" : 4,
+      "loudness" : -34.58609201049805,
+      "bars" : 1,
+      "sampleCount" : 203520,
+      "peakValue" : 0.08206871151924133,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "gentle_Out5"
+    }
+  ],
+  "audioEncoderPresetName" : "HE-AAC v1 64",
+  "songName" : "The Moment",
+  "artistName" : "Robert Miller",
+  "uuid" : "19BB0216-E15D-4726-BC0F-565F72C53EED",
+  "crossFadeSegments" : [
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.1057740896940231,
+      "sampleCount" : 1440,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_In3-0-Body3a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -29.69538785552978,
+      "bars" : 1,
+      "peakValue" : 0.0956549346446991,
+      "sampleCount" : 4800,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_In5-0-Body4a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -41.1734161529541,
+      "bars" : 1,
+      "peakValue" : 0.02370363846421242,
+      "sampleCount" : 4800,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_In5-0-Body5a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -27.50192262268066,
+      "bars" : 1,
+      "peakValue" : 0.1254361271858215,
+      "sampleCount" : 12000,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_In5-0-Out2b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -33.08056689834595,
+      "bars" : 1,
+      "peakValue" : 0.08585063368082047,
+      "sampleCount" : 4800,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body1a-0-Body4a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.1362938284873962,
+      "sampleCount" : 2400,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body1a-0-Body4b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -44.47434045410157,
+      "bars" : 1,
+      "peakValue" : 0.0232444703578949,
+      "sampleCount" : 4800,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body1a-0-Body5a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -55.05951024627686,
+      "bars" : 1,
+      "peakValue" : 0.00613382225856185,
+      "sampleCount" : 4800,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body1a-0-Body6a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.2132961601018906,
+      "sampleCount" : 1200,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body1b-0-Body2a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.1368181556463242,
+      "sampleCount" : 1200,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body1b-0-Body2c"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.1133493706583977,
+      "sampleCount" : 1200,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body1b-0-Body3b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.1854126304388046,
+      "sampleCount" : 2400,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body1b-0-Body3c"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.1248704716563225,
+      "sampleCount" : 2400,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body1b-0-Body4b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -44.47434045410157,
+      "bars" : 1,
+      "peakValue" : 0.0232444703578949,
+      "sampleCount" : 4800,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body1b-1-Body5a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -55.05951024627686,
+      "bars" : 1,
+      "peakValue" : 0.00613382225856185,
+      "sampleCount" : 4800,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body1b-1-Body6a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.05008756741881371,
+      "sampleCount" : 1200,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body1b-0-Out4"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.2142864465713501,
+      "sampleCount" : 1200,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body1c-0-Body2a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.1455617696046829,
+      "sampleCount" : 1200,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body1c-0-Body2c"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.1449655145406723,
+      "sampleCount" : 2400,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body1c-0-Body3a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.1185001134872437,
+      "sampleCount" : 2400,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body1c-1-Body3a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -23.14496375656128,
+      "bars" : 1,
+      "peakValue" : 0.162803053855896,
+      "sampleCount" : 7200,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body1c-0-Body3b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -22.5394091758728,
+      "bars" : 1,
+      "peakValue" : 0.1816819906234741,
+      "sampleCount" : 4800,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body1c-0-Body3c"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -33.08056689834595,
+      "bars" : 1,
+      "peakValue" : 0.08585063368082047,
+      "sampleCount" : 4800,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body1c-1-Body4a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.1125523671507835,
+      "sampleCount" : 1200,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body1c-0-Body4b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.01570720598101616,
+      "sampleCount" : 1440,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body1c-1-Body5a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -55.05951024627686,
+      "bars" : 1,
+      "peakValue" : 0.00613382225856185,
+      "sampleCount" : 4800,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body1c-1-Body6a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.1327063143253326,
+      "sampleCount" : 2400,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body1c-0-Body7a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.1038453206419945,
+      "sampleCount" : 2400,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body1c-0-Out4"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -33.08056689834595,
+      "bars" : 1,
+      "peakValue" : 0.08585063368082047,
+      "sampleCount" : 4800,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body2a-1-Body4a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -44.47434045410157,
+      "bars" : 1,
+      "peakValue" : 0.0232444703578949,
+      "sampleCount" : 4800,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body2a-1-Body5a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.003815572010353208,
+      "sampleCount" : 2400,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body2a-1-Body6a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.1023744866251945,
+      "sampleCount" : 2400,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body2a-1-Body7a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.1911327540874481,
+      "sampleCount" : 1200,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body2b-2-Body2a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.1966408640146255,
+      "sampleCount" : 1200,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body2b-3-Body2a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.1013595163822174,
+      "sampleCount" : 1200,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body2b-0-Body2c"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -21.41708232498169,
+      "bars" : 1,
+      "peakValue" : 0.1881207823753357,
+      "sampleCount" : 12000,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body2b-1-Body2c"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.09834431856870651,
+      "sampleCount" : 1200,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body2b-2-Body2c"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -23.06308843231201,
+      "bars" : 1,
+      "peakValue" : 0.1865250915288925,
+      "sampleCount" : 7200,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body2b-0-Body3a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.1434544026851654,
+      "sampleCount" : 4320,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body2b-2-Body3a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.1247205287218094,
+      "sampleCount" : 1200,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body2b-0-Body3b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.1172842085361481,
+      "sampleCount" : 1200,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body2b-2-Body3b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -23.5823688659668,
+      "bars" : 1,
+      "peakValue" : 0.1673250943422318,
+      "sampleCount" : 4800,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body2b-0-Body3c"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -20.50800181961059,
+      "bars" : 1,
+      "peakValue" : 0.3178384900093079,
+      "sampleCount" : 96000,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body2b-1-Body3c"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -23.21912147140503,
+      "bars" : 1,
+      "peakValue" : 0.1687149703502655,
+      "sampleCount" : 4800,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body2b-2-Body3c"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -27.0153556022644,
+      "bars" : 1,
+      "peakValue" : 0.1112382411956787,
+      "sampleCount" : 12000,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body2b-0-Body4a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.0872785896062851,
+      "sampleCount" : 1200,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body2b-2-Body4a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -23.79788257217407,
+      "bars" : 1,
+      "peakValue" : 0.1588707715272903,
+      "sampleCount" : 12000,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body2b-0-Body4b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -22.59440042114258,
+      "bars" : 1,
+      "peakValue" : 0.2642437517642975,
+      "sampleCount" : 24000,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body2b-1-Body4b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.1069015264511108,
+      "sampleCount" : 1200,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body2b-2-Body4b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.1295579820871353,
+      "sampleCount" : 2400,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body2b-2-Out4"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.2170678526163101,
+      "sampleCount" : 2400,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body2c-1-Body2b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -24.8467240486145,
+      "bars" : 1,
+      "peakValue" : 0.1505729407072067,
+      "sampleCount" : 9600,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body2c-0-Body3a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.09795036166906357,
+      "sampleCount" : 1200,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body2c-2-Body3a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -22.89818145370483,
+      "bars" : 1,
+      "peakValue" : 0.1577730625867844,
+      "sampleCount" : 4800,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body2c-2-Body3b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.1418940722942352,
+      "sampleCount" : 1200,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body2c-1-Body3c"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -25.79685069656372,
+      "bars" : 1,
+      "peakValue" : 0.1224233359098434,
+      "sampleCount" : 9600,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body2c-0-Body4a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -26.23225308990478,
+      "bars" : 1,
+      "peakValue" : 0.1175639033317566,
+      "sampleCount" : 7200,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body2c-2-Body4a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -33.08056689834595,
+      "bars" : 1,
+      "peakValue" : 0.08585063368082047,
+      "sampleCount" : 4800,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body2c-3-Body4a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -44.47434045410157,
+      "bars" : 1,
+      "peakValue" : 0.0232444703578949,
+      "sampleCount" : 4800,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body2c-3-Body5a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.01179860252887011,
+      "sampleCount" : 2400,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body3a-1-Body5a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.0909169614315033,
+      "sampleCount" : 1200,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body3a-1-Body5c"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.1807681769132614,
+      "sampleCount" : 2400,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body3a-1-Out1"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.0694875493645668,
+      "sampleCount" : 2400,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body3a-1-Out3b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.01179860252887011,
+      "sampleCount" : 2400,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body3b-1-Body5a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.0694875493645668,
+      "sampleCount" : 2400,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body3b-1-Out3b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.01179860252887011,
+      "sampleCount" : 2400,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body3c-3-Body5a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.003276376985013485,
+      "sampleCount" : 1440,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body4a-0-Body6a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.0694875493645668,
+      "sampleCount" : 2400,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body4a-0-Out3b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.06645487248897552,
+      "sampleCount" : 2400,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body4b-3-Body4a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.003276376985013485,
+      "sampleCount" : 1440,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body4b-3-Body6a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.09007782489061356,
+      "sampleCount" : 2880,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body4b-3-Out3b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.003276376985013485,
+      "sampleCount" : 1440,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body5a-0-Body6a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -31.59740306472778,
+      "bars" : 1,
+      "peakValue" : 0.09366166591644287,
+      "sampleCount" : 48000,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body5a-0-Out3b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.01570720598101616,
+      "sampleCount" : 1440,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body5b-3-Body5a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.1950523108243942,
+      "sampleCount" : 2400,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "gentle_Body6a-3-Out1"
+    }
+  ],
+  "contentVersion" : 2,
+  "sampleRate" : 48000,
+  "audioFileExtension" : "m4a"
+}

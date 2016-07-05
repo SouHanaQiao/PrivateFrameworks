@@ -1,0 +1,9 @@
+// Copyright 2015 Apple Inc. All rights reserved.
+
+option objc_package = "_NMR";
+
+import "NMRSpecializedQueue.proto";
+
+message SpecializedQueueInfoProtobuf {
+    repeated SpecializedQueueProtobuf specializedQueues = 1;
+}

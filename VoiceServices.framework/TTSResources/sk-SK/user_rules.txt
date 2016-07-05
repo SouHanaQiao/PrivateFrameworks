@@ -1,0 +1,10 @@
+[header]
+language = SKS
+
+[data]
+/\bGame Center\b/ --> "\e/+'gEjm_'t&sEn.tEr\e/+"
+/\bYahoo účet\b/ --> "\e/+'ja.hu_'u:.t&SEt\e/+"
+/\balternatívne znaky\b/ --> "\e/+al.tr.na.'ti.vn_E.'zna.ki\e/+"
+/\bYin Yang\b/ --> "\e/+'jInKk_janKk\e/+"
+/\bposunutím prsta\b/ --> "\e/+'po.su.nu.'ci:m_.pr.'sta\e/+"
+

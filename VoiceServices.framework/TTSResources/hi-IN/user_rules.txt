@@ -1,0 +1,8 @@
+[header]
+language = hii
+charset = utf-8
+
+[data]
+/\bUV\b/i   -->   "u v"  #<rdar://problem/17809144>[VoiceOver]: HI: iOS: "UV" in "UV Index in the Weather app is pronounced wrong
+/\bVIP\b/   -->   "v i p"  #<rdar://problem/17810107>[VoiceOver]: HI: iOS: "VIP" pronounced incorrectly
+/\bआइसक्रीम\b/  -->   "\e/+a&Is_'kR+im\e/+"

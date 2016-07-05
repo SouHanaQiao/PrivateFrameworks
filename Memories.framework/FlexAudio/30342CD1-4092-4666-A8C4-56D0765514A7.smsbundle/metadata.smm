@@ -1,0 +1,5189 @@
+{
+  "tagIDs" : [
+    "SongPace_Medium",
+    "Mood_Neutral"
+  ],
+  "mainSegments" : [
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -100,
+      "bars" : 1,
+      "peakValue" : 0.0001331776438746601,
+      "sampleCount" : 8580,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TLH_In0"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -33.11516381835938,
+      "bars" : 1,
+      "transitions" : {
+        "TLH_Body1a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 44308,
+      "peakValue" : 0.09560678899288177,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TLH_In1a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -40.16733266448975,
+      "bars" : 1,
+      "transitions" : {
+        "TLH_Body1a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 22154,
+      "peakValue" : 0.04097041860222816,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TLH_In1b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -62.44241334533692,
+      "bars" : 1,
+      "transitions" : {
+        "TLH_Body1a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 11077,
+      "peakValue" : 0.03852507099509239,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TLH_In1c"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -29.77047778701782,
+      "sliceable" : true,
+      "bars" : 8,
+      "transitions" : {
+        "TLH_Out6a" : [
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : false
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+
+          }
+        ],
+        "TLH_Body5a" : [
+          {
+
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+
+          }
+        ],
+        "TLH_Body3a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1500,
+            "fadeIn" : 1500,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 0,
+            "prevented" : false
+          }
+        ],
+        "TLH_Body1a" : {
+          "fadeOut" : 2000,
+          "fadeIn" : 2000,
+          "prevented" : true
+        },
+        "TLH_Body6a" : [
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1500,
+            "fadeIn" : 1500,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1500,
+            "fadeIn" : 1500,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 1500,
+            "fadeIn" : 1500,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 1500,
+            "fadeIn" : 1500,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 500,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1500,
+            "fadeIn" : 1500,
+            "prevented" : false
+          }
+        ],
+        "TLH_Body4a" : [
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1500,
+            "fadeIn" : 1500,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1500,
+            "fadeIn" : 1500,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1500,
+            "fadeIn" : 1500,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1500,
+            "fadeIn" : 1500,
+            "prevented" : false
+          }
+        ],
+        "TLH_Body2a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1000,
+            "fadeIn" : 0,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ]
+      },
+      "sampleCount" : 708923,
+      "peakValue" : 0.135465681552887,
+      "priority" : 20,
+      "sampleRate" : 48000,
+      "name" : "TLH_Body1a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -26.54677726364136,
+      "sliceable" : true,
+      "bars" : 8,
+      "transitions" : {
+        "TLH_Trans2to9" : [
+          {
+
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 25,
+            "fadeIn" : 25,
+            "prevented" : false
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+
+          }
+        ],
+        "TLH_Out12A7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Trans2to4" : [
+          {
+
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+
+          }
+        ],
+        "TLH_Out2a2" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "TLH_Body6a" : [
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "TLH_Trans2to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "TLH_Trans2to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "TLH_Trans2to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "TLH_Trans2to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "TLH_Trans2to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "TLH_Trans2to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "TLH_Trans2to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "TLH_Trans2to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          }
+        ],
+        "TLH_Body4b" : [
+          {
+            "fadeOut" : 1800,
+            "fadeIn" : 1800,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1800,
+            "fadeIn" : 1800,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1800,
+            "fadeIn" : 1800,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1800,
+            "fadeIn" : 1800,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "TLH_Out12A6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out6a" : {
+          "fadeOut" : 2000,
+          "fadeIn" : 2000,
+          "prevented" : true
+        },
+        "TLH_Trans2to7" : [
+          {
+            "fadeOut" : 1840,
+            "fadeIn" : 1840,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 1840,
+            "fadeIn" : 1840,
+            "prevented" : false
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+
+          }
+        ],
+        "TLH_Body2a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a7" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "TLH_Body13a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Body7a" : [
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "TLH_Trans2to7",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "TLH_Trans2to7",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "TLH_Trans2to7",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "TLH_Trans2to7",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "TLH_Trans2to7",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "TLH_Trans2to7",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "TLH_Trans2to7",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "TLH_Trans2to7",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          }
+        ],
+        "TLH_Body5b" : [
+          {
+
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+
+          }
+        ],
+        "TLH_Out4a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a5" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "TLH_Out12A4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out13a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Body3a" : [
+          {
+            "fadeOut" : 1000,
+            "fadeIn" : 1000,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : false
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 1000,
+            "fadeIn" : 1000,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "TLH_Body12a" : [
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "TLH_Trans2to12",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "TLH_Trans2to12",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "TLH_Trans2to12",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "TLH_Trans2to12",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "TLH_Trans2to12",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "TLH_Trans2to12",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "TLH_Trans2to12",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "TLH_Trans2to12",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          }
+        ],
+        "TLH_Trans2to12" : [
+          {
+            "fadeOut" : 1800,
+            "fadeIn" : 1800,
+            "prevented" : false
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 1250,
+            "fadeIn" : 1250,
+            "prevented" : false
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+
+          }
+        ],
+        "TLH_Body8a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 75,
+            "fadeIn" : 0,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 75,
+            "fadeIn" : 0,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "TLH_Out2a3" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "TLH_Out12A3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out13a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a1" : [
+          {
+            "fadeOut" : 25,
+            "fadeIn" : 25,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "TLH_Body11a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1500,
+            "fadeIn" : 1500,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 1250,
+            "prevented" : true
+          }
+        ],
+        "TLH_Body2b" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1500,
+            "fadeIn" : 1500,
+            "prevented" : false
+          },
+          {
+
+          },
+          {
+
+          }
+        ],
+        "TLH_Out2a8" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "TLH_Out12A2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Body9a" : [
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "TLH_Trans2to9",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "TLH_Trans2to9",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "TLH_Trans2to9",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "TLH_Trans2to9",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "TLH_Trans2to9",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "TLH_Trans2to9",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "TLH_Trans2to9",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "TLH_Trans2to9",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          }
+        ],
+        "TLH_Body4a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1800,
+            "fadeIn" : 1800,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1800,
+            "fadeIn" : 1800,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1800,
+            "fadeIn" : 1800,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 1800,
+            "fadeIn" : 1800,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 25,
+            "fadeIn" : 25,
+            "prevented" : false
+          }
+        ],
+        "TLH_Body5c" : [
+          {
+
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+
+          }
+        ],
+        "TLH_Out13a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a6" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "TLH_Out12A1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Body10a" : [
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "TLH_Body5a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1500,
+            "fadeIn" : 1500,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1500,
+            "fadeIn" : 1500,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 1000,
+            "fadeIn" : 1000,
+            "prevented" : true
+          }
+        ],
+        "TLH_Out13a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a4" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ]
+      },
+      "sampleCount" : 708923,
+      "peakValue" : 0.2433796972036362,
+      "priority" : 65,
+      "sampleRate" : 48000,
+      "name" : "TLH_Body2a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -25.629485622406,
+      "sliceable" : true,
+      "bars" : 8,
+      "transitions" : {
+        "TLH_Out2a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Body9a" : {
+          "prevented" : false,
+          "transitionSegmentName" : "TLH_Trans2to9",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TLH_Out13a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out4a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Body3a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1000,
+            "fadeIn" : 1000,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 1000,
+            "fadeIn" : 1000,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 25,
+            "fadeIn" : 25,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 1250,
+            "fadeIn" : 1250,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "TLH_Out2a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Body2a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 75,
+            "fadeIn" : 0,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 75,
+            "fadeIn" : 0,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 75,
+            "fadeIn" : 75,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "TLH_Body4b" : [
+          {
+            "fadeOut" : 1800,
+            "fadeIn" : 1800,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "TLH_Out2a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Body6a" : {
+          "prevented" : false,
+          "transitionSegmentName" : "TLH_Trans2to6",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TLH_Out13a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out13a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out13a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Body12a" : {
+          "prevented" : false,
+          "transitionSegmentName" : "TLH_Trans2to12",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TLH_Body4a" : [
+          {
+            "fadeOut" : 1000,
+            "fadeIn" : 25,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 1800,
+            "fadeIn" : 1800,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 75,
+            "fadeIn" : 25,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1800,
+            "fadeIn" : 1800,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 1000,
+            "fadeIn" : 25,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1800,
+            "fadeIn" : 1800,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 1800,
+            "fadeIn" : 1800,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "TLH_Out2a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out6a" : [
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "TLH_Body7a" : {
+          "prevented" : true,
+          "transitionSegmentName" : "TLH_Trans2to7",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TLH_Out2a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 708923,
+      "peakValue" : 0.2498755902051926,
+      "priority" : 21,
+      "sampleRate" : 48000,
+      "name" : "TLH_Body2b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -25.33968068695068,
+      "sliceable" : true,
+      "bars" : 8,
+      "transitions" : {
+        "TLH_Body8a" : [
+          {
+
+          },
+          {
+            "fadeOut" : 1800,
+            "fadeIn" : 1800,
+            "prevented" : false
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+
+          }
+        ],
+        "TLH_Body10a" : [
+          {
+
+          },
+          {
+            "fadeOut" : 1800,
+            "fadeIn" : 1800,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 1800,
+            "fadeIn" : 1800,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 1800,
+            "fadeIn" : 1800,
+            "prevented" : false
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 1800,
+            "fadeIn" : 1800,
+            "prevented" : false
+          },
+          {
+
+          },
+          {
+
+          }
+        ],
+        "TLH_Out12A7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out4a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Body3a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1000,
+            "fadeIn" : 1000,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1500,
+            "fadeIn" : 1500,
+            "prevented" : false
+          },
+          {
+
+          },
+          {
+
+          }
+        ],
+        "TLH_Out2a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Body4b" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 25,
+            "fadeIn" : 25,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "TLH_Out2a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Body7a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out13a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out13a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Body6a" : [
+          {
+            "fadeOut" : 1500,
+            "fadeIn" : 1500,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 1500,
+            "fadeIn" : 1500,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 1000,
+            "fadeIn" : 1000,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1500,
+            "fadeIn" : 1500,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1500,
+            "fadeIn" : 1500,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 75,
+            "fadeIn" : 25,
+            "prevented" : false
+          }
+        ],
+        "TLH_Body4a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1800,
+            "fadeIn" : 1800,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1800,
+            "fadeIn" : 1800,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1000,
+            "fadeIn" : 1000,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 1000,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "TLH_Out2a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out13a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Body5a" : [
+          {
+
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+
+          }
+        ],
+        "TLH_Out13a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 708923,
+      "peakValue" : 0.2574785351753235,
+      "priority" : 50,
+      "sampleRate" : 48000,
+      "name" : "TLH_Body3a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -27.87315227127075,
+      "sliceable" : true,
+      "bars" : 1,
+      "transitions" : {
+        "TLH_Body10a" : {
+          "fadeOut" : 1500,
+          "fadeIn" : 1500,
+          "prevented" : false
+        },
+        "TLH_Out12A7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out4a" : [
+          {
+            "fadeOut" : 25,
+            "fadeIn" : 25,
+            "prevented" : false
+          }
+        ],
+        "TLH_Out2a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Body6a" : {
+          "fadeOut" : 1000,
+          "fadeIn" : 1000,
+          "prevented" : false
+        },
+        "TLH_Out2a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out13a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out13a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Body7a" : {
+          "fadeOut" : 1500,
+          "fadeIn" : 1500,
+          "prevented" : true
+        },
+        "TLH_Out2a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out6a" : {
+          "fadeOut" : 1500,
+          "fadeIn" : 1500,
+          "prevented" : true
+        },
+        "TLH_Body9a" : {
+          "prevented" : false,
+          "transitionSegmentName" : "TLH_Trans4to9",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TLH_Body12a" : {
+          "fadeOut" : 1750,
+          "fadeIn" : 1750,
+          "prevented" : false
+        },
+        "TLH_Body11a" : {
+          "fadeOut" : 1500,
+          "fadeIn" : 1500,
+          "prevented" : false
+        },
+        "TLH_Out2a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out13a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out13a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 88615,
+      "peakValue" : 0.1894392669200897,
+      "priority" : 39,
+      "sampleRate" : 48000,
+      "name" : "TLH_Body4a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -25.96211053466797,
+      "sliceable" : true,
+      "bars" : 6,
+      "transitions" : {
+        "TLH_Out2a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out13a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Body10a" : [
+          {
+            "fadeOut" : 1840,
+            "fadeIn" : 1840,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "TLH_Out12A7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Trans4to9" : [
+          {
+            "fadeOut" : 1800,
+            "fadeIn" : 1800,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 1798,
+            "fadeIn" : 1798,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 1799,
+            "fadeIn" : 1799,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 1000,
+            "fadeIn" : 1000,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 1802,
+            "fadeIn" : 1802,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 1803,
+            "fadeIn" : 1803,
+            "prevented" : false
+          }
+        ],
+        "TLH_Out12A3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out4a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Body12a" : [
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 1500,
+            "fadeIn" : 1500,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 500,
+            "fadeIn" : 25,
+            "prevented" : false
+          }
+        ],
+        "TLH_Body9a" : [
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "TLH_Trans4to9",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "TLH_Trans4to9",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "TLH_Trans4to9",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "TLH_Trans4to9",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "TLH_Trans4to9",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "TLH_Trans4to9",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          }
+        ],
+        "TLH_Out2a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Body4b" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "TLH_Out2a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Body7a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1500,
+            "fadeIn" : 1500,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1500,
+            "fadeIn" : 1500,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1000,
+            "fadeIn" : 1000,
+            "prevented" : true
+          }
+        ],
+        "TLH_Out2a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out13a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out13a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Body4a" : [
+          {
+            "fadeOut" : 75,
+            "fadeIn" : 75,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 25,
+            "fadeIn" : 25,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 1500,
+            "fadeIn" : 1500,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 1500,
+            "fadeIn" : 1500,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 1500,
+            "fadeIn" : 1500,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 1500,
+            "fadeIn" : 1500,
+            "prevented" : false
+          }
+        ],
+        "TLH_Body11a" : [
+          {
+            "fadeOut" : 1000,
+            "fadeIn" : 1000,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 1000,
+            "fadeIn" : 1000,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1000,
+            "fadeIn" : 1000,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "TLH_Body8a" : [
+          {
+            "fadeOut" : 1840,
+            "fadeIn" : 1840,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 1840,
+            "fadeIn" : 1840,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 1840,
+            "fadeIn" : 1840,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 1840,
+            "fadeIn" : 1840,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 1840,
+            "fadeIn" : 1840,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 1840,
+            "fadeIn" : 1840,
+            "prevented" : false
+          }
+        ],
+        "TLH_Body5a" : [
+          {
+            "fadeOut" : 700,
+            "fadeIn" : 100,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 1800,
+            "fadeIn" : 1800,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 75,
+            "fadeIn" : 75,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 1800,
+            "fadeIn" : 1800,
+            "prevented" : false
+          },
+          {
+
+          }
+        ],
+        "TLH_Out13a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 531693,
+      "peakValue" : 0.2493794113397598,
+      "priority" : 39,
+      "sampleRate" : 48000,
+      "name" : "TLH_Body4b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -25.51773406600952,
+      "bars" : 1,
+      "transitions" : {
+        "TLH_Body10a" : {
+          "fadeOut" : 1840,
+          "fadeIn" : 1840,
+          "prevented" : true
+        },
+        "TLH_Out12A7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out4a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out13a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out13a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out13a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out13a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Body12a" : {
+          "prevented" : false,
+          "transitionSegmentName" : "TLH_Trans5to12",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TLH_Out2a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Body9a" : {
+          "fadeOut" : 2000,
+          "fadeIn" : 2000,
+          "prevented" : true
+        },
+        "TLH_Body8a" : {
+          "fadeOut" : 1000,
+          "fadeIn" : 1000,
+          "prevented" : false
+        },
+        "TLH_Out2a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Body7a" : {
+          "fadeOut" : 1000,
+          "fadeIn" : 1000,
+          "prevented" : true
+        },
+        "TLH_Body5a" : {
+          "fadeOut" : 75,
+          "fadeIn" : 75,
+          "prevented" : true
+        },
+        "TLH_Out2a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 88615,
+      "peakValue" : 0.2683957815170288,
+      "priority" : 49,
+      "sampleRate" : 48000,
+      "name" : "TLH_Body5a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -23.00668098068237,
+      "sliceable" : true,
+      "bars" : 1,
+      "transitions" : {
+        "TLH_Body10a" : {
+          "fadeOut" : 2000,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out4a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Body6a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Body9a" : {
+          "prevented" : true,
+          "transitionSegmentName" : "TLH_Trans6to9",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TLH_Out2a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Body12a" : {
+          "prevented" : false,
+          "transitionSegmentName" : "TLH_Trans6to12",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TLH_Out2a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out6a" : {
+          "fadeOut" : 1500,
+          "fadeIn" : 1500,
+          "prevented" : false
+        },
+        "TLH_Out2a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out13a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out13a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out13a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out13a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Body8a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 88615,
+      "peakValue" : 0.2793565392494202,
+      "priority" : 50,
+      "sampleRate" : 48000,
+      "name" : "TLH_Body6a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -20.79132415390015,
+      "sliceable" : true,
+      "bars" : 15,
+      "transitions" : {
+        "TLH_Body10a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1000,
+            "fadeIn" : 1000,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "TLH_Out12A7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Trans7to9" : [
+          {
+
+          },
+          {
+            "fadeOut" : 1845,
+            "fadeIn" : 1845,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 1845,
+            "fadeIn" : 1845,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 25,
+            "fadeIn" : 25,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 1845,
+            "fadeIn" : 1845,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 1845,
+            "fadeIn" : 1845,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 1845,
+            "fadeIn" : 1845,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 25,
+            "fadeIn" : 25,
+            "prevented" : false
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 1840,
+            "fadeIn" : 1840,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 1800,
+            "fadeIn" : 1800,
+            "prevented" : false
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 1500,
+            "fadeIn" : 1500,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 75,
+            "fadeIn" : 75,
+            "prevented" : false
+          },
+          {
+
+          }
+        ],
+        "TLH_Out4a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Body7a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 75,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 75,
+            "fadeIn" : 75,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1000,
+            "fadeIn" : 1000,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1000,
+            "fadeIn" : 1000,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 75,
+            "fadeIn" : 75,
+            "prevented" : false
+          }
+        ],
+        "TLH_Out13a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out13a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out13a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Body9a" : [
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "TLH_Trans7to9",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "TLH_Trans7to9",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "TLH_Trans7to9",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "TLH_Trans7to9",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "TLH_Trans7to9",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "TLH_Trans7to9",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "TLH_Trans7to9",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "TLH_Trans7to9",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "TLH_Trans7to9",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "TLH_Trans7to9",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "TLH_Trans7to9",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "TLH_Trans7to9",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "TLH_Trans7to9",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "TLH_Trans7to9",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "TLH_Trans7to9",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          }
+        ],
+        "TLH_Body12a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 25,
+            "fadeIn" : 75,
+            "prevented" : true
+          }
+        ],
+        "TLH_Out2a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Body11a" : [
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1500,
+            "fadeIn" : 1500,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 1800,
+            "fadeIn" : 1800,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1800,
+            "fadeIn" : 1800,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : true
+          }
+        ],
+        "TLH_Out13a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Body8a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1800,
+            "fadeIn" : 1800,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1800,
+            "fadeIn" : 1800,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1800,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1800,
+            "fadeIn" : 1800,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1800,
+            "fadeIn" : 1800,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1800,
+            "fadeIn" : 1800,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "TLH_Out2a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 1329231,
+      "peakValue" : 0.4433115720748901,
+      "priority" : 51,
+      "sampleRate" : 48000,
+      "name" : "TLH_Body7a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -24.08123113250732,
+      "bars" : 1,
+      "transitions" : {
+        "TLH_Body10a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out4a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out13a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out13a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out13a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Body8a" : {
+          "fadeOut" : 1500,
+          "fadeIn" : 1500,
+          "prevented" : true
+        },
+        "TLH_Out2a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out13a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Body12a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Body11a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 88615,
+      "peakValue" : 0.2620416879653931,
+      "priority" : 52,
+      "sampleRate" : 48000,
+      "name" : "TLH_Body8a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -25.0008783493042,
+      "sliceable" : true,
+      "bars" : 6,
+      "transitions" : {
+        "TLH_Body10a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 25,
+            "fadeIn" : 25,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 250,
+            "fadeIn" : 250,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "TLH_Out12A7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out4a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out13a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out13a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out13a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out13a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Body12a" : [
+          {
+            "fadeOut" : 1800,
+            "fadeIn" : 1800,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1800,
+            "fadeIn" : 1800,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 1800,
+            "fadeIn" : 1800,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1800,
+            "fadeIn" : 1800,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1800,
+            "fadeIn" : 1800,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 1800,
+            "fadeIn" : 1800,
+            "prevented" : true
+          }
+        ],
+        "TLH_Out2a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Body11a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1500,
+            "fadeIn" : 1500,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 1800,
+            "fadeIn" : 1800,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1000,
+            "fadeIn" : 1000,
+            "prevented" : false
+          }
+        ],
+        "TLH_Out2a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Body9a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 400,
+            "fadeIn" : 400,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 500,
+            "fadeIn" : 500,
+            "prevented" : true
+          }
+        ]
+      },
+      "sampleCount" : 531693,
+      "peakValue" : 0.2734872698783875,
+      "priority" : 53,
+      "sampleRate" : 48000,
+      "name" : "TLH_Body9a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -24.19245578384399,
+      "sliceable" : true,
+      "bars" : 1,
+      "transitions" : {
+        "TLH_Body10a" : {
+          "fadeOut" : 1500,
+          "fadeIn" : 1500,
+          "prevented" : true
+        },
+        "TLH_Out12A7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out4a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out13a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out13a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out13a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out13a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Body12a" : [
+          {
+            "fadeOut" : 1800,
+            "fadeIn" : 100,
+            "prevented" : true
+          }
+        ]
+      },
+      "sampleCount" : 88615,
+      "peakValue" : 0.2834075689315796,
+      "priority" : 54,
+      "sampleRate" : 48000,
+      "name" : "TLH_Body10a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -20.45198299026489,
+      "sliceable" : true,
+      "bars" : 1,
+      "transitions" : {
+        "TLH_Out12A7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out4a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out13a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out13a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out13a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out13a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Body11a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 88616,
+      "peakValue" : 0.3757760524749756,
+      "priority" : 55,
+      "sampleRate" : 48000,
+      "name" : "TLH_Body11a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -21.99596978759766,
+      "sliceable" : true,
+      "bars" : 7,
+      "transitions" : {
+        "TLH_Out12A7" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 25,
+            "fadeIn" : 25,
+            "prevented" : false
+          }
+        ],
+        "TLH_Out12A6" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 25,
+            "fadeIn" : 25,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "TLH_Out12A5" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 25,
+            "fadeIn" : 25,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "TLH_Out12A4" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "TLH_Out12A3" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 25,
+            "fadeIn" : 25,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "TLH_Out12A2" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 25,
+            "fadeIn" : 25,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "TLH_Out12A1" : [
+          {
+            "fadeOut" : 25,
+            "fadeIn" : 25,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "TLH_Body13a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "TLH_Out4a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out13a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out13a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Body12a" : [
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1500,
+            "fadeIn" : 1500,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 2000,
+            "fadeIn" : 2000,
+            "prevented" : false
+          },
+          {
+
+          }
+        ],
+        "TLH_Out2a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out13a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out13a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out6a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 620307,
+      "peakValue" : 0.3887359201908112,
+      "priority" : 64,
+      "sampleRate" : 48000,
+      "name" : "TLH_Body12a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -25.61631299591064,
+      "sliceable" : true,
+      "bars" : 4,
+      "transitions" : {
+        "TLH_Out12A7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out12A1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out4a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out13a3" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "TLH_Out13a2" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "TLH_Out13a4" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "TLH_Out2a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out6a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out2a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TLH_Out13a1" : [
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ]
+      },
+      "sampleCount" : 354462,
+      "peakValue" : 0.2528382241725922,
+      "priority" : 49,
+      "sampleRate" : 48000,
+      "name" : "TLH_Body13a"
+    },
+    {
+      "markers" : {
+        "OUTRO_STINGER" : 88640
+      },
+      "beatsPerBar" : 4,
+      "loudness" : -27.87207938766479,
+      "bars" : 1,
+      "sampleCount" : 221538,
+      "peakValue" : 0.1962761282920837,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TLH_Out2a1"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -28.38337041473389,
+      "bars" : 1,
+      "peakValue" : 0.2215011119842529,
+      "sampleCount" : 221538,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TLH_Out2a2"
+    },
+    {
+      "markers" : {
+        "OUTRO_STINGER" : 88515
+      },
+      "beatsPerBar" : 4,
+      "loudness" : -26.79320432281494,
+      "bars" : 1,
+      "sampleCount" : 221538,
+      "peakValue" : 0.2534374892711639,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TLH_Out2a3"
+    },
+    {
+      "markers" : {
+        "OUTRO_STINGER" : 89192
+      },
+      "beatsPerBar" : 4,
+      "loudness" : -25.18458701705933,
+      "bars" : 1,
+      "sampleCount" : 221538,
+      "peakValue" : 0.2465045005083084,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TLH_Out2a4"
+    },
+    {
+      "markers" : {
+        "OUTRO_STINGER" : 88390
+      },
+      "beatsPerBar" : 4,
+      "loudness" : -25.58641292190552,
+      "bars" : 1,
+      "sampleCount" : 221538,
+      "peakValue" : 0.2511908113956451,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TLH_Out2a5"
+    },
+    {
+      "markers" : {
+        "OUTRO_STINGER" : 88633
+      },
+      "beatsPerBar" : 4,
+      "loudness" : -25.54705478286743,
+      "bars" : 1,
+      "sampleCount" : 221538,
+      "peakValue" : 0.2449002265930176,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TLH_Out2a6"
+    },
+    {
+      "markers" : {
+        "OUTRO_STINGER" : 88507
+      },
+      "beatsPerBar" : 4,
+      "loudness" : -25.91559983825683,
+      "bars" : 1,
+      "sampleCount" : 221539,
+      "peakValue" : 0.2679795920848846,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TLH_Out2a7"
+    },
+    {
+      "markers" : {
+        "OUTRO_STINGER" : 88193
+      },
+      "beatsPerBar" : 4,
+      "loudness" : -25.39454080200195,
+      "bars" : 1,
+      "sampleCount" : 221539,
+      "peakValue" : 0.24299256503582,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TLH_Out2a8"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -34.14965249633789,
+      "bars" : 1,
+      "peakValue" : 0.1832451373338699,
+      "sampleCount" : 221539,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TLH_Out4a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -52.06122018432617,
+      "bars" : 1,
+      "peakValue" : 0.04879947751760483,
+      "sampleCount" : 221539,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TLH_Out6a"
+    },
+    {
+      "markers" : {
+        "OUTRO_STINGER" : 88254
+      },
+      "beatsPerBar" : 4,
+      "loudness" : -24.81751062011719,
+      "bars" : 1,
+      "sampleCount" : 221538,
+      "peakValue" : 0.3890796899795532,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TLH_Out12A1"
+    },
+    {
+      "markers" : {
+        "OUTRO_STINGER" : 88961
+      },
+      "beatsPerBar" : 4,
+      "loudness" : -24.47962142562866,
+      "bars" : 1,
+      "sampleCount" : 221539,
+      "peakValue" : 0.2461369037628174,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TLH_Out12A2"
+    },
+    {
+      "markers" : {
+        "OUTRO_STINGER" : 87932
+      },
+      "beatsPerBar" : 4,
+      "loudness" : -23.34956266021728,
+      "bars" : 1,
+      "sampleCount" : 221539,
+      "peakValue" : 0.3237907290458679,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TLH_Out12A3"
+    },
+    {
+      "markers" : {
+        "OUTRO_STINGER" : 88125
+      },
+      "beatsPerBar" : 4,
+      "loudness" : -24.34784032440185,
+      "bars" : 1,
+      "sampleCount" : 221538,
+      "peakValue" : 0.3523052334785461,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TLH_Out12A4"
+    },
+    {
+      "markers" : {
+        "OUTRO_STINGER" : 87734
+      },
+      "beatsPerBar" : 4,
+      "loudness" : -24.80604030227661,
+      "bars" : 1,
+      "sampleCount" : 221539,
+      "peakValue" : 0.2967827022075653,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TLH_Out12A5"
+    },
+    {
+      "markers" : {
+        "OUTRO_STINGER" : 88141
+      },
+      "beatsPerBar" : 4,
+      "loudness" : -23.95091153717041,
+      "bars" : 1,
+      "sampleCount" : 221539,
+      "peakValue" : 0.3095404505729675,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TLH_Out12A6"
+    },
+    {
+      "markers" : {
+        "OUTRO_STINGER" : 88274
+      },
+      "beatsPerBar" : 4,
+      "loudness" : -24.52571250534058,
+      "bars" : 1,
+      "sampleCount" : 221538,
+      "peakValue" : 0.3019018471240997,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TLH_Out12A7"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -25.13676740264892,
+      "bars" : 1,
+      "peakValue" : 0.3026546835899353,
+      "sampleCount" : 221539,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TLH_Out13a1"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -25.00479795074463,
+      "bars" : 1,
+      "peakValue" : 0.2521404325962067,
+      "sampleCount" : 221538,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TLH_Out13a2"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -27.79459811782837,
+      "bars" : 1,
+      "peakValue" : 0.1646042764186859,
+      "sampleCount" : 221539,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TLH_Out13a3"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -26.13866187667847,
+      "bars" : 1,
+      "peakValue" : 0.2741843461990356,
+      "sampleCount" : 221538,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TLH_Out13a4"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -22.0500407371521,
+      "bars" : 1,
+      "peakValue" : 0.2855154573917389,
+      "sampleCount" : 88615,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TLH_Trans2to6"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -24.41674090957641,
+      "bars" : 1,
+      "peakValue" : 0.2272073775529861,
+      "sampleCount" : 88616,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TLH_Trans2to7"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -25.22114373779297,
+      "bars" : 1,
+      "peakValue" : 0.2658928334712982,
+      "sampleCount" : 88616,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TLH_Trans2to9"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -22.0500407371521,
+      "bars" : 1,
+      "peakValue" : 0.2855154573917389,
+      "sampleCount" : 88615,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TLH_Trans2to12"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -26.90669871902466,
+      "bars" : 1,
+      "peakValue" : 0.2085214406251907,
+      "sampleCount" : 88615,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TLH_Trans4to9"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -22.0500407371521,
+      "bars" : 1,
+      "peakValue" : 0.2855154573917389,
+      "sampleCount" : 88615,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TLH_Trans5to12"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -24.38103057479858,
+      "bars" : 1,
+      "peakValue" : 0.2705117464065552,
+      "sampleCount" : 88615,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TLH_Trans6to9"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -21.8654213104248,
+      "bars" : 1,
+      "peakValue" : 0.3273451626300812,
+      "sampleCount" : 88616,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TLH_Trans6to12"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -22.0500407371521,
+      "bars" : 1,
+      "peakValue" : 0.2855154573917389,
+      "sampleCount" : 88615,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TLH_Trans7to9"
+    }
+  ],
+  "audioEncoderPresetName" : "HE-AAC v1 64",
+  "songName" : "Forward",
+  "artistName" : "Taylor Lipari-Hassett",
+  "uuid" : "30342CD1-4092-4666-A8C4-56D0765514A7",
+  "contentVersion" : 1,
+  "compatibilityVersion" : 1,
+  "sampleRate" : 48000,
+  "audioFileExtension" : "m4a"
+}

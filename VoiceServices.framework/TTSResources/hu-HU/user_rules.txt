@@ -1,0 +1,16 @@
+[header]
+language = HUH
+
+[data]
+/\bApple ID-t\b/ --> "\e/+'E.pe+l__'a:j.'di:t\e/+"
+/\bApple ID-hoz\b/ --> "\e/+'E.pe+l__'a:j.'di:.hoz\e/+"
+/\bCaller ID\b/ --> "\e/+'ko.le+r_'a:j.'di:\e/+"
+/\bNike\+iPod\b/ --> " Nike plaz iPod "
+/\bGame Center\b/ --> " GameCenter "
+/\bHozzáférh\.\b/ --> " Hozzáférhetőség "
+/\biTunes U\b/ --> "\e/+'a:jcu:nz_'ju:\e/+"
+/\bKijel\. kimondása\b/ --> " kijelzés kimondása "
+/\bNew Orleans\b/ --> "\e/+n~u:_or.'li:ns\e/+"
+/\bLED-vill\. a jelzésekhez\b/ --> " LED villogtatás a jelzésekhez"
+/\bSans Serif\b/ --> "\e/+sAn_sE.rif\e/+"
+/\bTouch ID\b/ --> "\e/+ta:t&S_'a:j.'di:\e/+"

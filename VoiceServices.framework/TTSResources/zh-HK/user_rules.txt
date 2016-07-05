@@ -1,0 +1,48 @@
+[header]
+language = CAH
+
+[data]
+#
+# Siri Additions
+#
+/(\d{4})年(\d{1,2})月(\d{1,2})日下午(\d{1,2})時(\d{2})分/ --> "$1 年$2月$3日/+#/+下午 $4時$5分"
+/(\d{4})年(\d{1,2})月(\d{1,2})日下午(\d{1,2})\:(\d{2})/ --> "$1 年$2月$3日/+#/+下午 $4:$5"
+/\bApp\b/ --> " ahpp "
+/\bapple\b/ --> " apole "
+/\bApple\b/ --> " apole "
+/\bMac\b/ --> " mahk "
+/\bmac\b/ --> " mahk "
+/\bNike\+iPod\b/ --> " Naiki plus iPawd "
+/\biPod\b/ --> "iPawd "
+/\bipod\b/ --> "iPawd "
+/\bPIN\b/ --> " pihn "
+/\bSIM\b/ --> " sihm "
+
+# radar 16027660
+/\bOS X\b/ --> " OS ten "
+
+# Re-adding rules which were previously merged here as vendor-provided,
+# but are still not working with the base vendor voice. We should request
+# Nashville to fix these in the custom languages
+/\bWI-FI\b/ --> " wyfye "
+/\bWi-Fi\b/ --> " wyfye "
+/\bwi-fi\b/ --> " wyfye "
+/\bWiFi\b/ --> " wyfye "
+/\bwifi\b/ --> " wyfye "
+/\byoutube\b/ --> " you-tube "
+/\biCloud\b/ --> " i cloud "
+/\bitunes\b/ --> " eye-tunes "
+/\biOS\b/ --> " I O S "
+/\biMessage\b/ --> " i message "
+/\bNike\+iPod\b/ --> " nike 加 ipod "
+/\biBooks\b/ --> " i buks "
+/\bPowerSong\b/ --> " powl song "
+/\bSafari\b/ --> " sarfari "
+/\bVoiceOver\b/ --> " vois-over "
+/\bMobileMe\b/ --> " mobile meee "
+/\bGoogle\b/ --> " googlel "
+/\bAudible\b/ --> " Auedeble "
+/\bApp\b/ --> " appp "
+/\bJava\b/ --> " jaar whar "
+/\bApple ID\b/ --> " Apple-ID "
+/\bSiri\b/ --> " see-ree "

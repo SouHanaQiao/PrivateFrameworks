@@ -1,0 +1,1492 @@
+{
+  "tagIDs" : [
+    "Mood_Epic",
+    "SongPace_Medium"
+  ],
+  "mainSegments" : [
+    {
+      "beatsPerBar" : 1,
+      "loudness" : -30.66718675231933,
+      "bars" : 1,
+      "transitions" : {
+        "kingd_Body7a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 72470,
+      "peakValue" : 0.2311007976531982,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "kingd_In0"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -19.71268750762939,
+      "sliceable" : true,
+      "bars" : 4,
+      "transitions" : {
+        "kingd_Body1a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "kingd_Body3a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1000,
+            "fadeIn" : 75,
+            "prevented" : false
+          }
+        ],
+        "kingd_Body5a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1000,
+            "fadeIn" : 75,
+            "prevented" : false
+          }
+        ],
+        "kingd_Body1b" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "kingd_Body7a" : [
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "kingd_Trans1to7",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "kingd_Trans1to7",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "kingd_Trans1to7",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "kingd_Trans1to7",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          }
+        ],
+        "kingd_Body9a" : [
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "kingd_Trans1to9",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "kingd_Trans1to9",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "kingd_Trans1to9",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "kingd_Trans1to9",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          }
+        ],
+        "kingd_Body10a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "kingd_Body2a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "kingd_Body4a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1000,
+            "fadeIn" : 75,
+            "prevented" : false
+          }
+        ],
+        "kingd_Body6a" : [
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "kingd_Trans1to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "kingd_Trans1to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "kingd_Trans1to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "kingd_Trans1to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          }
+        ],
+        "kingd_Body8a" : [
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "kingd_Trans1to8",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "kingd_Trans1to8",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "kingd_Trans1to8",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "kingd_Trans1to8",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          }
+        ],
+        "kingd_Body4b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "kingd_Out0" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 590467,
+      "peakValue" : 0.4797747135162354,
+      "priority" : 80,
+      "sampleRate" : 48000,
+      "name" : "kingd_Body1a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -19.49568130111694,
+      "sliceable" : true,
+      "bars" : 4,
+      "transitions" : {
+        "kingd_Body1a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "kingd_Body3a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1000,
+            "fadeIn" : 75,
+            "prevented" : false
+          }
+        ],
+        "kingd_Body5a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1000,
+            "fadeIn" : 75,
+            "prevented" : false
+          }
+        ],
+        "kingd_Body1b" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "kingd_Body7a" : [
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "kingd_Trans1to7",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "kingd_Trans1to7",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "kingd_Trans1to7",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "kingd_Trans1to7",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          }
+        ],
+        "kingd_Body9a" : [
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "kingd_Trans1to9",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "kingd_Trans1to9",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "kingd_Trans1to9",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "kingd_Trans1to9",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          }
+        ],
+        "kingd_Body10a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "kingd_Body2a" : [
+          {
+            "fadeOut" : 300,
+            "fadeIn" : 200,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 1500,
+            "fadeIn" : 200,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 300,
+            "fadeIn" : 50,
+            "prevented" : false
+          },
+          {
+
+          }
+        ],
+        "kingd_Body4a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1000,
+            "fadeIn" : 75,
+            "prevented" : false
+          }
+        ],
+        "kingd_Body6a" : [
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "kingd_Trans1to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "kingd_Trans1to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "kingd_Trans1to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "kingd_Trans1to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          }
+        ],
+        "kingd_Body8a" : [
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "kingd_Trans1to8",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "kingd_Trans1to8",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "kingd_Trans1to8",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "kingd_Trans1to8",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          }
+        ],
+        "kingd_Body4b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "kingd_Out0" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 590693,
+      "peakValue" : 0.4662067294120789,
+      "priority" : 25,
+      "sampleRate" : 48000,
+      "name" : "kingd_Body1b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -19.50521566009521,
+      "sliceable" : true,
+      "bars" : 4,
+      "transitions" : {
+        "kingd_Body8a" : {
+          "prevented" : true,
+          "transitionSegmentName" : "kingd_Trans2to8",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "kingd_Body3a" : {
+          "fadeOut" : 500,
+          "fadeIn" : 75,
+          "prevented" : false
+        },
+        "kingd_Body7a" : {
+          "prevented" : true,
+          "transitionSegmentName" : "kingd_Trans2to7",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "kingd_Body9a" : {
+          "prevented" : true,
+          "transitionSegmentName" : "kingd_Trans2to9",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "kingd_Body10a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "kingd_Out0" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "kingd_Body6a" : [
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "kingd_Trans2to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "kingd_Trans2to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "kingd_Trans2to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "kingd_Trans2to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          }
+        ]
+      },
+      "sampleCount" : 590053,
+      "peakValue" : 0.5141850709915161,
+      "priority" : 100,
+      "sampleRate" : 48000,
+      "name" : "kingd_Body2a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -19.32483889198303,
+      "bars" : 4,
+      "transitions" : {
+        "kingd_Body8a" : {
+          "prevented" : false,
+          "transitionSegmentName" : "kingd_Trans3to8",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "kingd_Out2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "kingd_Body9a" : {
+          "prevented" : false,
+          "transitionSegmentName" : "kingd_Trans3to9",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "kingd_Body7a" : {
+          "prevented" : false,
+          "transitionSegmentName" : "kingd_Trans3to7",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "kingd_Body10a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "kingd_Out0" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "kingd_Body6a" : {
+          "prevented" : false,
+          "transitionSegmentName" : "kingd_Trans3to6",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        }
+      },
+      "sampleCount" : 591899,
+      "peakValue" : 0.4522793591022491,
+      "priority" : 30,
+      "sampleRate" : 48000,
+      "name" : "kingd_Body3a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -18.92176128959656,
+      "bars" : 4,
+      "transitions" : {
+        "kingd_Body8a" : {
+          "prevented" : true,
+          "transitionSegmentName" : "kingd_Trans4to8",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "kingd_Out2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "kingd_Body9a" : {
+          "prevented" : true,
+          "transitionSegmentName" : "kingd_Trans4to9",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "kingd_Body10a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "kingd_Body7a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "kingd_Out0" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "kingd_Body6a" : {
+          "prevented" : false,
+          "transitionSegmentName" : "kingd_Trans4to6",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        }
+      },
+      "sampleCount" : 591410,
+      "peakValue" : 0.4803847968578339,
+      "priority" : 45,
+      "sampleRate" : 48000,
+      "name" : "kingd_Body4a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -18.32882382011413,
+      "bars" : 5,
+      "transitions" : {
+        "kingd_Body4b" : {
+          "fadeOut" : 100,
+          "fadeIn" : 75,
+          "prevented" : false
+        },
+        "kingd_Body8a" : {
+          "prevented" : true,
+          "transitionSegmentName" : "kingd_Trans4to8",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "kingd_Out2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "kingd_Body9a" : {
+          "prevented" : true,
+          "transitionSegmentName" : "kingd_Trans4to9",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "kingd_Body10a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "kingd_Body7a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "kingd_Out0" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "kingd_Body4a" : {
+          "fadeOut" : 75,
+          "fadeIn" : 25,
+          "prevented" : false
+        },
+        "kingd_Body6a" : {
+          "prevented" : false,
+          "transitionSegmentName" : "kingd_Trans4to6",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        }
+      },
+      "sampleCount" : 663917,
+      "peakValue" : 0.4843167066574097,
+      "priority" : 40,
+      "sampleRate" : 48000,
+      "name" : "kingd_Body4b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -18.63264657592773,
+      "bars" : 4,
+      "transitions" : {
+        "kingd_Body8a" : {
+          "prevented" : false,
+          "transitionSegmentName" : "kingd_Trans5to8",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "kingd_Out2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "kingd_Body9a" : {
+          "prevented" : false,
+          "transitionSegmentName" : "kingd_Trans5to9",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "kingd_Body7a" : {
+          "prevented" : false,
+          "transitionSegmentName" : "kingd_Trans5to7",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "kingd_Body10a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "kingd_Out0" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "kingd_Body6a" : {
+          "prevented" : false,
+          "transitionSegmentName" : "kingd_Trans5to6",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        }
+      },
+      "sampleCount" : 591678,
+      "peakValue" : 0.460757315158844,
+      "priority" : 29,
+      "sampleRate" : 48000,
+      "name" : "kingd_Body5a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -16.66527725791931,
+      "bars" : 4,
+      "transitions" : {
+        "kingd_Out2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "kingd_Body10a" : {
+          "fadeOut" : 500,
+          "fadeIn" : 200,
+          "prevented" : false
+        },
+        "kingd_Body7a" : {
+          "prevented" : false,
+          "transitionSegmentName" : "kingd_Trans6to7",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "kingd_Body8a" : {
+          "fadeOut" : 500,
+          "fadeIn" : 75,
+          "prevented" : false
+        }
+      },
+      "sampleCount" : 590391,
+      "peakValue" : 0.4812916219234467,
+      "priority" : 55,
+      "sampleRate" : 48000,
+      "name" : "kingd_Body6a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -19.23323847389221,
+      "bars" : 4,
+      "transitions" : {
+        "kingd_Out2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "kingd_Out0" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "kingd_Body9a" : {
+          "fadeOut" : 50,
+          "fadeIn" : 50,
+          "prevented" : false
+        },
+        "kingd_Body10a" : {
+          "fadeOut" : 400,
+          "fadeIn" : 100,
+          "prevented" : false
+        },
+        "kingd_Body8a" : {
+          "prevented" : false,
+          "transitionSegmentName" : "kingd_Trans7to8",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        }
+      },
+      "sampleCount" : 592918,
+      "peakValue" : 0.4475675523281097,
+      "priority" : 10,
+      "sampleRate" : 48000,
+      "name" : "kingd_Body7a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -18.02472092247009,
+      "sliceable" : true,
+      "bars" : 4,
+      "transitions" : {
+        "kingd_Body10a" : [
+          {
+            "fadeOut" : 500,
+            "fadeIn" : 50,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 500,
+            "fadeIn" : 50,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 500,
+            "fadeIn" : 50,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 500,
+            "fadeIn" : 50,
+            "prevented" : false
+          }
+        ],
+        "kingd_Body9a" : [
+          {
+            "fadeOut" : 500,
+            "fadeIn" : 75,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 500,
+            "fadeIn" : 75,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 500,
+            "fadeIn" : 75,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 500,
+            "fadeIn" : 75,
+            "prevented" : false
+          }
+        ],
+        "kingd_Out2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 589148,
+      "peakValue" : 0.4663970768451691,
+      "priority" : 20,
+      "sampleRate" : 48000,
+      "name" : "kingd_Body8a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -20.74460126495361,
+      "sliceable" : true,
+      "bars" : 2,
+      "transitions" : {
+        "kingd_Out2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "kingd_Body10a" : [
+          {
+            "fadeOut" : 900,
+            "fadeIn" : 75,
+            "prevented" : false
+          },
+          {
+
+          }
+        ]
+      },
+      "sampleCount" : 294894,
+      "peakValue" : 0.4833634197711945,
+      "priority" : 10,
+      "sampleRate" : 48000,
+      "name" : "kingd_Body9a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -19.90496493911743,
+      "bars" : 1,
+      "peakValue" : 0.451460212469101,
+      "sampleCount" : 149012,
+      "priority" : 100,
+      "sampleRate" : 48000,
+      "name" : "kingd_Body10a"
+    },
+    {
+      "markers" : {
+        "OUTRO_STINGER" : 147077
+      },
+      "beatsPerBar" : 4,
+      "loudness" : -18.87885548210144,
+      "bars" : 1,
+      "sampleCount" : 257754,
+      "peakValue" : 0.4745267927646637,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "kingd_Out0"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -23.345709815979,
+      "bars" : 1,
+      "peakValue" : 0.4380640983581543,
+      "sampleCount" : 237958,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "kingd_Out2"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -24.92051698303223,
+      "bars" : 1,
+      "peakValue" : 0.4579163491725922,
+      "sampleCount" : 147783,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "kingd_Trans1to6"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -24.92051698303223,
+      "bars" : 1,
+      "peakValue" : 0.4579163491725922,
+      "sampleCount" : 147783,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "kingd_Trans1to7"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -24.92051698303223,
+      "bars" : 1,
+      "peakValue" : 0.4579163491725922,
+      "sampleCount" : 147783,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "kingd_Trans1to8"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -24.92051698303223,
+      "bars" : 1,
+      "peakValue" : 0.4579163491725922,
+      "sampleCount" : 147783,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "kingd_Trans1to9"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -25.22898770904541,
+      "bars" : 1,
+      "peakValue" : 0.4359945952892303,
+      "sampleCount" : 147647,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "kingd_Trans2to6"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -25.22898770904541,
+      "bars" : 1,
+      "peakValue" : 0.4359945952892303,
+      "sampleCount" : 147647,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "kingd_Trans2to7"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -25.22898770904541,
+      "bars" : 1,
+      "peakValue" : 0.4359945952892303,
+      "sampleCount" : 147647,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "kingd_Trans2to8"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -25.22898770904541,
+      "bars" : 1,
+      "peakValue" : 0.4359945952892303,
+      "sampleCount" : 147647,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "kingd_Trans2to9"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -24.92051698303223,
+      "bars" : 1,
+      "peakValue" : 0.4579163491725922,
+      "sampleCount" : 147783,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "kingd_Trans3to6"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -24.92051698303223,
+      "bars" : 1,
+      "peakValue" : 0.4579163491725922,
+      "sampleCount" : 147783,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "kingd_Trans3to7"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -24.92051698303223,
+      "bars" : 1,
+      "peakValue" : 0.4579163491725922,
+      "sampleCount" : 147783,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "kingd_Trans3to8"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -24.92051698303223,
+      "bars" : 1,
+      "peakValue" : 0.4579163491725922,
+      "sampleCount" : 147783,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "kingd_Trans3to9"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -24.92051698303223,
+      "bars" : 1,
+      "peakValue" : 0.4579163491725922,
+      "sampleCount" : 147783,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "kingd_Trans4to6"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -18.15252400970459,
+      "bars" : 1,
+      "peakValue" : 0.4818060398101807,
+      "sampleCount" : 368529,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "kingd_Trans4to8"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -18.15252400970459,
+      "bars" : 1,
+      "peakValue" : 0.4818060398101807,
+      "sampleCount" : 368529,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "kingd_Trans4to9"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -17.94838406181335,
+      "bars" : 1,
+      "peakValue" : 0.4818128049373627,
+      "sampleCount" : 294928,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "kingd_Trans5to6"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -17.94838406181335,
+      "bars" : 1,
+      "peakValue" : 0.4818128049373627,
+      "sampleCount" : 294928,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "kingd_Trans5to7"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -17.94838406181335,
+      "bars" : 1,
+      "peakValue" : 0.4818128049373627,
+      "sampleCount" : 294928,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "kingd_Trans5to8"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -17.94838406181335,
+      "bars" : 1,
+      "peakValue" : 0.4818128049373627,
+      "sampleCount" : 294928,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "kingd_Trans5to9"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -19.62690331077576,
+      "bars" : 1,
+      "peakValue" : 0.4769971072673798,
+      "sampleCount" : 146674,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "kingd_Trans6to7"
+    },
+    {
+      "beatsPerBar" : 2,
+      "loudness" : -29.07824613189697,
+      "bars" : 1,
+      "peakValue" : 0.2356027066707611,
+      "sampleCount" : 74468,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "kingd_Trans7to8"
+    }
+  ],
+  "audioEncoderPresetName" : "HE-AAC v1 64",
+  "songName" : "For The Kingdom",
+  "artistName" : "Lisle Moore",
+  "uuid" : "5693720C-F8F3-4C3D-8989-D51C2B9ED3B8",
+  "crossFadeSegments" : [
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -18.64419676399231,
+      "bars" : 1,
+      "peakValue" : 0.6092789173126221,
+      "sampleCount" : 48000,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "kingd_Body1a-3-Body3a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -17.08192683792114,
+      "bars" : 1,
+      "peakValue" : 0.6020854115486145,
+      "sampleCount" : 48000,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "kingd_Body1a-3-Body4a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -17.1477768573761,
+      "bars" : 1,
+      "peakValue" : 0.6862853765487671,
+      "sampleCount" : 48000,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "kingd_Body1a-3-Body5a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -17.33119823074341,
+      "bars" : 1,
+      "peakValue" : 0.3892427682876587,
+      "sampleCount" : 14400,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "kingd_Body1b-0-Body2a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -17.99703098869324,
+      "bars" : 1,
+      "peakValue" : 0.5399686694145203,
+      "sampleCount" : 72000,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "kingd_Body1b-1-Body2a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -15.18038488960266,
+      "bars" : 1,
+      "peakValue" : 0.4937107264995575,
+      "sampleCount" : 14400,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "kingd_Body1b-2-Body2a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -18.18723537063599,
+      "bars" : 1,
+      "peakValue" : 0.5657466053962708,
+      "sampleCount" : 48000,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "kingd_Body1b-3-Body3a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -16.88828922843933,
+      "bars" : 1,
+      "peakValue" : 0.5899772047996521,
+      "sampleCount" : 48000,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "kingd_Body1b-3-Body4a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -16.52293302154541,
+      "bars" : 1,
+      "peakValue" : 0.5602440237998962,
+      "sampleCount" : 48000,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "kingd_Body1b-3-Body5a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -17.72784329986572,
+      "bars" : 1,
+      "peakValue" : 0.5521284341812134,
+      "sampleCount" : 24000,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "kingd_Body2a-0-Body3a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -17.38116242027283,
+      "bars" : 1,
+      "peakValue" : 0.5505688786506653,
+      "sampleCount" : 24000,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "kingd_Body2a-1-Body3a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -17.77444221115112,
+      "bars" : 1,
+      "peakValue" : 0.4764558672904968,
+      "sampleCount" : 24000,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "kingd_Body2a-2-Body3a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -16.80904008483887,
+      "bars" : 1,
+      "peakValue" : 0.5951714515686035,
+      "sampleCount" : 24000,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "kingd_Body2a-3-Body3a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.4646099507808685,
+      "sampleCount" : 3600,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "kingd_Body4b-4-Body4a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -17.30412818527222,
+      "bars" : 1,
+      "peakValue" : 0.3463757038116455,
+      "sampleCount" : 4800,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "kingd_Body4b-4-Body4b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -16.85925938224792,
+      "bars" : 1,
+      "peakValue" : 0.6132109761238098,
+      "sampleCount" : 24000,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "kingd_Body6a-3-Body8a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -17.14150883293152,
+      "bars" : 1,
+      "peakValue" : 0.4929736852645874,
+      "sampleCount" : 24000,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "kingd_Body6a-3-Body10a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.3329612612724304,
+      "sampleCount" : 2400,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "kingd_Body7a-3-Body9a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -16.88701845741272,
+      "bars" : 1,
+      "peakValue" : 0.5229220390319824,
+      "sampleCount" : 19200,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "kingd_Body7a-3-Body10a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -16.36197187042236,
+      "bars" : 1,
+      "peakValue" : 0.5721867680549622,
+      "sampleCount" : 24000,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "kingd_Body8a-1-Body9a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -16.53744794464111,
+      "bars" : 1,
+      "peakValue" : 0.565265953540802,
+      "sampleCount" : 24000,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "kingd_Body8a-2-Body9a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -16.58676482772827,
+      "bars" : 1,
+      "peakValue" : 0.5780933499336243,
+      "sampleCount" : 24000,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "kingd_Body8a-3-Body9a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -16.69466473197937,
+      "bars" : 1,
+      "peakValue" : 0.5132613778114319,
+      "sampleCount" : 24000,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "kingd_Body8a-1-Body10a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -16.91853858566284,
+      "bars" : 1,
+      "peakValue" : 0.5554908514022827,
+      "sampleCount" : 24000,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "kingd_Body8a-2-Body10a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -16.92645885086059,
+      "bars" : 1,
+      "peakValue" : 0.5496202111244202,
+      "sampleCount" : 24000,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "kingd_Body8a-3-Body10a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -18.16254951095581,
+      "bars" : 1,
+      "peakValue" : 0.5943353176116943,
+      "sampleCount" : 43200,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "kingd_Body9a-0-Body10a"
+    }
+  ],
+  "fileVersion" : 2,
+  "sampleRate" : 48000,
+  "audioFileExtension" : "m4a"
+}

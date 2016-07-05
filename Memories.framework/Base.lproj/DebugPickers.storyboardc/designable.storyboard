@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11129.15" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" generatesPrototypingConstraints="YES" colorMatched="NO" initialViewController="sYR-OS-L3R">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <development version="7000" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11103.10"/>
+    </dependencies>
+    <scenes>
+        <!--Miro Debug Picker View Controller-->
+        <scene sceneID="hXv-m2-ON3">
+            <objects>
+                <tableViewController id="mcU-ct-VpQ" customClass="MiroDebugPickerViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="NWR-Qi-Jp3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="368"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MiroMoodPartPickerCell" textLabel="IUg-hq-D5I" style="IBUITableViewCellStyleDefault" id="bHf-iy-dj7">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bHf-iy-dj7" id="HPi-ID-aku">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="DO_NOT_LOCALIZE" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="IUg-hq-D5I">
+                                            <rect key="frame" x="15" y="0.0" width="290" height="43"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="mcU-ct-VpQ" id="FDG-Fx-Uox"/>
+                            <outlet property="delegate" destination="mcU-ct-VpQ" id="jEm-v6-1UZ"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="6sP-nO-ujN" userLabel="Titles / Edit Styles"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vYM-Zw-nSc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3101" y="953"/>
+        </scene>
+        <!--Miro Memory Editor Debug Container View Controller-->
+        <scene sceneID="dvc-9Y-bwm">
+            <objects>
+                <viewController storyboardIdentifier="DebugPicker" id="sYR-OS-L3R" customClass="MiroMemoryEditorDebugContainerViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fjk-Ih-svc"/>
+                        <viewControllerLayoutGuide type="bottom" id="mYB-I3-HIj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="f93-sV-foh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="21O-8V-eCc">
+                                <rect key="frame" x="0.0" y="20" width="320" height="180"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="180" id="6d6-Mm-fNd"/>
+                                </constraints>
+                            </view>
+                            <containerView opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="infinite" translatesAutoresizingMaskIntoConstraints="NO" id="hrr-iL-wRP">
+                                <rect key="frame" x="0.0" y="200" width="320" height="368"/>
+                                <connections>
+                                    <segue destination="mcU-ct-VpQ" kind="embed" identifier="embedDebugPicker" id="sfs-E5-Wy8"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="21O-8V-eCc" secondAttribute="trailing" id="0XT-U9-Deq"/>
+                            <constraint firstItem="hrr-iL-wRP" firstAttribute="leading" secondItem="f93-sV-foh" secondAttribute="leading" id="7hH-qP-KYR"/>
+                            <constraint firstItem="hrr-iL-wRP" firstAttribute="top" secondItem="21O-8V-eCc" secondAttribute="bottom" id="CvB-v6-Quw"/>
+                            <constraint firstItem="mYB-I3-HIj" firstAttribute="top" secondItem="hrr-iL-wRP" secondAttribute="bottom" id="FIJ-mk-Ngh"/>
+                            <constraint firstItem="21O-8V-eCc" firstAttribute="top" secondItem="fjk-Ih-svc" secondAttribute="bottom" id="Fa6-9n-qrP"/>
+                            <constraint firstItem="21O-8V-eCc" firstAttribute="leading" secondItem="f93-sV-foh" secondAttribute="leading" id="QeL-Gf-oVt"/>
+                            <constraint firstAttribute="trailing" secondItem="hrr-iL-wRP" secondAttribute="trailing" id="hBG-BW-lgD"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="568"/>
+                    <connections>
+                        <outlet property="playerContainerHeight" destination="6d6-Mm-fNd" id="Jpu-kz-32k"/>
+                        <outlet property="playerContainerView" destination="21O-8V-eCc" id="RsU-Aj-H7Q"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cbN-Cq-mfj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2662" y="853"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

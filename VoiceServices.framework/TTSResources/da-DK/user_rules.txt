@@ -1,0 +1,10 @@
+[header]
+language = DAD
+charset = utf-8
+
+[data]
+/\bSan Francisco\b/ --> "\e/+san.fR\an.'si.sko\e/+"
+/\bbruger FaceTime-samtale\b/i   -->   "\e/+'pu:.^_fEistAjm'sAm.'2t%{a:?.le\e/+"
+/\bbruger FaceTime-opkald\b/i   -->   "\e/+'pu:.^_fEistAjm'^pkal\e/+"
+/\bDigital Crown\b/ --> "\e/+ti.ki.'t%{a?l_'k%{R\A:?wnK\e/+"
+/\bBeats 1\b/ --> "\e/+'pi:ts_'w^n\e/+"

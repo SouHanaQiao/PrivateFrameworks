@@ -1,0 +1,169 @@
+{
+  "events" : [
+    {
+      "dateRules" : [
+        {
+          "day" : 1,
+          "month" : 1
+        }
+      ],
+      "name" : "New Year’s Day",
+      "traits" : {
+        "locationTrait" : 1,
+        "peopleCountRange" : "{0, 10}",
+        "peopleTrait" : 7,
+        "mustContainMe" : false,
+        "eventType" : 0,
+        "categories" : [
+
+        ]
+      },
+      "uuid" : "F2817053-568E-4BEF-9C3F-A93F4A3888FC"
+    },
+    {
+      "dateRules" : [
+        {
+          "day" : 1,
+          "month" : 1
+        }
+      ],
+      "name" : "Lunar New Year’s Day",
+      "traits" : {
+        "locationTrait" : 0,
+        "peopleCountRange" : "{0, 10}",
+        "peopleTrait" : 1,
+        "mustContainMe" : false,
+        "eventType" : 0,
+        "categories" : [
+
+        ]
+      },
+      "uuid" : "CA950879-30B5-4780-86AF-166957129149"
+    },
+    {
+      "dateRules" : [
+        {
+          "day" : 5,
+          "month" : 5
+        }
+      ],
+      "name" : "Children’s Day",
+      "traits" : {
+        "locationTrait" : 0,
+        "peopleCountRange" : "{0, 0}",
+        "peopleTrait" : 3,
+        "mustContainMe" : false,
+        "eventType" : 0,
+        "categories" : [
+
+        ]
+      },
+      "uuid" : "FC86D7CE-8F10-4059-BF57-19C5B7E59FAF"
+    },
+    {
+      "dateRules" : [
+        {
+          "day" : 8,
+          "month" : 5
+        }
+      ],
+      "name" : "Parents’ Day",
+      "traits" : {
+        "locationTrait" : 0,
+        "peopleCountRange" : "{0, 0}",
+        "peopleTrait" : 3,
+        "mustContainMe" : false,
+        "eventType" : 0,
+        "categories" : [
+
+        ]
+      },
+      "uuid" : "AD9F0243-18DC-4A8F-BD15-701938F0804F"
+    },
+    {
+      "dateRules" : [
+        {
+          "day" : 8,
+          "month" : 4
+        }
+      ],
+      "name" : "Buddah Birthday",
+      "traits" : {
+        "locationTrait" : 3,
+        "peopleCountRange" : "{0, 0}",
+        "peopleTrait" : 7,
+        "mustContainMe" : false,
+        "eventType" : 0,
+        "categories" : [
+
+        ]
+      },
+      "uuid" : "EE090BAF-C3FB-4A00-928A-898951AA134D"
+    },
+    {
+      "dateRules" : [
+        {
+          "day" : 6,
+          "month" : 6
+        }
+      ],
+      "name" : "Memorial Day_KR",
+      "traits" : {
+        "locationTrait" : 0,
+        "peopleCountRange" : "{0, 0}",
+        "peopleTrait" : 7,
+        "mustContainMe" : false,
+        "eventType" : 0,
+        "categories" : [
+
+        ]
+      },
+      "uuid" : "F036AA81-B258-4507-B18F-C889569FAFF3"
+    },
+    {
+      "dateRules" : [
+        {
+          "day" : 15,
+          "month" : 8
+        }
+      ],
+      "name" : "Liberation Day_KR",
+      "traits" : {
+        "locationTrait" : 0,
+        "peopleCountRange" : "{0, 0}",
+        "peopleTrait" : 7,
+        "mustContainMe" : false,
+        "eventType" : 0,
+        "categories" : [
+
+        ]
+      },
+      "uuid" : "656FB99B-6817-4768-8557-5E28D66FA2B3"
+    },
+    {
+      "dateRules" : [
+        {
+          "day" : 15,
+          "month" : 8
+        }
+      ],
+      "name" : "Harvest Festival_KR",
+      "traits" : {
+        "locationTrait" : 0,
+        "peopleCountRange" : "{0, 0}",
+        "peopleTrait" : 7,
+        "mustContainMe" : false,
+        "eventType" : 0,
+        "categories" : [
+
+        ]
+      },
+      "uuid" : "1DBFEAA7-0F79-4E0F-976A-21A9176B966F"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "countryCode" : "kr",
+    "countryName" : "South Korea"
+  }
+}

@@ -1,0 +1,4621 @@
+{
+  "tagIDs" : [
+    "Mood_Happy",
+    "SongPace_Medium"
+  ],
+  "mainSegments" : [
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -100,
+      "bars" : 1,
+      "peakValue" : 0.0001344275951851159,
+      "sampleCount" : 8580,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TDW_In0"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -35.53070642089844,
+      "bars" : 1,
+      "transitions" : {
+        "TDW_Body0a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 49231,
+      "peakValue" : 0.09220542758703232,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TDW_In01a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -36.39676190948487,
+      "bars" : 1,
+      "peakValue" : 0.1139253824949265,
+      "sampleCount" : 73846,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TDW_In01b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -38.62021543121338,
+      "bars" : 1,
+      "peakValue" : 0.08082271367311478,
+      "sampleCount" : 49231,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TDW_In02a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -36.22297622299195,
+      "bars" : 1,
+      "transitions" : {
+        "TDW_Body0a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 73846,
+      "peakValue" : 0.1000880524516106,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TDW_In02b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -35.49313642120362,
+      "sliceable" : true,
+      "bars" : 3,
+      "transitions" : {
+        "TDW_Body2d" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body4a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body2b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body9a" : {
+          "prevented" : false,
+          "transitionSegmentName" : "TDW_Trans0to9a",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Body5c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body3d" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out14a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body0a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1000,
+            "fadeIn" : 1000,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "TDW_Out3a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out103" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body5a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body1c" : {
+          "prevented" : true,
+          "transitionSegmentName" : "TDW_Trans0to1",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Out9a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body10b" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "TDW_Body4d" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out101" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body1a" : [
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "TDW_Trans0to1a",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "TDW_Trans0to1a",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "TDW_Trans0to1a",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          }
+        ],
+        "TDW_Body10a" : [
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "TDW_Trans0to10a",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "TDW_Trans0to10a",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "TDW_Trans0to10a",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          }
+        ],
+        "TDW_Out3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out0a" : [
+          {
+
+          },
+          {
+
+          },
+          {
+
+          }
+        ],
+        "TDW_Body6a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body4b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body2c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body5d" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body2a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body7a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body5b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body3c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body1d" : {
+          "prevented" : true,
+          "transitionSegmentName" : "TDW_Trans0to1",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Out104" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out102" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body3a" : [
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "TDW_Trans0to3a",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "TDW_Trans0to3a",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "TDW_Trans0to3a",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          }
+        ],
+        "TDW_Body1b" : [
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "TDW_Trans0to1",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "TDW_Trans0to1",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "TDW_Trans0to1",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          }
+        ],
+        "TDW_Out9a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body8a" : {
+          "prevented" : false,
+          "transitionSegmentName" : "TDW_Trans0to8a",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Body6b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body4c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 295385,
+      "peakValue" : 0.09285667538642883,
+      "priority" : 99,
+      "sampleRate" : 48000,
+      "name" : "TDW_Body0a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -33.21439363098145,
+      "bars" : 2,
+      "transitions" : {
+        "TDW_Out9a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body3a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out101" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body10a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out103" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out0a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out3a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out104" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body7a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body2b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body8a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body9a" : {
+          "prevented" : false,
+          "transitionSegmentName" : "TDW_Trans1to9a",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Body1c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out102" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 196923,
+      "peakValue" : 0.1279413104057312,
+      "priority" : 15,
+      "sampleRate" : 48000,
+      "name" : "TDW_Body1a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -33.18698026275635,
+      "bars" : 2,
+      "transitions" : {
+        "TDW_Out9a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body3a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body7a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body10a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out103" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out0a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out3a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body9a" : {
+          "prevented" : true,
+          "transitionSegmentName" : "TDW_Trans1to9a",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Out9a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out102" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out101" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body8a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body2b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body1d" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body6b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out104" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body6a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 196923,
+      "peakValue" : 0.1243801787495613,
+      "priority" : 10,
+      "sampleRate" : 48000,
+      "name" : "TDW_Body1b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -33.72543193435669,
+      "bars" : 2,
+      "transitions" : {
+        "TDW_Out9a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body7a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body3a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body10a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out103" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out0a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out3a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body6a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out101" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body6b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body2b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body8a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body9a" : {
+          "prevented" : true,
+          "transitionSegmentName" : "TDW_Trans1to9a",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Out102" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out104" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 196923,
+      "peakValue" : 0.1297928094863892,
+      "priority" : 11,
+      "sampleRate" : 48000,
+      "name" : "TDW_Body1c"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -33.00097562408448,
+      "bars" : 2,
+      "transitions" : {
+        "TDW_Out104" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body7a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out101" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body10a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out103" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out0a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out3a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body6b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body2b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body8a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body9a" : {
+          "prevented" : true,
+          "transitionSegmentName" : "TDW_Trans1to9a",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Out9a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out102" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 196923,
+      "peakValue" : 0.1307464092969894,
+      "priority" : 12,
+      "sampleRate" : 48000,
+      "name" : "TDW_Body1d"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -30.61007119750976,
+      "bars" : 2,
+      "transitions" : {
+        "TDW_Out9a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body4d" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body7a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out101" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out3a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body10a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out0a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body5d" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out103" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body3a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body3c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body5b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body2d" : {
+          "fadeOut" : 25,
+          "fadeIn" : 25,
+          "prevented" : false
+        },
+        "TDW_Out9a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body4c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body4a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out102" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body6b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body5a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body5c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body3d" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body6a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out104" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body4b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 196924,
+      "peakValue" : 0.1562281996011734,
+      "priority" : 24,
+      "sampleRate" : 48000,
+      "name" : "TDW_Body2a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -30.68096257781982,
+      "bars" : 2,
+      "transitions" : {
+        "TDW_Body4b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body6a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body4d" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body7a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out101" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body5b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body10a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out0a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out103" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out3a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body4a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body5d" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body4c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body3c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body3a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out102" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body6b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body5a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body5c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body3d" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out104" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 196923,
+      "peakValue" : 0.1566484123468399,
+      "priority" : 21,
+      "sampleRate" : 48000,
+      "name" : "TDW_Body2b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -30.48729039764404,
+      "bars" : 2,
+      "transitions" : {
+        "TDW_Body6a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body4b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body4d" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body3a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out101" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body5b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body10a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out0a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out103" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out3a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body7a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body5d" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body4a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body4c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body3c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out102" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body6b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body5a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body5c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body3d" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out104" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 196923,
+      "peakValue" : 0.1344494968652725,
+      "priority" : 22,
+      "sampleRate" : 48000,
+      "name" : "TDW_Body2c"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -30.54015971755981,
+      "bars" : 2,
+      "transitions" : {
+        "TDW_Body4b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body7a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out101" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body10a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out103" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out0a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out3a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body6b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body2b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body2d" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out102" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out104" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 196923,
+      "peakValue" : 0.1529857665300369,
+      "priority" : 23,
+      "sampleRate" : 48000,
+      "name" : "TDW_Body2d"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -29.91380788421631,
+      "bars" : 2,
+      "transitions" : {
+        "TDW_Body4b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body6a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out101" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body3c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body10a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out0a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out14a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body4a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body5d" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body4c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body5b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out103" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body9a" : {
+          "prevented" : false,
+          "transitionSegmentName" : "TDW_Trans3to9a",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Out9a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out102" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body6b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body8a" : {
+          "prevented" : true,
+          "transitionSegmentName" : "TDW_Trans3to8a",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Body4d" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body7a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body5a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body5c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out104" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 196923,
+      "peakValue" : 0.1478728055953979,
+      "priority" : 70,
+      "sampleRate" : 48000,
+      "name" : "TDW_Body3a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -29.85233403778076,
+      "bars" : 2,
+      "transitions" : {
+        "TDW_Body6a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out104" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body3a" : {
+          "fadeOut" : 75,
+          "fadeIn" : 75,
+          "prevented" : false
+        },
+        "TDW_Body5b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out101" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body10a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out0a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out3a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out14a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body8a" : {
+          "prevented" : false,
+          "transitionSegmentName" : "TDW_Trans3to8a",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Body4a" : {
+          "fadeOut" : 75,
+          "fadeIn" : 75,
+          "prevented" : false
+        },
+        "TDW_Out9a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body6b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body5d" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body4c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body5a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body7a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out103" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body9a" : {
+          "prevented" : true,
+          "transitionSegmentName" : "TDW_Trans3to9a",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Out9a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out102" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body5c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body4b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 196923,
+      "peakValue" : 0.1625278145074844,
+      "priority" : 69,
+      "sampleRate" : 48000,
+      "name" : "TDW_Body3b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -30.18994666671753,
+      "bars" : 2,
+      "transitions" : {
+        "TDW_Out9a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body7a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out101" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body10a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out103" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out0a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out3a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body5c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body6b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body5d" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body8a" : {
+          "prevented" : true,
+          "transitionSegmentName" : "TDW_Trans3to8a",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Out9a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body9a" : {
+          "prevented" : false,
+          "transitionSegmentName" : "TDW_Trans3to9a",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Out102" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out104" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body6a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 196923,
+      "peakValue" : 0.138468474149704,
+      "priority" : 71,
+      "sampleRate" : 48000,
+      "name" : "TDW_Body3c"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -29.87078286743164,
+      "bars" : 2,
+      "transitions" : {
+        "TDW_Body4b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body4d" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body3a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out101" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body3c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body10a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out103" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out0a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out3a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body8a" : {
+          "prevented" : true,
+          "transitionSegmentName" : "TDW_Trans3to8a",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Body4c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body7a" : {
+          "fadeOut" : 75,
+          "fadeIn" : 75,
+          "prevented" : false
+        },
+        "TDW_Body6b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body5c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body3d" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body5d" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body9a" : {
+          "prevented" : false,
+          "transitionSegmentName" : "TDW_Trans3to9a",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Out9a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out102" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out104" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 196923,
+      "peakValue" : 0.1611654311418533,
+      "priority" : 72,
+      "sampleRate" : 48000,
+      "name" : "TDW_Body3d"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -29.04807902908325,
+      "bars" : 2,
+      "transitions" : {
+        "TDW_Out104" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body4d" : {
+          "fadeOut" : 75,
+          "fadeIn" : 75,
+          "prevented" : false
+        },
+        "TDW_Out9a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out101" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body7a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out103" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out0a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out3a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body5b" : {
+          "prevented" : false,
+          "transitionSegmentName" : "TDW_Trans4to5",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Body5d" : {
+          "prevented" : false,
+          "transitionSegmentName" : "TDW_Trans4to5",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Body4c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body5a" : {
+          "prevented" : true,
+          "transitionSegmentName" : "TDW_Trans4to5",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Out102" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body5c" : {
+          "prevented" : false,
+          "transitionSegmentName" : "TDW_Trans4to5",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Out9a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 196923,
+      "peakValue" : 0.1897198557853699,
+      "priority" : 36,
+      "sampleRate" : 48000,
+      "name" : "TDW_Body4a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -28.72155047988891,
+      "bars" : 2,
+      "transitions" : {
+        "TDW_Out9a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body4d" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body7a" : {
+          "fadeOut" : 25,
+          "fadeIn" : 25,
+          "prevented" : false
+        },
+        "TDW_Out101" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out103" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out3a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out0a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body5b" : {
+          "prevented" : false,
+          "transitionSegmentName" : "TDW_Trans4to5",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Body8a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body5d" : {
+          "prevented" : false,
+          "transitionSegmentName" : "TDW_Trans4to5",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Out9a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Trans4to5" : {
+          "fadeOut" : 75,
+          "fadeIn" : 75,
+          "prevented" : false
+        },
+        "TDW_Out3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body5a" : {
+          "prevented" : false,
+          "transitionSegmentName" : "TDW_Trans4to5",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Out102" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body5c" : {
+          "prevented" : false,
+          "transitionSegmentName" : "TDW_Trans4to5",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Out104" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 196923,
+      "peakValue" : 0.1755630075931549,
+      "priority" : 34,
+      "sampleRate" : 48000,
+      "name" : "TDW_Body4b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -29.15338136291504,
+      "bars" : 2,
+      "transitions" : {
+        "TDW_Out3a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body8a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body5a" : {
+          "prevented" : false,
+          "transitionSegmentName" : "TDW_Trans4to5",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Out3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out102" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out0a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body5c" : {
+          "prevented" : false,
+          "transitionSegmentName" : "TDW_Trans4to5",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Out104" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body5b" : {
+          "prevented" : false,
+          "transitionSegmentName" : "TDW_Trans4to5",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Out101" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out103" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body5d" : {
+          "prevented" : false,
+          "transitionSegmentName" : "TDW_Trans4to5",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Out9a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 196923,
+      "peakValue" : 0.1596515327692032,
+      "priority" : 35,
+      "sampleRate" : 48000,
+      "name" : "TDW_Body4c"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -28.96944858169556,
+      "bars" : 2,
+      "transitions" : {
+        "TDW_Body4b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body4d" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out101" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body5b" : {
+          "prevented" : false,
+          "transitionSegmentName" : "TDW_Trans4to5",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Out9a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out103" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out0a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out3a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body5c" : {
+          "prevented" : false,
+          "transitionSegmentName" : "TDW_Trans4to5",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Out102" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body8a" : {
+          "fadeOut" : 1500,
+          "fadeIn" : 1700,
+          "prevented" : false
+        },
+        "TDW_Body5d" : {
+          "prevented" : false,
+          "transitionSegmentName" : "TDW_Trans4to5",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Out9a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body5a" : {
+          "prevented" : false,
+          "transitionSegmentName" : "TDW_Trans4to5",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Out3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body9a" : {
+          "fadeOut" : 500,
+          "fadeIn" : 1000,
+          "prevented" : true
+        },
+        "TDW_Out9a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out104" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 196923,
+      "peakValue" : 0.1907322108745575,
+      "priority" : 37,
+      "sampleRate" : 48000,
+      "name" : "TDW_Body4d"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -29.35480929946899,
+      "bars" : 2,
+      "transitions" : {
+        "TDW_Out9a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out104" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body7a" : {
+          "prevented" : false,
+          "transitionSegmentName" : "TDW_Trans5to7a",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Out9a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out101" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body10a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out103" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out0a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out3a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body8a" : {
+          "fadeOut" : 1000,
+          "fadeIn" : 800,
+          "prevented" : true
+        },
+        "TDW_Out9a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body9a" : {
+          "prevented" : false,
+          "transitionSegmentName" : "TDW_Trans5to9a",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Out9a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out102" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body6a" : {
+          "fadeOut" : 75,
+          "fadeIn" : 75,
+          "prevented" : false
+        },
+        "TDW_Body5c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 196924,
+      "peakValue" : 0.2519715130329132,
+      "priority" : 45,
+      "sampleRate" : 48000,
+      "name" : "TDW_Body5a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -28.85350801086426,
+      "bars" : 2,
+      "transitions" : {
+        "TDW_Out3a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out103" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out102" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out0a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body9a" : {
+          "prevented" : false,
+          "transitionSegmentName" : "TDW_Trans5to9a",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Out9a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out104" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body10a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body7a" : {
+          "prevented" : false,
+          "transitionSegmentName" : "TDW_Trans5to7a",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Out101" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body5d" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body8a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 196923,
+      "peakValue" : 0.2420928627252579,
+      "priority" : 41,
+      "sampleRate" : 48000,
+      "name" : "TDW_Body5b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -28.70806552505493,
+      "bars" : 2,
+      "transitions" : {
+        "TDW_Out103" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out102" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out0a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body9a" : {
+          "prevented" : false,
+          "transitionSegmentName" : "TDW_Trans5to9a",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Out9a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out104" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body10a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body7a" : {
+          "prevented" : false,
+          "transitionSegmentName" : "TDW_Trans5to7a",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Out101" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out3a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body8a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 196923,
+      "peakValue" : 0.2665311396121979,
+      "priority" : 42,
+      "sampleRate" : 48000,
+      "name" : "TDW_Body5c"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -28.47611762619018,
+      "bars" : 2,
+      "transitions" : {
+        "TDW_Out9a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out104" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body7a" : {
+          "prevented" : false,
+          "transitionSegmentName" : "TDW_Trans5to7a",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Out9a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out101" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out103" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out0a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out3a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body6b" : {
+          "fadeOut" : 75,
+          "fadeIn" : 75,
+          "prevented" : false
+        },
+        "TDW_Body5d" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body5a" : {
+          "fadeOut" : 1250,
+          "fadeIn" : 1250,
+          "prevented" : false
+        },
+        "TDW_Out3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out102" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body9a" : {
+          "prevented" : false,
+          "transitionSegmentName" : "TDW_Trans5to9a",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Body5c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 196923,
+      "peakValue" : 0.2631268203258514,
+      "priority" : 45,
+      "sampleRate" : 48000,
+      "name" : "TDW_Body5d"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -30.15679694747925,
+      "bars" : 2,
+      "transitions" : {
+        "TDW_Out9a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body7a" : {
+          "prevented" : false,
+          "transitionSegmentName" : "TDW_Trans6to7a",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Out9a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out101" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body10b" : {
+          "prevented" : false,
+          "transitionSegmentName" : "TDW_Trans6to10",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Body10a" : {
+          "prevented" : false,
+          "transitionSegmentName" : "TDW_Trans6to10a",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Out9a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out14a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out0a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out3a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body6a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out103" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body8a" : {
+          "prevented" : false,
+          "transitionSegmentName" : "TDW_Trans6to8a",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Out9a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body9a" : {
+          "prevented" : true,
+          "transitionSegmentName" : "TDW_Trans6to9a",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Out3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out102" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out104" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 196923,
+      "peakValue" : 0.2689840793609619,
+      "priority" : 67,
+      "sampleRate" : 48000,
+      "name" : "TDW_Body6a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -26.93855620956421,
+      "bars" : 2,
+      "transitions" : {
+        "TDW_Body6a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body7a" : {
+          "prevented" : false,
+          "transitionSegmentName" : "TDW_Trans6to7a",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Out9a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body10b" : {
+          "prevented" : false,
+          "transitionSegmentName" : "TDW_Trans6to10",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Body10a" : {
+          "prevented" : false,
+          "transitionSegmentName" : "TDW_Trans6to10a",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Out9a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out14a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out0a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out3a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out101" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out103" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body6b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body8a" : {
+          "prevented" : false,
+          "transitionSegmentName" : "TDW_Trans6to8a",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Out3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body9a" : {
+          "prevented" : false,
+          "transitionSegmentName" : "TDW_Trans6to9a",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "TDW_Out102" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out104" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 196923,
+      "peakValue" : 0.3366314172744751,
+      "priority" : 66,
+      "sampleRate" : 48000,
+      "name" : "TDW_Body6b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -27.19136334991455,
+      "sliceable" : true,
+      "bars" : 4,
+      "transitions" : {
+        "TDW_Body8a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "TDW_Out9a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out102" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out0a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body9a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "TDW_Out9a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out104" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body7a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "TDW_Out101" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out103" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out3a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 393846,
+      "peakValue" : 0.3140361309051514,
+      "priority" : 68,
+      "sampleRate" : 48000,
+      "name" : "TDW_Body7a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -26.35608054733276,
+      "sliceable" : true,
+      "bars" : 8,
+      "transitions" : {
+        "TDW_Out14a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "TDW_Out9a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out102" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out0a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body9a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "TDW_Out9a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out104" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body10a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body10b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out101" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out103" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out3a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body8a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 787692,
+      "peakValue" : 0.2900320589542389,
+      "priority" : 80,
+      "sampleRate" : 48000,
+      "name" : "TDW_Body8a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -25.38218118286133,
+      "sliceable" : true,
+      "bars" : 8,
+      "transitions" : {
+        "TDW_Out14a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a5" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "TDW_Out3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a7" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 400,
+            "fadeIn" : 400,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "TDW_Out102" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out0a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body9a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "TDW_Out9a2" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "TDW_Out104" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a4" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "TDW_Body10a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 75,
+            "fadeIn" : 75,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 75,
+            "fadeIn" : 75,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "TDW_Out9a6" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "TDW_Out101" : {
+          "fadeOut" : 75,
+          "fadeIn" : 75,
+          "prevented" : true
+        },
+        "TDW_Body10b" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 75,
+            "fadeIn" : 75,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 100,
+            "fadeIn" : 100,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "TDW_Out9a8" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "TDW_Out9a1" : [
+          {
+
+          },
+          {
+            "fadeOut" : 25,
+            "fadeIn" : 25,
+            "prevented" : false
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "TDW_Out3a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out103" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 787693,
+      "peakValue" : 0.3098327219486237,
+      "priority" : 90,
+      "sampleRate" : 48000,
+      "name" : "TDW_Body9a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -26.53914786911011,
+      "sliceable" : true,
+      "bars" : 4,
+      "transitions" : {
+        "TDW_Out9a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out102" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "TDW_Out0a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out104" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "TDW_Out9a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body10a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 100,
+            "fadeIn" : 1500,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "TDW_Out9a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out101" : [
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "TDW_Body10b" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 1000,
+            "fadeIn" : 1000,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "TDW_Out9a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out103" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "TDW_Out3a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out14a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 393846,
+      "peakValue" : 0.3075463771820068,
+      "priority" : 8,
+      "sampleRate" : 48000,
+      "name" : "TDW_Body10a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -24.60906364059448,
+      "bars" : 4,
+      "transitions" : {
+        "TDW_Out9a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out102" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out0a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out104" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Body10a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out101" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out9a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out103" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "TDW_Out3a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 393846,
+      "peakValue" : 0.4285751581192017,
+      "priority" : 7,
+      "sampleRate" : 48000,
+      "name" : "TDW_Body10b"
+    },
+    {
+      "markers" : {
+        "OUTRO_STINGER" : 49172
+      },
+      "beatsPerBar" : 4,
+      "loudness" : -34.13763381576538,
+      "bars" : 1,
+      "sampleCount" : 147692,
+      "peakValue" : 0.1101227030158043,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TDW_Out0a"
+    },
+    {
+      "markers" : {
+        "OUTRO_STINGER" : 49246
+      },
+      "beatsPerBar" : 4,
+      "loudness" : -33.19345809555054,
+      "bars" : 1,
+      "sampleCount" : 147692,
+      "peakValue" : 0.1119295805692673,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TDW_Out3a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -37.64575101470948,
+      "bars" : 1,
+      "peakValue" : 0.1528062224388123,
+      "sampleCount" : 147692,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TDW_Out3b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -33.58041860198975,
+      "bars" : 1,
+      "peakValue" : 0.2698277235031128,
+      "sampleCount" : 147693,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TDW_Out9a1"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -32.90899612045288,
+      "bars" : 1,
+      "peakValue" : 0.2750865519046783,
+      "sampleCount" : 147692,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TDW_Out9a2"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -34.75901462173462,
+      "bars" : 1,
+      "peakValue" : 0.2693867087364197,
+      "sampleCount" : 147692,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TDW_Out9a4"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -34.48061563110352,
+      "bars" : 1,
+      "peakValue" : 0.2800699174404144,
+      "sampleCount" : 147692,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TDW_Out9a5"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -34.02775622940064,
+      "bars" : 1,
+      "peakValue" : 0.2868429720401764,
+      "sampleCount" : 147692,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TDW_Out9a6"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -34.437178150177,
+      "bars" : 1,
+      "peakValue" : 0.2847540378570557,
+      "sampleCount" : 147693,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TDW_Out9a7"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -34.16797019577027,
+      "bars" : 1,
+      "peakValue" : 0.2592316865921021,
+      "sampleCount" : 147693,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TDW_Out9a8"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -30.27858592605591,
+      "bars" : 1,
+      "peakValue" : 0.4386416673660278,
+      "sampleCount" : 147692,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TDW_Out14a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -39.72226001358032,
+      "bars" : 1,
+      "peakValue" : 0.1516397744417191,
+      "sampleCount" : 147692,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TDW_Out101"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -36.97630502319336,
+      "bars" : 1,
+      "peakValue" : 0.2067817896604538,
+      "sampleCount" : 147692,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TDW_Out102"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -35.44169761276245,
+      "bars" : 1,
+      "peakValue" : 0.1987201571464539,
+      "sampleCount" : 147692,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TDW_Out103"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -35.41894055938721,
+      "bars" : 1,
+      "peakValue" : 0.1963263601064682,
+      "sampleCount" : 147692,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TDW_Out104"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -33.46864797210694,
+      "bars" : 1,
+      "peakValue" : 0.1216858923435211,
+      "sampleCount" : 196923,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TDW_Trans0to1"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -33.88859130477906,
+      "bars" : 1,
+      "peakValue" : 0.1061063781380653,
+      "sampleCount" : 98461,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TDW_Trans0to1a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -33.88859130477906,
+      "bars" : 1,
+      "peakValue" : 0.1061063781380653,
+      "sampleCount" : 98461,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TDW_Trans0to3a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -33.88859130477906,
+      "bars" : 1,
+      "peakValue" : 0.1061063781380653,
+      "sampleCount" : 98461,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TDW_Trans0to8a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -26.85920812225342,
+      "bars" : 1,
+      "peakValue" : 0.2943130135536194,
+      "sampleCount" : 492308,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TDW_Trans0to9a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -33.88859130477906,
+      "bars" : 1,
+      "peakValue" : 0.1061063781380653,
+      "sampleCount" : 98461,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TDW_Trans0to10a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -28.35032083129883,
+      "bars" : 1,
+      "peakValue" : 0.2870380282402039,
+      "sampleCount" : 196923,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TDW_Trans1to9a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -28.20245601272583,
+      "bars" : 1,
+      "peakValue" : 0.296306312084198,
+      "sampleCount" : 393846,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TDW_Trans3to8a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -27.58014537429809,
+      "bars" : 1,
+      "peakValue" : 0.3117267787456512,
+      "sampleCount" : 196923,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TDW_Trans3to9a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -28.45691539382934,
+      "bars" : 1,
+      "peakValue" : 0.2426773905754089,
+      "sampleCount" : 196923,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TDW_Trans4to5"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -28.25627423858642,
+      "bars" : 1,
+      "peakValue" : 0.2688449621200562,
+      "sampleCount" : 196923,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TDW_Trans5to7a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -27.36119844055176,
+      "bars" : 1,
+      "peakValue" : 0.2759150266647339,
+      "sampleCount" : 196923,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TDW_Trans5to9a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -28.25627423858642,
+      "bars" : 1,
+      "peakValue" : 0.2688449621200562,
+      "sampleCount" : 196923,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TDW_Trans6to7a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -28.25627423858642,
+      "bars" : 1,
+      "peakValue" : 0.2688449621200562,
+      "sampleCount" : 196923,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TDW_Trans6to8a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -28.25627423858642,
+      "bars" : 1,
+      "peakValue" : 0.2688449621200562,
+      "sampleCount" : 196923,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TDW_Trans6to9a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -28.25627423858642,
+      "bars" : 1,
+      "peakValue" : 0.2688449621200562,
+      "sampleCount" : 196923,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TDW_Trans6to10"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -28.25627423858642,
+      "bars" : 1,
+      "peakValue" : 0.2688449621200562,
+      "sampleCount" : 196923,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "TDW_Trans6to10a"
+    }
+  ],
+  "audioEncoderPresetName" : "HE-AAC v1 64",
+  "songName" : "Three Day Weekend",
+  "artistName" : "Driftmob Orchestra",
+  "uuid" : "05E7A048-1913-45C0-AC8F-644660926812",
+  "contentVersion" : 2,
+  "compatibilityVersion" : 1,
+  "sampleRate" : 48000,
+  "audioFileExtension" : "m4a"
+}

@@ -1,0 +1,15 @@
+[header]
+language = ROR
+
+[data]
+/Ș/  --> "Ş"
+/ș/  --> "ş"
+/Ț/  --> "Ţ"
+/ț/  --> "ţ"
+
+/\bApple ID\b/ --> "\e/+'ap.e0l_'ai.'di\e/+"
+/\bCaller ID\b/ --> "\e/+'ko.le0r_'ai.'di\e/+"
+/\bGame Center\b/ --> " GameCenter "
+/\bCod de acces\b/ --> "\e/+'kod_de_'akt&S.es\e/+"
+/\bThe Weather Channel\b/ --> "\e/+de0_'ued.e0r_'t&Sa.ne0l\e/+"
+/\bTouch ID\b/ --> "\e/+'ta^t&S_'ai.'di\e/+"

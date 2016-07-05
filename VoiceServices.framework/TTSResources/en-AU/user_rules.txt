@@ -1,0 +1,55 @@
+[header]
+language = ENA
+charset = utf-8
+
+[data]
+#
+# Siri additions
+#
+/@me\.com\b/   -->   " at me dot com "
+/OS X\b/   -->   "OS ten "
+/FA [Cc]up/   -->   "F A cup"
+/49er/   -->   "forty niner"
+/76er/   -->   "seventy sixer"
+/HI area/   -->   "H I area"
+/\bRs\.1\b/i -->   "1 rupee"
+/\bRs\.([2-9][\d,\.]*)\b/i  -->  "$1 rupees"
+//   -->   "Apple"
+#
+/\bAndrea Bocelli\b/   -->   " Ahn-drayah Bocelli "
+/\bBoyz II Men\b/   -->   " boys two men "
+/\bREO Speedwagon\b/   -->   " R E O Speedwagon "
+/\bBlack Eyed Peas\b/   -->   " black i'd peas "
+/\b(B|b)link.182\b/   -->   " Blink 1 82 "
+#
+/\bUsual Suspects\b/   -->   "\e/+'juZ.u.$l_'s^s.pEkts\e/+"
+/\bJay[ \-]Z\b/   -->   "jay zee"
+/\bDes Moines\b/   -->   "\e/+d$_'mO&In\e/+"
+/\bPonta Delgada\b/   -->   "\e/+'pA+n.t$_dEl.'gA.d$\e/+"
+/\bBass Strait\b/   -->   "\e/+'b@s_'stR+e&It\e/+"
+# Person names
+/\bXi Jinping\b/   -->   "\e/+'Si_ d&ZIn.'pInK\e/+"
+# Last names
+/\bDe Leow\b/   -->   "\e/+d$_'lo&U\e/+"
+/\bDe Ville\b/   -->   "\e/+d$_'vIl\e/+"
+/\bDe Vore\b/   -->   "\e/+d$_'vO\e/+"
+/\bSt(\.|) Clair\b/   -->   "\e/+'sInK_klE&$\e/+"
+#
+# Place names
+/\bBaie d'Espoire\b/i   -->   "\e/+'be&I_dEs.'pER+\e/+"
+/\bBois d'Arc\b/i   -->   "\e/+bo&U_dAk\e/+"
+/\bBoise City\b/   -->   "\e/+'bo&Is_'sIt.i\e/+"
+/\bBossier City\b/   -->   "\e/+'bo&U.Z$_'sIt.i\e/+"
+/\bCanyon de Chelly\b/i   -->   "\e/+'k@n.j$n_d$_'Se&I.li\e/+"
+/\bDes Moines\b/   -->   "\e/+d$_'mO&In			\e/+"
+/\bEarl of Harewood\b/i   -->   "\e/+E0l_$v_'hA.wUd\e/+"
+/\b\Giro d'Italiab/i   -->   "\e/+'d&Zi.ro&U_dIt.'@l.i.$\e/+"
+/\bLac Courte Oreilles\b/   -->   "\e/+l$_'kud_$.R+e&I \e/+"
+/\bLa Plata\b/   -->   "\e/+l$_'ple&It.$\e/+"
+/\bMagdalen College\b/   -->   "\e/+'mOd. lIn_'kA+l.Id&Z\e/+"
+/\bMagdalene College\b/   -->   "\e/+'mOd. lIn_'kA+l.Id&Z\e/+"
+/\bQuidi Vidi\b/   -->   "\e/+'kId.i_'vId.i\e/+"
+/\bSt(\.|) Ive\b/   -->   "\e/+s$nt_'iv\e/+"
+/\bSan Rafael\b/   -->   "\e/+s@n_R+$.'fEl\e/+"
+/\bSault Ste(\.|) Marie\b/i   -->   "\e/+'su_se&Int_m$.'R+i\e/+"
+/\bWall St(\.|) Cheat Sheet\b/   -->   "\e/+'wOl_stR+it_'t&Sit_Sit\e/+"

@@ -1,0 +1,40 @@
+[header]
+language = GRG
+
+[data]
+/([a-zA-Z])\.com\b/ --> "$1 τελεία com"
+/([a-zA-Z])\.org\b/ --> "$1 τελεία org"
+/([a-zA-Z])\.net\b/ --> "$1 τελεία net"
+/([a-zA-Z])\.gov\b/ --> "$1 τελεία gov"
+/([a-zA-Z])\.edu\b/ --> "$1 τελεία edu"
+/([a-zA-Z])\.info\b/ --> "$1 τελεία info"
+/([a-zA-Z])\.biz\b/ --> "$1 τελεία biz"
+/([a-zA-Z])\.jobs\b/ --> "$1 τελεία jobs"
+/([a-zA-Z])\.coop\b/ --> "$1 τελεία coop"
+/([a-zA-Z])\.ac\b/ --> "$1 τελεία A C"
+/([a-zA-Z])\.us\b/ --> "$1 τελεία U S"
+/([a-zA-Z])\.uk\b/ --> "$1 τελεία U K"
+/([a-zA-Z])\.eu\b/ --> "$1 τελεία E U"
+/([a-zA-Z])\.int\b/ --> "$1 τελεία int"
+/([a-zA-Z])\.co\b/ --> "$1 τελεία C O"
+/([a-zA-Z])\.es\b/ --> "$1 τελεία E S"
+/([a-zA-Z])\.de\b/ --> "$1 τελεία D E"
+/([a-zA-Z])\.fr\b/ --> "$1 τελεία F R"
+/([a-zA-Z])\.it\b/ --> "$1 τελεία it"
+/([a-zA-Z])\.be\b/ --> "$1 τελεία B E"
+/([a-zA-Z])\.nl\b/ --> "$1 τελεία N L"
+/([a-zA-Z])\.gr\b/ --> "$1 τελεία G R"
+/([a-zA-Z])\.ru\b/ --> "$1 τελεία R U"
+/([a-zA-Z])\.mx\b/ --> "$1 τελεία M X"
+/([a-zA-Z])\.ca\b/ --> "$1 τελεία C A"
+
+
+/(\D)1 (η ώρα)/ --> "$1 μία $2"
+/(\D)3 (η ώρα)/ --> "$1 τρεις $2"
+/(\D)4 (η ώρα)/ --> "$1 τέσσερις $2"
+
+/\bGame Center\b/ --> "\e/+'gejm_'sen.ter\e/+"
+/\bMarker Felt\b/ --> "\e/+'mark.er_felt\e/+"
+/\bNike \+ iPod\b/ --> "\e/+'naik.i_'plus_'ai.pod\e/+"
+/\bTop charts\b/ --> "\e/+'top_tsarts\e/+"
+/\bTV shows\b/ --> "\e/+ti.le.op.tik.on.ek.pom.bone/+" 

@@ -1,0 +1,5641 @@
+{
+  "tagIDs" : [
+    "Mood_Party",
+    "SongPace_Fast"
+  ],
+  "mainSegments" : [
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -100,
+      "bars" : 1,
+      "peakValue" : 0.0001260112912859768,
+      "sampleCount" : 8580,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "PNP_In0"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -28.63705016708374,
+      "bars" : 1,
+      "peakValue" : 0.1638256758451462,
+      "sampleCount" : 182857,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "PNP_In1a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -29.75805379486084,
+      "bars" : 1,
+      "peakValue" : 0.1688651442527771,
+      "sampleCount" : 91428,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "PNP_In1a2"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -28.57821561431885,
+      "bars" : 1,
+      "transitions" : {
+        "PNP_Body1a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 137143,
+      "peakValue" : 0.1731436550617218,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "PNP_In1a3"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -28.37031461334228,
+      "bars" : 1,
+      "peakValue" : 0.1636989563703537,
+      "sampleCount" : 45714,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "PNP_In1a4"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -20.25592662429809,
+      "sliceable" : true,
+      "bars" : 7,
+      "transitions" : {
+        "PNP_Body3a" : [
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to3",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to3",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to3",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "PNP_Trans1to3",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to3",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to3",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "PNP_Trans1to3",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          }
+        ],
+        "PNP_Out3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7s" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "PNP_Body8a" : [
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to8",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to8",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to8",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to8",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to8",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to8",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "PNP_Trans1to8",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          }
+        ],
+        "PNP_Body6b" : [
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "PNP_Trans1to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          }
+        ],
+        "PNP_Body4c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body2d" : {
+          "prevented" : true,
+          "transitionSegmentName" : "PNP_Trans1to2",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "PNP_Out1a6" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "PNP_Out7a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body5e" : [
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to5",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to5",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to5",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to5",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to5",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to5",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to5",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          }
+        ],
+        "PNP_Out1a4" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "PNP_Body4a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body2b" : [
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to2",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to2",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to2",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to2",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to2",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to2",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to2",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          }
+        ],
+        "PNP_Out7a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body5c" : {
+          "prevented" : true,
+          "transitionSegmentName" : "PNP_Trans1to5",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "PNP_Body3d" : {
+          "prevented" : true,
+          "transitionSegmentName" : "PNP_Trans1to3",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "PNP_Trans1to2" : [
+          {
+            "fadeOut" : 1000,
+            "fadeIn" : 1000,
+            "prevented" : false
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+
+          }
+        ],
+        "PNP_Out1a2" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "PNP_Body8d" : [
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to8",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to8",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to8",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to8",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to8",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to8",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "PNP_Trans1to8",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          }
+        ],
+        "PNP_Body6e" : {
+          "prevented" : true,
+          "transitionSegmentName" : "PNP_Trans1to6",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "PNP_Out2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body5a" : [
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to5",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to5",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to5",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to5",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to5",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to5",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "PNP_Trans1to5",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          }
+        ],
+        "PNP_Body3b" : [
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to3",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to3",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to3",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to3",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to3",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to3",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to3",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          }
+        ],
+        "PNP_Out7a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body8b" : [
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to8",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to8",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to8",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to8",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to8",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to8",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "PNP_Trans1to8",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          }
+        ],
+        "PNP_Body6c" : [
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "PNP_Trans1to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          }
+        ],
+        "PNP_Body4d" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "PNP_Out7a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body1a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "PNP_Body6a" : [
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "PNP_Trans1to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          }
+        ],
+        "PNP_Body4b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body2c" : [
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "PNP_Trans1to2",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to2",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to2",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to2",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to2",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to2",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "PNP_Trans1to2",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          }
+        ],
+        "PNP_Out1a5" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "PNP_Out7a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Trans1to3" : [
+          {
+            "fadeOut" : 1500,
+            "fadeIn" : 1250,
+            "prevented" : false
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+
+          },
+          {
+
+          }
+        ],
+        "PNP_Body5d" : {
+          "prevented" : true,
+          "transitionSegmentName" : "PNP_Trans1to5",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "PNP_Out7a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a3" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "PNP_Out4a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body2a" : [
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "PNP_Trans1to2",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to2",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to2",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "PNP_Trans1to2",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to2",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to2",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "PNP_Trans1to2",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          }
+        ],
+        "PNP_Out1" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "PNP_Body7a" : [
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to7",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to7",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to7",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to7",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to7",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to7",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "PNP_Trans1to7",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          }
+        ],
+        "PNP_Body5b" : {
+          "prevented" : true,
+          "transitionSegmentName" : "PNP_Trans1to5",
+          "fadeOut" : 0,
+          "fadeIn" : 0
+        },
+        "PNP_Body3c" : [
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to3",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to3",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to3",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to3",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to3",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to3",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "PNP_Trans1to3",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          }
+        ],
+        "PNP_Out1a1" : [
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "PNP_Out7a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body8c" : [
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to8",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to8",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to8",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to8",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to8",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to8",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : false,
+            "transitionSegmentName" : "PNP_Trans1to8",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          }
+        ],
+        "PNP_Body6d" : [
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          },
+          {
+            "prevented" : true,
+            "transitionSegmentName" : "PNP_Trans1to6",
+            "fadeOut" : 0,
+            "fadeIn" : 0
+          }
+        ],
+        "PNP_Out7a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 640000,
+      "peakValue" : 0.3496688008308411,
+      "priority" : 99,
+      "sampleRate" : 48000,
+      "name" : "PNP_Body1a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -20.07867790794372,
+      "bars" : 2,
+      "transitions" : {
+        "PNP_Out7a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body3d" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body5e" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body6a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body6c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body3a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out4a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body6e" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body6b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7s" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body6d" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body3b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body2a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 182857,
+      "peakValue" : 0.3455456793308258,
+      "priority" : 68,
+      "sampleRate" : 48000,
+      "name" : "PNP_Body2a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -20.10284163093567,
+      "bars" : 2,
+      "transitions" : {
+        "PNP_Out7a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7s" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out4a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 182857,
+      "peakValue" : 0.4003824889659882,
+      "priority" : 37,
+      "sampleRate" : 48000,
+      "name" : "PNP_Body2b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -20.12577153778076,
+      "bars" : 2,
+      "transitions" : {
+        "PNP_Out1a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body6c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body6e" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body6a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body6b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7s" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out4a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body6d" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body5e" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 182858,
+      "peakValue" : 0.3844814002513885,
+      "priority" : 38,
+      "sampleRate" : 48000,
+      "name" : "PNP_Body2c"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -19.10892583465576,
+      "bars" : 2,
+      "transitions" : {
+        "PNP_Body5c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body5a" : {
+          "fadeOut" : 25,
+          "fadeIn" : 25,
+          "prevented" : false
+        },
+        "PNP_Body5e" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body4b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body3d" : {
+          "fadeOut" : 200,
+          "fadeIn" : 150,
+          "prevented" : false
+        },
+        "PNP_Out1a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out4a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body5b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body4d" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body5d" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body4a" : {
+          "fadeOut" : 75,
+          "fadeIn" : 75,
+          "prevented" : false
+        },
+        "PNP_Out1a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7s" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body4c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body3b" : {
+          "fadeOut" : 75,
+          "fadeIn" : 75,
+          "prevented" : false
+        }
+      },
+      "sampleCount" : 182857,
+      "peakValue" : 0.3520941436290741,
+      "priority" : 39,
+      "sampleRate" : 48000,
+      "name" : "PNP_Body2d"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -19.45741392707825,
+      "bars" : 2,
+      "transitions" : {
+        "PNP_Out3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7s" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body6b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body4c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body5e" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body4a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body5c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body6e" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body5a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body6c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body4d" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body4b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body6a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body5d" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out4a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body7a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body5b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body6d" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 182857,
+      "peakValue" : 0.356414794921875,
+      "priority" : 29,
+      "sampleRate" : 48000,
+      "name" : "PNP_Body3a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -19.32822085952759,
+      "sliceable" : true,
+      "bars" : 2,
+      "transitions" : {
+        "PNP_Body6a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "PNP_Body4b" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "PNP_Body5e" : [
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "PNP_Out7a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out4a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body3c" : [
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "PNP_Out3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body4d" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body3d" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "PNP_Out7a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body4c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7s" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body4a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "PNP_Out2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 182857,
+      "peakValue" : 0.3747986257076263,
+      "priority" : 30,
+      "sampleRate" : 48000,
+      "name" : "PNP_Body3b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -19.46985580062866,
+      "bars" : 2,
+      "transitions" : {
+        "PNP_Out1a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body4d" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body6a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body4b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out4a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body4a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7s" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body4c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 182857,
+      "peakValue" : 0.3605583012104034,
+      "priority" : 31,
+      "sampleRate" : 48000,
+      "name" : "PNP_Body3c"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -19.65836145019531,
+      "sliceable" : true,
+      "bars" : 2,
+      "transitions" : {
+        "PNP_Body3a" : [
+          {
+            "fadeOut" : 75,
+            "fadeIn" : 75,
+            "prevented" : false
+          },
+          {
+
+          }
+        ],
+        "PNP_Out3" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "PNP_Out1a7s" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body4c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body5e" : [
+          {
+
+          },
+          {
+
+          }
+        ],
+        "PNP_Out1a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body4a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "PNP_Out7a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body5c" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "PNP_Body3d" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "PNP_Out1a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out2" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "PNP_Out7a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body5a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "PNP_Body3b" : [
+          {
+            "fadeOut" : 75,
+            "fadeIn" : 75,
+            "prevented" : false
+          },
+          {
+
+          }
+        ],
+        "PNP_Out1a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body4d" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body6a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "PNP_Body4b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body5d" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out4a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1" : [
+          {
+
+          },
+          {
+
+          }
+        ],
+        "PNP_Out7a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body7a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "PNP_Body3c" : [
+          {
+
+          },
+          {
+
+          }
+        ],
+        "PNP_Out1a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body5b" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "PNP_Out7a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 182857,
+      "peakValue" : 0.36274254322052,
+      "priority" : 35,
+      "sampleRate" : 48000,
+      "name" : "PNP_Body3d"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -22.19765521621704,
+      "bars" : 2,
+      "transitions" : {
+        "PNP_Body4d" : {
+          "fadeOut" : 75,
+          "fadeIn" : 75,
+          "prevented" : false
+        },
+        "PNP_Out4a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body8a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7s" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 182857,
+      "peakValue" : 0.3711390495300293,
+      "priority" : 34,
+      "sampleRate" : 48000,
+      "name" : "PNP_Body4a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -22.16336108779907,
+      "bars" : 2,
+      "transitions" : {
+        "PNP_Out7a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body8a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7s" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out4a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 182858,
+      "peakValue" : 0.374561995267868,
+      "priority" : 10,
+      "sampleRate" : 48000,
+      "name" : "PNP_Body4b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -22.26574040985107,
+      "bars" : 2,
+      "transitions" : {
+        "PNP_Out7a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body8a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7s" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out4a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 182857,
+      "peakValue" : 0.3943755924701691,
+      "priority" : 11,
+      "sampleRate" : 48000,
+      "name" : "PNP_Body4c"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -21.97652198410034,
+      "bars" : 2,
+      "transitions" : {
+        "PNP_Out7a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body8a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7s" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out4a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 182857,
+      "peakValue" : 0.3872118890285492,
+      "priority" : 33,
+      "sampleRate" : 48000,
+      "name" : "PNP_Body4d"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -22.97840930557251,
+      "bars" : 2,
+      "transitions" : {
+        "PNP_Out1a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body8b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out4a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body5d" : {
+          "fadeOut" : 1000,
+          "fadeIn" : 500,
+          "prevented" : false
+        },
+        "PNP_Body8c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body8d" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body8a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7s" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body5e" : {
+          "fadeOut" : 75,
+          "fadeIn" : 75,
+          "prevented" : false
+        }
+      },
+      "sampleCount" : 182857,
+      "peakValue" : 0.2756631672382355,
+      "priority" : 21,
+      "sampleRate" : 48000,
+      "name" : "PNP_Body5a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -23.04480172729492,
+      "bars" : 2,
+      "transitions" : {
+        "PNP_Out1a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out4a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body8d" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body5e" : {
+          "fadeOut" : 75,
+          "fadeIn" : 75,
+          "prevented" : false
+        },
+        "PNP_Out7a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body8b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7s" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body8c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body6a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 182857,
+      "peakValue" : 0.2938474416732788,
+      "priority" : 16,
+      "sampleRate" : 48000,
+      "name" : "PNP_Body5b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -23.38409759140015,
+      "bars" : 2,
+      "transitions" : {
+        "PNP_Body6a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out4a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body8a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body8c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7s" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body5a" : {
+          "fadeOut" : 25,
+          "fadeIn" : 25,
+          "prevented" : false
+        },
+        "PNP_Out7a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 182857,
+      "peakValue" : 0.2809913754463196,
+      "priority" : 22,
+      "sampleRate" : 48000,
+      "name" : "PNP_Body5c"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -24.06398631668091,
+      "bars" : 1,
+      "transitions" : {
+        "PNP_Out4a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7s" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body5c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body6a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 91429,
+      "peakValue" : 0.2527583241462708,
+      "priority" : 18,
+      "sampleRate" : 48000,
+      "name" : "PNP_Body5d"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -27.91479684448242,
+      "bars" : 1,
+      "transitions" : {
+        "PNP_Out7a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out4a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body5b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7s" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body5d" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body5c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body5e" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 91428,
+      "peakValue" : 0.2592613995075226,
+      "priority" : 19,
+      "sampleRate" : 48000,
+      "name" : "PNP_Body5e"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -21.50669910049438,
+      "bars" : 2,
+      "transitions" : {
+        "PNP_Out7a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7s" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out4a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 182858,
+      "peakValue" : 0.3684428036212921,
+      "priority" : 69,
+      "sampleRate" : 48000,
+      "name" : "PNP_Body6a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -20.22791482543945,
+      "bars" : 2,
+      "transitions" : {
+        "PNP_Out7a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7s" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out4a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 182857,
+      "peakValue" : 0.3845145702362061,
+      "priority" : 61,
+      "sampleRate" : 48000,
+      "name" : "PNP_Body6b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -21.79746724700928,
+      "sliceable" : true,
+      "bars" : 2,
+      "transitions" : {
+        "PNP_Out7a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body8b" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "PNP_Out7a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body8d" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body6e" : [
+          {
+            "fadeOut" : 75,
+            "fadeIn" : 75,
+            "prevented" : false
+          },
+          {
+
+          }
+        ],
+        "PNP_Out1a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body7a" : [
+          {
+            "fadeOut" : 25,
+            "fadeIn" : 25,
+            "prevented" : false
+          },
+          {
+
+          }
+        ],
+        "PNP_Body8c" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body6d" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "PNP_Out1a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out4a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7s" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body8a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "PNP_Out2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 182857,
+      "peakValue" : 0.4177836179733276,
+      "priority" : 62,
+      "sampleRate" : 48000,
+      "name" : "PNP_Body6c"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -21.4231286201477,
+      "bars" : 1,
+      "transitions" : {
+        "PNP_Out7a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7s" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out4a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 91428,
+      "peakValue" : 0.412820041179657,
+      "priority" : 63,
+      "sampleRate" : 48000,
+      "name" : "PNP_Body6d"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -20.99966861343384,
+      "bars" : 1,
+      "transitions" : {
+        "PNP_Out7a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7s" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body6e" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out4a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 91429,
+      "peakValue" : 0.4012581408023834,
+      "priority" : 64,
+      "sampleRate" : 48000,
+      "name" : "PNP_Body6e"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -21.3213334236145,
+      "sliceable" : true,
+      "bars" : 8,
+      "transitions" : {
+        "PNP_Out1a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1" : {
+          "fadeOut" : 75,
+          "fadeIn" : 75,
+          "prevented" : true
+        },
+        "PNP_Out7a6" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "PNP_Body8d" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "PNP_Out1a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a8" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "PNP_Out4a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body8b" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "PNP_Out7a7" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "PNP_Out1a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a4" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "PNP_Out7a3" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "PNP_Body8a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 75,
+            "fadeIn" : 25,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 75,
+            "fadeIn" : 75,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "PNP_Out1a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a1" : [
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "PNP_Body7a" : [
+          {
+
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "PNP_Out1a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a5" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ],
+        "PNP_Out1a7s" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body8c" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "PNP_Out2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a2" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          }
+        ]
+      },
+      "sampleCount" : 731429,
+      "peakValue" : 0.3964521288871765,
+      "priority" : 79,
+      "sampleRate" : 48000,
+      "name" : "PNP_Body7a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -22.49459363555908,
+      "bars" : 2,
+      "transitions" : {
+        "PNP_Out7a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7s" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out4a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 182857,
+      "peakValue" : 0.3138030767440796,
+      "priority" : 21,
+      "sampleRate" : 48000,
+      "name" : "PNP_Body8a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -22.62538291549683,
+      "bars" : 2,
+      "transitions" : {
+        "PNP_Out7a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7s" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out4a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 182857,
+      "peakValue" : 0.3090587854385376,
+      "priority" : 22,
+      "sampleRate" : 48000,
+      "name" : "PNP_Body8b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -22.60132886505127,
+      "bars" : 2,
+      "transitions" : {
+        "PNP_Out7a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7s" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out4a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 182857,
+      "peakValue" : 0.3410080075263977,
+      "priority" : 24,
+      "sampleRate" : 48000,
+      "name" : "PNP_Body8c"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -21.37604333496094,
+      "sliceable" : true,
+      "bars" : 2,
+      "transitions" : {
+        "PNP_Out4a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a8" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out3" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "PNP_Out7a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a3" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Body8a" : [
+          {
+
+          },
+          {
+
+          }
+        ],
+        "PNP_Out1a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a7s" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a5" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a7" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a2" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out7a4" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1a1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "PNP_Out1" : [
+          {
+            "fadeOut" : 75,
+            "fadeIn" : 75,
+            "prevented" : false
+          },
+          {
+
+          }
+        ],
+        "PNP_Out2" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "PNP_Out7a6" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 182857,
+      "peakValue" : 0.30816650390625,
+      "priority" : 24,
+      "sampleRate" : 48000,
+      "name" : "PNP_Body8d"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -30.37745572662353,
+      "bars" : 1,
+      "peakValue" : 0.1992216110229492,
+      "sampleCount" : 228572,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "PNP_Out1"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -33.1931243095398,
+      "bars" : 1,
+      "peakValue" : 0.2316402047872543,
+      "sampleCount" : 182857,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "PNP_Out1a1"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -28.85916329956055,
+      "bars" : 1,
+      "peakValue" : 0.3263421952724457,
+      "sampleCount" : 182857,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "PNP_Out1a2"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -28.72636891937256,
+      "bars" : 1,
+      "peakValue" : 0.2566188871860504,
+      "sampleCount" : 182857,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "PNP_Out1a3"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -24.64088775253296,
+      "bars" : 1,
+      "peakValue" : 0.4307023882865906,
+      "sampleCount" : 182858,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "PNP_Out1a4"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -25.20144321060181,
+      "bars" : 1,
+      "peakValue" : 0.2990131378173828,
+      "sampleCount" : 182857,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "PNP_Out1a5"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -23.47729302978516,
+      "bars" : 1,
+      "peakValue" : 0.4398367702960968,
+      "sampleCount" : 182857,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "PNP_Out1a6"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -27.04857923126221,
+      "bars" : 1,
+      "peakValue" : 0.1600670963525772,
+      "sampleCount" : 182857,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "PNP_Out1a7"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -26.76581002807617,
+      "bars" : 1,
+      "peakValue" : 0.1600670963525772,
+      "sampleCount" : 137142,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "PNP_Out1a7s"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -30.37745572662353,
+      "bars" : 1,
+      "peakValue" : 0.1992216110229492,
+      "sampleCount" : 182858,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "PNP_Out2"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -30.37745572662353,
+      "bars" : 1,
+      "peakValue" : 0.1992216110229492,
+      "sampleCount" : 137143,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "PNP_Out3"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -28.06962348556518,
+      "bars" : 1,
+      "peakValue" : 0.3510815501213074,
+      "sampleCount" : 182857,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "PNP_Out4a1"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -27.79964305496216,
+      "bars" : 1,
+      "peakValue" : 0.376783549785614,
+      "sampleCount" : 182857,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "PNP_Out7a1"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -27.80577041244507,
+      "bars" : 1,
+      "peakValue" : 0.4011306762695312,
+      "sampleCount" : 182857,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "PNP_Out7a2"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -27.80991651153564,
+      "bars" : 1,
+      "peakValue" : 0.4248887896537781,
+      "sampleCount" : 182857,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "PNP_Out7a3"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -27.76155330276489,
+      "bars" : 1,
+      "peakValue" : 0.4037457406520844,
+      "sampleCount" : 182857,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "PNP_Out7a4"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -27.80632592773437,
+      "bars" : 1,
+      "peakValue" : 0.4011306762695312,
+      "sampleCount" : 182858,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "PNP_Out7a5"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -27.82173968887329,
+      "bars" : 1,
+      "peakValue" : 0.4602386951446533,
+      "sampleCount" : 182857,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "PNP_Out7a6"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -29.04949285125732,
+      "bars" : 1,
+      "peakValue" : 0.3534720838069916,
+      "sampleCount" : 182857,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "PNP_Out7a7"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -28.95970441436767,
+      "bars" : 1,
+      "peakValue" : 0.3571914732456207,
+      "sampleCount" : 182857,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "PNP_Out7a8"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -22.57493115997314,
+      "bars" : 1,
+      "peakValue" : 0.2619169354438782,
+      "sampleCount" : 91428,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "PNP_Trans1to"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -22.57493115997314,
+      "bars" : 1,
+      "peakValue" : 0.2619169354438782,
+      "sampleCount" : 91428,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "PNP_Trans1to2"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -22.57493115997314,
+      "bars" : 1,
+      "peakValue" : 0.2619169354438782,
+      "sampleCount" : 91428,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "PNP_Trans1to3"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -22.57493115997314,
+      "bars" : 1,
+      "peakValue" : 0.2619169354438782,
+      "sampleCount" : 91428,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "PNP_Trans1to5"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -22.57493115997314,
+      "bars" : 1,
+      "peakValue" : 0.2619169354438782,
+      "sampleCount" : 91428,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "PNP_Trans1to6"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -22.57493115997314,
+      "bars" : 1,
+      "peakValue" : 0.2619169354438782,
+      "sampleCount" : 91428,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "PNP_Trans1to7"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -22.57493115997314,
+      "bars" : 1,
+      "peakValue" : 0.2619169354438782,
+      "sampleCount" : 91428,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "PNP_Trans1to8"
+    }
+  ],
+  "audioEncoderPresetName" : "HE-AAC v1 64",
+  "songName" : "Firebreak",
+  "artistName" : "Alvin Risk",
+  "uuid" : "DC6DCEF9-E865-4EFF-BBF3-157E300DA269",
+  "contentVersion" : 1,
+  "compatibilityVersion" : 1,
+  "sampleRate" : 48000,
+  "audioFileExtension" : "m4a"
+}

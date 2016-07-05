@@ -1,0 +1,24 @@
+[header]
+language = IDI
+charset = utf-8
+
+[data]
+/\bApp Store\b/   -->   " AppStore "
+/\bBeats 1\b/   -->   "\e/+bits_sA.tu\e/+"
+/\bBrunei Darussalam\b/   -->   "\e/+bru.nej_dA.ru.sA.lAm\e/+"
+/\bInfinite Loop\b/   -->   "\e/+'in.fin.it_lup\e/++"
+/\bMac Pro\b/   -->   "\e/+mek_pro\e/+"
+/\bMacbook Air\b/   -->   "\e/+mek.buk_'er\e/+"
+/\bMacbook Pro\b/   -->   "'\e/+mek.buk_pro\e/+"
+/\bOS X Mountain Lion\b/   -->   "\e/+o_es_ten_'ma&Un.t$n_la&I.jen\e/+"
+/\bOS X El Capitan\b/   -->   "\e/+o_es_ten_El_kA.pi.'tAn\e/+"
+/\bOS X Yosemite\b/   -->   "\e/+o_es_ten_jo.'se.mi.ti\e/+"
+/\bOS X\b/   -->   "\e/+o_es_ten\e/+"
+/\bSteve Jobs\b/   -->   "\e/+stif_d&Zops\e/+"
+/\biPad Air\b/   -->   "\e/+'a&I.pAd_'er\e/+"
+/\biPhone 4\b/   -->   "\e/+'a&I.fon_fOr\e/+"
+/\biPhone 5\b/   -->   "'\e/+a&I.fon_fa&If\e/+"
+/\biPhone 5c\b/   -->   "\e/+'a&I.fon_fa&If.si\e/+"
+/\biPhone 6\b/   -->   "\e/+'a&I.fon_siks\e/+"
+/\biPod (S|s)huffle\b/   -->   "\e/+a&I.pot_'sjA.f$l\e/+"
+/\b(t|T)ouch ID\b/   -->   "\e/+tAt&S_'Aj.di\e/+"

@@ -1,0 +1,26 @@
+[header]
+language = SPE
+charset = utf-8
+
+[data]
+#
+#
+# Siri Additions
+#
+/\bNike \+ iPod\b/   -->   " Nike+iPod "
+/\biTunes U\b/   -->   " iTunes \e/+i.'u\e/+ "
+/\bApple TV\b/   -->   " AppleTV "
+/\bStreet View\b/   -->   " StreetView "
+/\bSE ([A-Z]+\b)/   -->   " se $1"
+/\bOS\s*X\b/   -->   "o s 10"
+/\biTunes Radio\b/   -->   "\e/+'aj.tjuns_'rejd.jo\e/+"
+/^\!$/   -->   "signo de exclamación final"
+/^¡$/   -->   "signo de exclamación inicial"
+/^¿$/   -->   "signo de interrogación inicial"
+/^\?$/   -->   "signo de interrogación final"
+/^¶$/   -->   "calderón"
+/^0º$/   -->   "cero con o volada"
+/^0ª$/   -->   "cero con a volada"
+/\bFinal Cut Pro X\b/   -->   "\e/+'faj.nal_katpr6o_'di.eT\e/+"
+/\bFrançois Hollande\b/   -->   "\e/+fr6ans.wa_o.'land\e/+"
+/\bLogic Pro X\b/   -->   "\e/+'lo.t&Sik_'pr6o_'di.eT\e/+"

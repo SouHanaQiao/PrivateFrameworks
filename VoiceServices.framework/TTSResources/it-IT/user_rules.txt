@@ -1,0 +1,17 @@
+[header]
+language = ITI
+charset = utf-8
+
+[data]
+/\A\W*Z\W*\Z/   -->   " z maiuscola "
+/\bapp\b/   -->   " app "
+/\bBaton Rouge\b/   -->   "\e/+'ba.ton_'rud&Z\e/+"
+/\bDigital Crown\b/   -->   "\e/+'di.d&Zi.tal_krawn\e/+"
+/\bGame Center\b/   -->   "\e/+'gem_'sEn.tEr\e/+"
+/\bbed and breakfast\b/i   -->   "\e/+bEd_End_'brEk.fast\e/+"
+/\biTunes Radio\b/   -->   "\e/+'aj.tjuns_'rEd.jo\e/+"
+/\bOS X\b/   -->   "\e/+'o.'es_'tEn\e/+"
+# Workaround for Radar 17816658
+/\b\sha\b/i   -->   " \e/+a\e/+"
+# Workaround for Radar <rdar://problem/19433845> - the 'a' is being completely elided when surrounded by vowels.
+/\bserie a\b/i   -->   "serie a \e\\pause=10\\"

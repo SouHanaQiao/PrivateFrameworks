@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11129.15" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" generatesPrototypingConstraints="YES" useTraitCollections="YES" colorMatched="NO" initialViewController="mz7-Qb-ICP">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <development version="7000" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11103.10"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--Apple Internal Feedback-->
+        <scene sceneID="3V7-7G-hC9">
+            <objects>
+                <navigationController storyboardIdentifier="feedbackNav" title="Apple Internal Feedback" modalPresentationStyle="overFullScreen" id="mz7-Qb-ICP" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" opaque="NO" contentMode="scaleToFill" id="MV5-0L-yru">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="LO3-FU-G0T" kind="relationship" relationship="rootViewController" id="lRS-4q-KTF"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rcG-hc-UVS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1517" y="-230"/>
+        </scene>
+        <!--Apple Internal Feedback-->
+        <scene sceneID="cJz-Bh-hMx">
+            <objects>
+                <viewController modalPresentationStyle="overFullScreen" id="LO3-FU-G0T" customClass="MiroFeedbackViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EPP-rP-lvZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="3W3-kn-6o5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aar-ep-YhW">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VC5-Dr-IIz" userLabel="Blur">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="sXC-m8-z4F">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="circle" translatesAutoresizingMaskIntoConstraints="NO" id="VeI-4W-qe7" userLabel="frown bg">
+                                            <rect key="frame" x="159" y="264" width="72" height="72"/>
+                                        </imageView>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FTu-O3-DaI" userLabel="frown">
+                                            <rect key="frame" x="159" y="264" width="72" height="72"/>
+                                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <state key="normal" image="frown"/>
+                                            <connections>
+                                                <segue destination="Cfc-c1-Fm1" kind="show" identifier="selectFrown" id="7t2-eI-xHK"/>
+                                            </connections>
+                                        </button>
+                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="circle" translatesAutoresizingMaskIntoConstraints="NO" id="L9c-g0-4VH" userLabel="smile bg">
+                                            <rect key="frame" x="369" y="264" width="72" height="72"/>
+                                        </imageView>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dLa-4O-2lI" userLabel="smile">
+                                            <rect key="frame" x="369" y="264" width="72" height="72"/>
+                                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <state key="normal" image="smile"/>
+                                            <connections>
+                                                <segue destination="Cfc-c1-Fm1" kind="show" identifier="selectSmile" id="4b1-Mk-nIa"/>
+                                            </connections>
+                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="How did you like this movie?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gmc-2C-5Xq">
+                                            <rect key="frame" x="189" y="200" width="222" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6O1-ve-MXb" userLabel="Tap-toRadar">
+                                            <rect key="frame" x="240" y="358" width="119" height="30"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <state key="normal" title="Tap-to-Radar"/>
+                                            <connections>
+                                                <action selector="tapToRadarAction:" destination="LO3-FU-G0T" eventType="touchUpInside" id="SDa-dt-mmP"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="6O1-ve-MXb" firstAttribute="centerY" secondItem="sXC-m8-z4F" secondAttribute="centerY" multiplier="1.8" id="D7A-iy-127"/>
+                                        <constraint firstItem="dLa-4O-2lI" firstAttribute="centerX" secondItem="L9c-g0-4VH" secondAttribute="centerX" id="DLI-VT-rfB"/>
+                                        <constraint firstItem="FTu-O3-DaI" firstAttribute="centerX" secondItem="VeI-4W-qe7" secondAttribute="centerX" id="Dmz-lG-90A"/>
+                                        <constraint firstItem="gmc-2C-5Xq" firstAttribute="centerY" secondItem="sXC-m8-z4F" secondAttribute="centerY" multiplier="0.7" id="HFS-kx-9HE"/>
+                                        <constraint firstItem="FTu-O3-DaI" firstAttribute="height" secondItem="VeI-4W-qe7" secondAttribute="height" id="Ig4-dF-nL1"/>
+                                        <constraint firstItem="6O1-ve-MXb" firstAttribute="centerX" secondItem="gmc-2C-5Xq" secondAttribute="centerX" id="Oxg-L8-Cnk"/>
+                                        <constraint firstItem="dLa-4O-2lI" firstAttribute="width" secondItem="L9c-g0-4VH" secondAttribute="width" id="Qc1-Ug-3aQ"/>
+                                        <constraint firstItem="FTu-O3-DaI" firstAttribute="centerY" secondItem="VeI-4W-qe7" secondAttribute="centerY" id="Qm1-k8-Vbp"/>
+                                        <constraint firstItem="dLa-4O-2lI" firstAttribute="centerX" secondItem="sXC-m8-z4F" secondAttribute="centerX" multiplier="1.35" id="XnA-38-Lif"/>
+                                        <constraint firstItem="FTu-O3-DaI" firstAttribute="width" secondItem="VeI-4W-qe7" secondAttribute="width" id="bY2-uC-Qlt"/>
+                                        <constraint firstItem="dLa-4O-2lI" firstAttribute="centerY" secondItem="sXC-m8-z4F" secondAttribute="centerY" id="bpn-ED-UXg"/>
+                                        <constraint firstItem="dLa-4O-2lI" firstAttribute="centerY" secondItem="L9c-g0-4VH" secondAttribute="centerY" id="etf-eE-hzT"/>
+                                        <constraint firstItem="gmc-2C-5Xq" firstAttribute="centerX" secondItem="sXC-m8-z4F" secondAttribute="centerX" id="nQT-CW-KCr"/>
+                                        <constraint firstItem="FTu-O3-DaI" firstAttribute="centerX" secondItem="sXC-m8-z4F" secondAttribute="centerX" multiplier="0.65" id="pe2-O8-Wd1"/>
+                                        <constraint firstItem="dLa-4O-2lI" firstAttribute="height" secondItem="L9c-g0-4VH" secondAttribute="height" id="v6q-D7-cM3"/>
+                                        <constraint firstItem="FTu-O3-DaI" firstAttribute="centerY" secondItem="sXC-m8-z4F" secondAttribute="centerY" id="wge-Na-T3R"/>
+                                    </constraints>
+                                </view>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="VC5-Dr-IIz" secondAttribute="trailing" id="ET6-vm-0me"/>
+                            <constraint firstItem="VC5-Dr-IIz" firstAttribute="top" secondItem="aar-ep-YhW" secondAttribute="top" id="G2c-K9-b66"/>
+                            <constraint firstItem="3W3-kn-6o5" firstAttribute="top" secondItem="VC5-Dr-IIz" secondAttribute="bottom" id="cgx-J0-0HA"/>
+                            <constraint firstItem="VC5-Dr-IIz" firstAttribute="leading" secondItem="aar-ep-YhW" secondAttribute="leading" id="la1-zw-U7K"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Apple Internal Feedback" id="7tg-r2-964">
+                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="MnS-ch-1bE">
+                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="cancelAction:" destination="LO3-FU-G0T" id="Lcr-lS-U1l"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="blurContentView" destination="sXC-m8-z4F" id="GRm-sr-wgK"/>
+                        <outlet property="blurView" destination="VC5-Dr-IIz" id="8OT-nw-EDn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8mu-qp-Q6g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2174" y="-230"/>
+        </scene>
+        <!--Miro Feedback Details View Controller-->
+        <scene sceneID="jqt-UB-yCb">
+            <objects>
+                <viewController modalPresentationStyle="overFullScreen" id="Cfc-c1-Fm1" customClass="MiroFeedbackDetailsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ocq-5U-9cV"/>
+                        <viewControllerLayoutGuide type="bottom" id="9qq-cU-hhb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Kav-bT-auE">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pAd-uW-tJw">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="S6M-c0-KuI">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QU0-Mj-ERw">
+                                            <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                            <connections>
+                                                <segue destination="R46-qU-Suu" kind="embed" identifier="embedTable" id="ZM4-gu-T4S"/>
+                                            </connections>
+                                        </containerView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="QU0-Mj-ERw" secondAttribute="trailing" id="4oO-u5-z6U"/>
+                                        <constraint firstItem="QU0-Mj-ERw" firstAttribute="leading" secondItem="S6M-c0-KuI" secondAttribute="leading" id="fk5-RK-8hg"/>
+                                        <constraint firstAttribute="bottom" secondItem="QU0-Mj-ERw" secondAttribute="bottom" id="gIt-QC-DHR"/>
+                                    </constraints>
+                                </view>
+                                <blurEffect style="extraLight"/>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="QU0-Mj-ERw" firstAttribute="top" secondItem="ocq-5U-9cV" secondAttribute="bottom" id="0i7-M0-cbM"/>
+                            <constraint firstItem="pAd-uW-tJw" firstAttribute="top" secondItem="Kav-bT-auE" secondAttribute="top" id="Jae-SD-Erj"/>
+                            <constraint firstItem="9qq-cU-hhb" firstAttribute="top" secondItem="pAd-uW-tJw" secondAttribute="bottom" id="f7M-86-oXz"/>
+                            <constraint firstAttribute="trailing" secondItem="pAd-uW-tJw" secondAttribute="trailing" id="ms8-nw-P7h"/>
+                            <constraint firstItem="pAd-uW-tJw" firstAttribute="leading" secondItem="Kav-bT-auE" secondAttribute="leading" id="q9J-Qj-MfU"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="blurContentView" destination="S6M-c0-KuI" id="DA7-rv-TBz"/>
+                        <outlet property="blurView" destination="pAd-uW-tJw" id="amY-DU-QXL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jf1-38-udJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2850" y="-239"/>
+        </scene>
+        <!--Miro Feedback Table View Controller-->
+        <scene sceneID="lE2-8l-tav">
+            <objects>
+                <tableViewController modalPresentationStyle="overFullScreen" id="R46-qU-Suu" customClass="MiroFeedbackTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsMultipleSelection="YES" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="yDc-kM-C6I">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="calibratedRGB"/>
+                        <prototypes>
+                            <tableViewCell opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FeedbackTableCell" textLabel="WeC-Wo-FdA" style="IBUITableViewCellStyleDefault" id="1K1-uo-yae" customClass="MiroFeedbackTableCell">
+                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1K1-uo-yae" id="epd-rE-XNY">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="WeC-Wo-FdA">
+                                            <rect key="frame" x="15" y="0.0" width="570" height="43"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="calibratedRGB"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <sections/>
+                        <connections>
+                            <outlet property="dataSource" destination="R46-qU-Suu" id="AjX-iL-wnQ"/>
+                            <outlet property="delegate" destination="R46-qU-Suu" id="Fo9-aA-alD"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SJY-vd-xff" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2850" y="429"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="circle" width="72" height="72"/>
+        <image name="frown" width="40" height="40"/>
+        <image name="smile" width="40" height="40"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="4b1-Mk-nIa"/>
+    </inferredMetricsTieBreakers>
+</document>

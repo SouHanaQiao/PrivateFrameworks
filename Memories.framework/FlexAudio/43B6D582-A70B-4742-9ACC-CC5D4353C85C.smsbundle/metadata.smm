@@ -1,0 +1,1587 @@
+{
+  "tagIDs" : [
+    "SongPace_Medium",
+    "Mood_Gentle"
+  ],
+  "compatibilityVersion" : 1,
+  "mainSegments" : [
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -25.65985538101196,
+      "bars" : 1,
+      "transitions" : {
+        "pships_Body09a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body10b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Out0" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body09b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body10a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 32727,
+      "peakValue" : 0.205962136387825,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "pships_In0_1beat"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -27.80073501205444,
+      "bars" : 1,
+      "transitions" : {
+        "pships_Body03a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body10b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body06b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body05a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Out0" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body07a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body09a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body02a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body03b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body05b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body10a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body04a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body06a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body09b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body04b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 22388,
+      "peakValue" : 0.129873126745224,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "pships_In1_1beat"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -27.89825536346435,
+      "bars" : 1,
+      "transitions" : {
+        "pships_Body09a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body10b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Out0" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body10a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body09b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 129847,
+      "peakValue" : 0.2381630837917328,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "pships_In2_2beat"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -21.10880710220337,
+      "bars" : 4,
+      "transitions" : {
+        "pships_Body12a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Out1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body11a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body04a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body10a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body12b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body09a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body03a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body08a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body10b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 261818,
+      "peakValue" : 0.3833139836788177,
+      "priority" : 96,
+      "sampleRate" : 48000,
+      "name" : "pships_Body01a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -20.98940469360351,
+      "bars" : 4,
+      "transitions" : {
+        "pships_Body12b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Out1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body01b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body09a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body11b " : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body03b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body04a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body10a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body02b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body01a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body08a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body10b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 261818,
+      "peakValue" : 0.4468133151531219,
+      "priority" : 81,
+      "sampleRate" : 48000,
+      "name" : "pships_Body01b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -20.94838477706909,
+      "bars" : 4,
+      "transitions" : {
+        "pships_Body11a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Out1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body05a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body07a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body02a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body04a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body10a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body06a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body12a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body09b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body08a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body10b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 261819,
+      "peakValue" : 0.4051941633224487,
+      "priority" : 82,
+      "sampleRate" : 48000,
+      "name" : "pships_Body02a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -19.98241521453857,
+      "bars" : 4,
+      "transitions" : {
+        "pships_Body06b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body12b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Out1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body08b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body09a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body11b " : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body03b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body05b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body04a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body10a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body07b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body02b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body10b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 261818,
+      "peakValue" : 0.417977899312973,
+      "priority" : 79,
+      "sampleRate" : 48000,
+      "name" : "pships_Body02b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -24.02633525466919,
+      "bars" : 4,
+      "transitions" : {
+        "pships_Body12a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Out1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body11a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body10a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body03a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body09a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body08a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body10b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body04b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body09b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 261818,
+      "peakValue" : 0.4178590476512909,
+      "priority" : 73,
+      "sampleRate" : 48000,
+      "name" : "pships_Body03a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -24.33711625671387,
+      "bars" : 4,
+      "transitions" : {
+        "pships_Body06b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body12b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Out1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Out0" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body09a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body11b " : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body05b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body10a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body07b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body09b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body08a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body10b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 261818,
+      "peakValue" : 0.3692607283592224,
+      "priority" : 77,
+      "sampleRate" : 48000,
+      "name" : "pships_Body03b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -23.54696370697021,
+      "bars" : 2,
+      "transitions" : {
+        "pships_Out1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body04a" : {
+          "fadeOut" : 2000,
+          "fadeIn" : 2000,
+          "prevented" : true
+        },
+        "pships_Body10a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body09a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body11b " : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body08a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body10b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body09b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 130909,
+      "peakValue" : 0.426843523979187,
+      "priority" : 71,
+      "sampleRate" : 48000,
+      "name" : "pships_Body04a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -28.03543426132202,
+      "bars" : 1,
+      "transitions" : {
+        "pships_Body10b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body06b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body12b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Out1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body08b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Out0" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body07a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body11b " : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body05b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body04a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body07b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body06a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body12a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body08a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body04b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 65455,
+      "peakValue" : 0.273565411567688,
+      "priority" : 45,
+      "sampleRate" : 48000,
+      "name" : "pships_Body04b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -19.76510144805908,
+      "bars" : 4,
+      "transitions" : {
+        "pships_Body12a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Out1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body11a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body05a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body10a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body09a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body10b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body09b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 261818,
+      "peakValue" : 0.4562975764274597,
+      "priority" : 91,
+      "sampleRate" : 48000,
+      "name" : "pships_Body05a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -20.26525117492676,
+      "bars" : 4,
+      "transitions" : {
+        "pships_Body08b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Out1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body07b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body06b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body10a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body12b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body11b " : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body10b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body09b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 261818,
+      "peakValue" : 0.4355716407299042,
+      "priority" : 83,
+      "sampleRate" : 48000,
+      "name" : "pships_Body05b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -19.86508227920532,
+      "bars" : 4,
+      "transitions" : {
+        "pships_Body06a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body08b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Out1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body11a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body12a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body10a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body09a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body08a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body10b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body09b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 261818,
+      "peakValue" : 0.4569186568260193,
+      "priority" : 75,
+      "sampleRate" : 48000,
+      "name" : "pships_Body06a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -20.25143481826782,
+      "bars" : 4,
+      "transitions" : {
+        "pships_Body08b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Out1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body10a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body12b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body09a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body08a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body10b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body11b " : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body09b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 261819,
+      "peakValue" : 0.4797567427158356,
+      "priority" : 74,
+      "sampleRate" : 48000,
+      "name" : "pships_Body06b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -19.33683253860474,
+      "sliceable" : true,
+      "bars" : 4,
+      "transitions" : {
+        "pships_Body12b" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "pships_Body11a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "pships_Out1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Out0" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "pships_Body07a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+            "fadeOut" : 25,
+            "fadeIn" : 25,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "pships_Body09a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body11b " : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "pships_Body10a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body07b" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "pships_Body12a" : [
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          },
+          {
+            "fadeOut" : 0,
+            "fadeIn" : 0,
+            "prevented" : true
+          },
+          {
+
+          }
+        ],
+        "pships_Body09b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body08a" : [
+          {
+            "fadeOut" : 25,
+            "fadeIn" : 25,
+            "prevented" : false
+          },
+          {
+            "fadeOut" : 25,
+            "fadeIn" : 25,
+            "prevented" : false
+          },
+          {
+
+          },
+          {
+
+          }
+        ],
+        "pships_Body10b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 261818,
+      "peakValue" : 0.4611350297927856,
+      "priority" : 87,
+      "sampleRate" : 48000,
+      "name" : "pships_Body07a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -19.63193155860901,
+      "bars" : 4,
+      "transitions" : {
+        "pships_Out1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body07b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body10a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body12b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body09a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body10b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body09b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 261818,
+      "peakValue" : 0.4582026600837708,
+      "priority" : 86,
+      "sampleRate" : 48000,
+      "name" : "pships_Body07b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -19.84524704551697,
+      "bars" : 2,
+      "transitions" : {
+        "pships_Body09a" : {
+          "fadeOut" : 25,
+          "fadeIn" : 25,
+          "prevented" : false
+        },
+        "pships_Out1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body08a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body10a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 130909,
+      "peakValue" : 0.4035197496414185,
+      "priority" : 85,
+      "sampleRate" : 48000,
+      "name" : "pships_Body08a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -22.27581597900391,
+      "bars" : 1,
+      "transitions" : {
+        "pships_Body08b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Out1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body08a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 65455,
+      "peakValue" : 0.4077661037445068,
+      "priority" : 84,
+      "sampleRate" : 48000,
+      "name" : "pships_Body08b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -31.57986260986328,
+      "bars" : 4,
+      "transitions" : {
+        "pships_Body12b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Out1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body09a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 261818,
+      "peakValue" : 0.3922803699970245,
+      "priority" : 78,
+      "sampleRate" : 48000,
+      "name" : "pships_Body09a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -31.85254670715332,
+      "bars" : 4,
+      "transitions" : {
+        "pships_Body09b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Out1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body10b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Out0" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body12b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body12a" : {
+          "fadeOut" : 25,
+          "fadeIn" : 25,
+          "prevented" : false
+        }
+      },
+      "sampleCount" : 261818,
+      "peakValue" : 0.3614984750747681,
+      "priority" : 76,
+      "sampleRate" : 48000,
+      "name" : "pships_Body09b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -31.09471656417847,
+      "bars" : 2,
+      "transitions" : {
+        "pships_Body10a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Out1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body11a" : {
+          "fadeOut" : 25,
+          "fadeIn" : 25,
+          "prevented" : false
+        },
+        "pships_Out0" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body12b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body12a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 130909,
+      "peakValue" : 0.3211031258106232,
+      "priority" : 45,
+      "sampleRate" : 48000,
+      "name" : "pships_Body10a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -26.19662620162964,
+      "bars" : 1,
+      "transitions" : {
+        "pships_Out1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body10b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body12b" : {
+          "fadeOut" : 25,
+          "fadeIn" : 25,
+          "prevented" : false
+        },
+        "pships_Body11b " : {
+          "fadeOut" : 25,
+          "fadeIn" : 25,
+          "prevented" : false
+        },
+        "pships_Body10a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 65455,
+      "peakValue" : 0.1777221858501434,
+      "priority" : 57,
+      "sampleRate" : 48000,
+      "name" : "pships_Body10b"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -20.27191139793396,
+      "bars" : 4,
+      "transitions" : {
+        "pships_Out1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body11a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 261818,
+      "peakValue" : 0.4670423567295074,
+      "priority" : 90,
+      "sampleRate" : 48000,
+      "name" : "pships_Body11a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -20.26228167152405,
+      "bars" : 4,
+      "transitions" : {
+        "pships_Body11b " : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Out1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Body12b" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 261818,
+      "peakValue" : 0.4348477125167847,
+      "priority" : 89,
+      "sampleRate" : 48000,
+      "name" : "pships_Body11b "
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -20.55523969268799,
+      "bars" : 4,
+      "transitions" : {
+        "pships_Body12a" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        },
+        "pships_Out1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 261818,
+      "peakValue" : 0.4652626514434814,
+      "priority" : 88,
+      "sampleRate" : 48000,
+      "name" : "pships_Body12a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "loudness" : -20.71229316329956,
+      "bars" : 4,
+      "transitions" : {
+        "pships_Out1" : {
+          "fadeOut" : 0,
+          "fadeIn" : 0,
+          "prevented" : true
+        }
+      },
+      "sampleCount" : 261818,
+      "peakValue" : 0.4415194094181061,
+      "priority" : 91,
+      "sampleRate" : 48000,
+      "name" : "pships_Body12b"
+    },
+    {
+      "markers" : {
+        "OUTRO_EARLY_FADE" : 13765
+      },
+      "beatsPerBar" : 4,
+      "loudness" : -24.86377097702026,
+      "bars" : 1,
+      "sampleCount" : 98182,
+      "peakValue" : 0.4113762080669403,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "pships_Out0"
+    },
+    {
+      "markers" : {
+        "OUTRO_EARLY_FADE" : 11277
+      },
+      "beatsPerBar" : 4,
+      "loudness" : -25.78643418884277,
+      "bars" : 1,
+      "sampleCount" : 98182,
+      "peakValue" : 0.2779726386070251,
+      "priority" : 0,
+      "sampleRate" : 48000,
+      "name" : "pships_Out1"
+    }
+  ],
+  "audioEncoderPresetName" : "HE-AAC v1 64",
+  "songName" : "Paper Ships",
+  "artistName" : "Freckles",
+  "uuid" : "43B6D582-A70B-4742-9ACC-CC5D4353C85C",
+  "crossFadeSegments" : [
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.2609493434429169,
+      "sampleCount" : 1200,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "pships_Body07a-1-Body7a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.2272564470767975,
+      "sampleCount" : 1200,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "pships_Body07a-0-Body8a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.2594732046127319,
+      "sampleCount" : 1200,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "pships_Body07a-1-Body8a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.2525629699230194,
+      "sampleCount" : 1200,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "pships_Body08a-1-Body9a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.2263836115598679,
+      "sampleCount" : 1200,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "pships_Body09b-3-Body12a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.3927995562553406,
+      "sampleCount" : 1200,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "pships_Body10a-1-Body11a"
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.2113079726696014,
+      "sampleCount" : 1200,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "pships_Body10b-0-Body11b "
+    },
+    {
+      "beatsPerBar" : 4,
+      "bars" : 1,
+      "peakValue" : 0.1635312885046005,
+      "sampleCount" : 1200,
+      "priority" : 1,
+      "sampleRate" : 48000,
+      "name" : "pships_Body10b-0-Body12b"
+    }
+  ],
+  "contentVersion" : 2,
+  "sampleRate" : 48000,
+  "audioFileExtension" : "m4a"
+}

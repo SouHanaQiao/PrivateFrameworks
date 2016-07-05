@@ -1,0 +1,13 @@
+// Copyright 2015 Apple Inc. All rights reserved.
+
+syntax = "proto2";
+
+option objc_package = "_NMR";
+option objc_ivar_scope = "@public";
+
+import "NMRContentItem.proto";
+
+message PlaybackQueue {
+    optional int32 location = 1;
+    repeated ContentItem contentItem = 2;
+}

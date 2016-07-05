@@ -1,0 +1,10 @@
+[header]
+language = CZC
+
+[data]
+/\b(\d+) sekund\b/ --> " $1 sekunt "
+/\bApple ID\b/  -->  "\e/+'?Ep.l%)_'?aj.'di:\e/+"
+/\bGame Center\b/  -->  "\e/+'gEjm_'sEnt.r%)#\e/+"
+/\bSwitch Control\b/  -->  "\e/+'svIt&S_kon.'trol\e/+"
+/\bPhoto Booth\b/  -->  "\e/+'fo.to.'bu:f\e/+"
+

@@ -1,0 +1,12 @@
+//===-- metal_atomic ------------------------------------------------------===//
+// Copyright (c) 2014-2016 Apple Inc. All rights reserved
+//===----------------------------------------------------------------------===//
+
+#ifndef __METAL_ATOMIC
+#define __METAL_ATOMIC
+
+#if defined(__HAVE_RELAXED_ORDER_ATOMIC__)
+#include <metal_relaxed_order_atomic>
+#endif
+
+#endif // __METAL_ATOMIC

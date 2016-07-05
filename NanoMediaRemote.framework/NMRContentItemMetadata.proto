@@ -1,0 +1,13 @@
+// Copyright 2015 Apple Inc. All rights reserved.
+
+syntax = "proto2";
+
+option objc_package = "_NMR";
+option objc_ivar_scope = "@public";
+
+message ContentItemMetadata {
+    optional string title = 1;
+    optional string artist = 2;
+    optional string album = 3;
+    optional double duration = 4;
+}

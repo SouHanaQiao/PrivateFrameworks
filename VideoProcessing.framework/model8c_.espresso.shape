@@ -1,0 +1,106 @@
+{
+  "layer_shapes" : {
+    "fc2-conv_student" : {
+      "w" : 1,
+      "n" : 1,
+      "c" : 2,
+      "h" : 1
+    },
+    "pool1_student" : {
+      "w" : 14,
+      "n" : 1,
+      "c" : 32,
+      "h" : 14
+    },
+    "pool5_student" : {
+      "w" : 3,
+      "n" : 1,
+      "c" : 64,
+      "h" : 3
+    },
+    "pool3_student" : {
+      "w" : 7,
+      "n" : 1,
+      "c" : 64,
+      "h" : 7
+    },
+    "fc4-conv_student" : {
+      "w" : 1,
+      "n" : 1,
+      "c" : 3,
+      "h" : 1
+    },
+    "norm2_student" : {
+      "w" : 14,
+      "n" : 1,
+      "c" : 32,
+      "h" : 14
+    },
+    "norm1_student" : {
+      "w" : 14,
+      "n" : 1,
+      "c" : 32,
+      "h" : 14
+    },
+    "conv3_student" : {
+      "w" : 14,
+      "n" : 1,
+      "c" : 64,
+      "h" : 14
+    },
+    "conv2_student" : {
+      "w" : 14,
+      "n" : 1,
+      "c" : 32,
+      "h" : 14
+    },
+    "data" : {
+      "w" : 28,
+      "n" : 1,
+      "c" : 3,
+      "h" : 28
+    },
+    "conv1_student" : {
+      "w" : 28,
+      "n" : 1,
+      "c" : 32,
+      "h" : 28
+    },
+    "conv5_student" : {
+      "w" : 7,
+      "n" : 1,
+      "c" : 64,
+      "h" : 7
+    },
+    "conv4_student" : {
+      "w" : 7,
+      "n" : 1,
+      "c" : 64,
+      "h" : 7
+    },
+    "fc6-conv_student" : {
+      "w" : 1,
+      "n" : 1,
+      "c" : 32,
+      "h" : 1
+    },
+    "prob_student" : {
+      "w" : 1,
+      "n" : 1,
+      "c" : 2,
+      "h" : 1
+    },
+    "conv6_student" : {
+      "w" : 3,
+      "n" : 1,
+      "c" : 64,
+      "h" : 3
+    },
+    "fc8-conv_student" : {
+      "w" : 1,
+      "n" : 1,
+      "c" : 32,
+      "h" : 1
+    }
+  }
+}

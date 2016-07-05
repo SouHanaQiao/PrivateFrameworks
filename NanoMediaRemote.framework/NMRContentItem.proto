@@ -1,0 +1,13 @@
+// Copyright 2015 Apple Inc. All rights reserved.
+
+syntax = "proto2";
+
+option objc_package = "_NMR";
+option objc_ivar_scope = "@public";
+
+import "NMRContentItemMetadata.proto";
+
+message ContentItem {
+    optional string identifier = 1;
+    optional ContentItemMetadata metadata = 2;
+}

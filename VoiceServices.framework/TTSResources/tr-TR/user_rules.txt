@@ -1,0 +1,94 @@
+[header]
+language = TRT
+
+[data]
+/\bGame Center\b/ --> " GameCenter "
+/\bMarker Felt\b/ --> "\e/+'mar6.ku-r+%>_felt#\e/+"
+/[ıI]nternet/ --> internet
+/\bne dedin\?/ --> "ne dedin"
+/\bBuyrun\?/ --> "Buyrun"
+/\bolayım\?/ --> "olayım"
+#Fix for internet addresses ending with com.tr rdar://problem/19938933
+/\btr\b/ --> "\e/+'te:_'r6e:\e/+"
+
+#Currency fixes for <rdar://problem/19923048>
+# ₺40,25 - lira part ends with a zero, kurus doesn't
+/(₺\s*\d[\.\d]+),([1-9]\d)/ --> "$1\e/+'ve\e/+$2\e/+ku.'r6uS\e/+"
+# ₺5,25 or ₺ 41,14 - kurus doesn't end with a zero
+/(₺\s*[1-9]*+),([1-9]\d)/ --> "$1\e/+'ve\e/+$2\e/+ku.'r6uS\e/+"
+# ₺0,02 - zero lira and kurus starts with zero
+/₺\s*0+,0([1-9])/ --> "$1\e/+ku.'r6uS\e/+"
+# ₺0,20 or ₺ 0,13 - zero lira
+/₺\s*0+,([1-9]\d)/ --> "$1\e/+ku.'r6uS\e/+"
+
+#Workarounds for inflected forms
+#Workaround for inflected forms of 3D Touch <rdar://problem/22948616>
+/3D Touch['’]/ --> "\e/+'ti.'r6i_'di:_'tat&S\e/+"
+#Workaround for inflected forms of 4K <rdar://problem/22948626>
+/4K['’]/ --> "\e/+'for+%>_'ke:\e/+"
+#Workaround for inflected forms of iPad Air <rdar://problem/21650440>
+/Air['’]/ --> "\e/+'ejr6\e/+"
+#Fix for <rdar://problem/19981912> Apple Pay
+/\b(Apple) Pay['’]?/ --> "$1\e/+'pej\e/+"
+#Workaround for inflected forms of Apple TV <rdar://problem/19981927>
+/\b(Apple) TV['’]/ --> "$1\e/+'ti:_'vi:\e/+"
+#Workaround for inflected forms of ATM <rdar://problem/19804388>
+/\b(ATM|Atm|atm)['’]/ --> "\e/+'a:_'te:_'me:\e/+"
+#Fix for <rdar://problem/21662791> Beats 1
+/\bBeats 1\b/ --> "\e/+bits_'van\e/+"
+#Workaround for inflected forms of CarPlay <rdar://problem/19981919>
+/Car[pP]lay['’]/ --> "\e/+'kar+%>_pi.'lej\e/+"
+#Workaround for inflected forms of Cupertino <rdar://problem/20629313>
+/Cupertino['’]/ --> "\e/+ku.per6.'ti:.no\e/+"
+#Workaround for inflected forms of El Capitan <rdar://problem/21652144>
+/El Capitan['’]/ --> "\e/+'el_ka.pi.'tan\e/+"
+#Workaround for inflected forms of Facebook <rdar://problem/19723202>
+/Facebook['’]/ --> "\e/+'fejs.buk\e/+"
+#Workaround for inflected forms of Google rdar://problem/19687764 & rdar://problem/22932636
+/Google['’]/ --> "\e/+'gu:.gu-.l\e/+"
+#Workaround for inflected forms of iBooks <rdar://problem/19982068>
+/iBooks['’]/ --> "\e/+'aj.buks\e/+"
+#Workaround for inflected forms of iCloud <rdar://problem/19900631>
+/iCloud['’]/ --> "\e/+'aj.klau-d\e/+"
+#Workaround for inflected forms of iMac <rdar://problem/19981901>
+/iMac['’]/ --> "\e/+aj.'mek\e/+"
+#Workaround for inflected forms of iMessage
+/iMessage['’]/ --> "\e/+'aj.me.su-d&Z\e/+"
+#Workaround for inflected forms of iPad <rdar://problem/19900627>
+/iPad['’]/ --> "\e/+aj.'ped\e/+"
+#Workaround for inflected forms of iPhone rdar://problem/19780305
+/iPhone['’]/ --> "\e/+'aj.fon\e/+"
+#Workaround for inflected forms of iPhoto <rdar://problem/21650727>
+/iPhoto['’]/ --> "\e/+'aj.fo.to\e/+"
+#Workaround for inflected forms of iPod <rdar://problem/19900625>
+/iPod['’]/ --> "\e/+aj.'pod\e/+"
+#Workaround for inflected forms of iTunes <rdar://problem/19900648>
+/iTunes['’]/ --> "\e/+'aj.tuns\e/+"
+#Workaround for inflected forms of Live Photos <rdar://problem/22948600>
+/Live Photos['’]/ --> "\e/+'lajv_'fo.to:z\e/+"
+#Workaround for inflected forms of Mac <rdar://problem/19981887>
+/Mac['’]/ --> "\e/+'mek\e/+"
+#Workaround for inflected forms of MacBook <rdar://problem/19981896>
+/Mac[bB]ook['’]/ --> "\e/+'mek_'bu:k\e/+"
+#Workaround for inflected forms of OS X El Capitan <rdar://problem/21652144>
+/OS X El Capitan['’]/ --> "\e/+'o:'e:s'ten'_'el_ka.pi.'tan\e/+"
+#Workaround for inflected forms of Pencil <rdar://problem/22579771>
+/[Pp]encil['’]/ --> "\e/+pen.'su-l\e/+"
+#Workaround for inflected forms of Podcast <rdar://problem/20041250>
+/Podcast['’]/ --> "\e/+'pod.kest\e/+"
+#Workaround for inflected forms of Pro <rdar://problem/22579923>
+/Pro['’]/ --> "\e/+pu.'r6o\e/+"
+#Workaround for inflected forms of Tweet <rdar://problem/19900704>
+/[tT]weet['’]?/ --> "\e/+twit\e/+"
+#Workaround for inflected forms of Twitter <rdar://problem/19383433>
+/Twitter['’]/ --> "\e/+twi.'tu-r6\e/+"
+#Workaround for inflected forms of VoiceOver <rdar://problem/19891171>
+/Voice[oO]ver['’]/ --> "\e/+'vo.is.'o.vu-r6\e/+"
+#Workaround for inflected forms of Wallet <rdar://problem/21651871>
+/Wallet['’]/ --> "\e/+vo.'lu-t\e/+"
+#Workaround for inflected forms of Whatsapp <rdar://problem/20708689>
+/[Ww]hatsapp['’]/ --> "\e/+'vat.'sap'\e/+"
+#Workaround for inflected forms of Wikipedia <rdar://problem/19515782>
+/Wikipedia['’]/ --> "\e/+wi.ki.ped.ja'\e/+"
+#Workaround for inflected forms of YouTube <rdar://problem/19900701>
+/You[tT]ube['’]/ --> "\e/+'ju:.tup\e/+"
